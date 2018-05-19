@@ -1,0 +1,37 @@
+<!-- Widget: Hot Products -->
+<aside class="widget card widget--sidebar widget-products">
+	<div class="widget__title card__header">
+		<h4>Hot Products</h4>
+	</div>
+	<div class="widget__content card__content">
+		<ul class="products-list">
+
+			{{#each basketball.products.widget-products}}
+			<li class="products-list__item">
+				<figure class="products-list__product-thumb">
+					<a href="#">
+						<img src="{{../root}}assets/images/samples/{{thumb}}.jpg" alt="">
+					</a>
+				</figure>
+				<div class="products-list__inner">
+					<span class="products-list__product-cat">{{category}}</span>
+					<h5 class="products-list__product-name"><a href="#">{{title}}</a></h5>
+					<div class="products-list__product-ratings">
+						{{#repeat rating.full}}
+						<i class="fa fa-star"></i>
+						{{/repeat}}
+						{{#repeat rating.empty}}
+						<i class="fa fa-star empty"></i>
+						{{/repeat}}
+					</div>
+					<div class="products-list__product-sum">
+						<span class="products-list__product-price">{{price}}</span>
+					</div>
+				</div>
+			</li>
+			{{/each}}
+
+		</ul>
+	</div>
+</aside>
+<!-- Widget: Hot Products / End -->

@@ -1,0 +1,104 @@
+/* Single Post
+/* ------------------------- */
+
+.post {
+
+}
+  .post--single {
+
+    .post__thumbnail {
+      border-radius: $card-border-radius $card-border-radius 0 0;
+      overflow: hidden;
+    }
+
+    .post__category {
+      overflow: hidden;
+      margin-bottom: 15px;
+    }
+
+    .post__title {
+      font-size: 18px;
+      line-height: 1.0625em;
+      margin-bottom: 0.55em;
+
+      @if $template == football {
+        font-style: italic;
+      }
+
+      @media (min-width: 992px) {
+        font-size: 32px;
+
+        @if $template == football {
+          font-size: 28px;
+          line-height: 1.07em;
+        }
+      }
+    }
+
+    .post__meta {
+      margin-bottom: 20px;
+
+      @media (min-width: 992px) {
+        margin-bottom: 34px;
+      }
+    }
+
+    .post__footer {
+      padding: 30px 0 10px 0;
+    }
+
+    .post__tags {
+
+      .btn {
+        margin: 0 5px 8px 0;
+      }
+    }
+
+    .posts__cat-label {
+
+      @media (min-width: 992px) {
+        font-size: 10px;
+      }
+    }
+  }
+
+  .post-sharing {
+    margin-bottom: 10px;
+    display: flex;
+
+    .btn {
+      margin: 0 8px 5px 8px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      padding-left: 10px;
+      padding-right: 15px;
+
+      &:first-child {
+        margin-left: 0;
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      @media (max-width: 768px) {
+        padding-left: 0;
+        padding-right: 0;
+
+        .fa {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+
+
+  // Post Extra Top
+  .post--extra-top {
+    margin-top: -100px;
+
+    @media (min-width: 992px) {
+      margin-top: -160px;
+    }
+  }

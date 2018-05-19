@@ -1,0 +1,158 @@
+/*
+// #Gallery
+// --------------------------------------------------
+*/
+
+.gallery {
+
+}
+  .gallery__item {
+
+  }
+    .gallery__item-inner {
+      display: block;
+      overflow: hidden;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+
+        @if $template != football {
+          background-color: $color-primary-darken;
+          color: #fff;
+        }
+
+        .gallery__icon {
+          color: #fff;
+        }
+        .gallery__name {
+          color: #fff;
+        }
+        .gallery__date {
+          color: #fff;
+        }
+        .gallery__btn-fab {
+          opacity: 1;
+          transform: translate(-50%, -50%) scale(1);
+        }
+        .gallery__thumb {
+
+          img {
+            opacity: 0.2;
+          }
+        }
+      }
+    }
+      .gallery__thumb {
+        position: relative;
+
+        @if $template == football {
+          background-color: $color-dark-2;
+        } @else {
+          background-color: #171d21;
+        }
+
+        img {
+          transition: opacity 0.3s ease;
+        }
+      }
+      .gallery__btn-fab {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(0.1);
+        opacity: 0;
+        transition: all 0.3s ease;
+      }
+      .gallery__content {
+        overflow: hidden;
+
+        @media (max-width: 479px) {
+          padding: $card-vertical-padding/2 $card-horizontal-padding/2;
+        }
+      }
+        .gallery__icon {
+          float: left;
+          margin-right: 15px;
+          font-size: 30px;
+          line-height: 1em;
+          color: $color-primary;
+          transition: color 0.3s ease;
+
+          @media (max-width: 479px) {
+            font-size: 20px;
+            margin-right: 8px;
+          }
+        }
+        .gallery__details {
+          overflow: hidden;
+        }
+          .gallery__name {
+            text-transform: uppercase;
+            line-height: 1.2em;
+            margin: 0;
+            font-size: 12px;
+            padding: .25em 0;
+            transition: color 0.2s ease;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            font-style: normal;
+
+            @media (min-width: 992px) {
+              font-size: 14px;
+            }
+            @media (min-width: 1200px) {
+              font-size: 16px;
+            }
+          }
+          .gallery__date {
+            display: block;
+            @include font-accent(8px);
+            color: $body-font-color;
+            line-height: 1.2em;
+            transition: color 0.3s ease;
+
+            @media (min-width: 992px) {
+              font-size: 10px;
+            }
+          }
+
+      // Header (before thumb)
+      .gallery__header {
+        display: flex;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+        .gallery__details {
+          flex-grow: 1;
+        }
+
+          .gallery__name {
+
+            @if $template == football {
+              font-size: 14px;
+            }
+          }
+          .gallery__date {
+
+            @if $template == football {
+              font-style: italic;
+            }
+          }
+
+        .gallery__like {
+          font-size: 10px;
+          line-height: 1.2em;
+          color: $body-font-color;
+          padding-left: 10px;
+          white-space: nowrap;
+
+          i {
+            font-size: 12px;
+            line-height: 1em;
+            margin-left: 0.3em;
+            display: inline-block;
+            vertical-align: middle;
+          }
+        }
+      }

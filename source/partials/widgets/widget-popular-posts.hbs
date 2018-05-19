@@ -1,0 +1,27 @@
+<!-- Widget: Popular News -->
+<aside class="widget widget--sidebar card widget-popular-posts">
+	<div class="widget__title card__header">
+		<h4>Popular News</h4>
+	</div>
+	<div class="widget__content card__content">
+		<ul class="posts posts--simple-list">
+
+			{{#each basketball.posts.widget-popular}}
+			<li class="posts__item posts__item--{{category.class}}">
+				<figure class="posts__thumb">
+					<a href="#"><img src="assets/images/samples/{{thumb}}.jpg" alt=""></a>
+				</figure>
+				<div class="posts__inner">
+					<div class="posts__cat">
+						<span class="label posts__cat-label">{{category.name}}</span>
+					</div>
+					<h6 class="posts__title"><a href="#">{{title}}</a></h6>
+					<time datetime="2016-08-23" class="posts__date">{{date}}</time>
+				</div>
+			</li>
+			{{/each}}
+
+		</ul>
+	</div>
+</aside>
+<!-- Widget: Popular News / End -->

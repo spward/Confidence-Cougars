@@ -1,0 +1,178 @@
+---
+page-title: Single Player
+player-heading: true
+---
+
+{{> player-filter}}
+
+<!-- Content
+================================================== -->
+<div class="site-content">
+	<div class="container">
+
+		<!-- Last Game Log -->
+		<div class="card card--has-table">
+			<div class="card__header">
+				<h4>Last Game Log</h4>
+			</div>
+			<div class="card__content">
+				<div class="table-responsive">
+					<table class="table table-hover game-player-result">
+						<thead>
+							<tr>
+								<th class="game-player-result__date">Date</th>
+								<th class="game-player-result__vs">Versus</th>
+								<th class="game-player-result__score">Score</th>
+								<th class="game-player-result__min">Min</th>
+								<th class="game-player-result__fgm-a">FGM-A</th>
+								<th class="game-player-result__fg-percent">FG%</th>
+								<th class="game-player-result__3pm-a">3PM-A</th>
+								<th class="game-player-result__3p-percent">3P%</th>
+								<th class="game-player-result__ftm-a">FTM-A</th>
+								<th class="game-player-result__ft-percent">FT%</th>
+								<th class="game-player-result__reb">REB</th>
+								<th class="game-player-result__ast">AST</th>
+								<th class="game-player-result__blk">BLK</th>
+								<th class="game-player-result__stl">STL</th>
+								<th class="game-player-result__pf">PF</th>
+								<th class="game-player-result__to">TO</th>
+								<th class="game-player-result__pts">PTS</th>
+							</tr>
+						</thead>
+						<tbody>
+
+							{{#each basketball.sp.player.log}}
+							<tr>
+								<td class="game-player-result__date">{{date}}</td>
+								<td class="game-player-result__vs">
+									<div class="team-meta">
+										<figure class="team-meta__logo">
+											<img src="{{../root}}assets/images/samples/logos/{{team.logo}}" alt="">
+										</figure>
+										<div class="team-meta__info">
+											<h6 class="team-meta__name">{{team.name}}</h6>
+											<span class="team-meta__place">{{team.place}}</span>
+										</div>
+									</div>
+								</td>
+								<td class="game-player-result__score"><span class="game-player-result__game">{{result.outcome}}</span> {{result.score}}</td>
+								<td class="game-player-result__min">{{stats.min}}</td>
+								<td class="game-player-result__fgm-a">{{stats.fgm-a}}</td>
+								<td class="game-player-result__fg-percent">{{stats.fg-percent}}</td>
+								<td class="game-player-result__3pm-a">{{stats.3pm-a}}</td>
+								<td class="game-player-result__3p-percent">{{stats.3p-percent}}</td>
+								<td class="game-player-result__ftm-a">{{stats.ftm-a}}</td>
+								<td class="game-player-result__ft-percent">{{stats.ft-percent}}</td>
+								<td class="game-player-result__reb">{{stats.reb}}</td>
+								<td class="game-player-result__ast">{{stats.ast}}</td>
+								<td class="game-player-result__blk">{{stats.blk}}</td>
+								<td class="game-player-result__stl">{{stats.stl}}</td>
+								<td class="game-player-result__pf">{{stats.pf}}</td>
+								<td class="game-player-result__to">{{stats.to}}</td>
+								<td class="game-player-result__pts">{{stats.pts}}</td>
+							</tr>
+							{{/each}}
+
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+		<!-- Last Game Log / End -->
+
+		<!-- Player Season Average -->
+		<div class="card card--has-table">
+			<div class="card__header">
+				<h4>Career Total</h4>
+			</div>
+			<div class="card__content">
+				<div class="table-responsive">
+					<table class="table table-hover player-season-avg">
+						<thead>
+							<tr>
+								<th class="player-season-avg__season">Season</th>
+								<th class="player-season-avg__gp">GP</th>
+								<th class="player-season-avg__gs">GS</th>
+								<th class="player-season-avg__min">Min</th>
+								<th class="player-season-avg__fgm-a">FGM-A</th>
+								<th class="player-season-avg__fg-percent">FG%</th>
+								<th class="player-season-avg__3pm-a">3PM-A</th>
+								<th class="player-season-avg__3p-percent">3P%</th>
+								<th class="player-season-avg__ftm-a">FTM-A</th>
+								<th class="player-season-avg__ft-percent">FT%</th>
+								<th class="player-season-avg__or">OR</th>
+								<th class="player-season-avg__dr">DR</th>
+								<th class="player-season-avg__reb">REB</th>
+								<th class="player-season-avg__ast">AST</th>
+								<th class="player-season-avg__blk">BLK</th>
+								<th class="player-season-avg__stl">STL</th>
+								<th class="player-season-avg__pf">PF</th>
+								<th class="player-season-avg__to">TO</th>
+								<th class="player-season-avg__pts">PTS</th>
+							</tr>
+						</thead>
+						<tbody>
+
+							{{#each basketball.sp.player.total}}
+							<tr>
+								<td class="player-season-avg__season">{{season}}</td>
+								<td class="player-season-avg__gp">{{gp}}</td>
+								<td class="player-season-avg__gs">{{gs}}</td>
+								<td class="player-season-avg__min">{{min}}</td>
+								<td class="player-season-avg__fgm-a">{{fgm-a}}</td>
+								<td class="player-season-avg__fg-percent">{{fg-percent}}</td>
+								<td class="player-season-avg__3pm-a">{{3pm-a}}</td>
+								<td class="player-season-avg__3p-percent">{{3p-percent}}</td>
+								<td class="player-season-avg__ftm-a">{{ftm-a}}</td>
+								<td class="player-season-avg__ft-percent">{{ft-percent}}</td>
+								<td class="player-season-avg__or">{{or}}</td>
+								<td class="player-season-avg__dr">{{dr}}</td>
+								<td class="player-season-avg__reb">{{reb}}</td>
+								<td class="player-season-avg__ast">{{ast}}</td>
+								<td class="player-season-avg__blk">{{blk}}</td>
+								<td class="player-season-avg__stl">{{stl}}</td>
+								<td class="player-season-avg__pf">{{pf}}</td>
+								<td class="player-season-avg__to">{{to}}</td>
+								<td class="player-season-avg__pts">{{pts}}</td>
+							</tr>
+							{{/each}}
+
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+		<!-- Player Season Average / End -->
+
+		<!-- Player Glossary -->
+		<div class="card">
+			<div class="card__header">
+				<h4>Glossary</h4>
+			</div>
+			<div class="card__content">
+				<div class="glossary">
+					<div class="glossary__item"><span class="glossary__abbr">MIN:</span> Minutes Played</div>
+					<div class="glossary__item"><span class="glossary__abbr">3PM-A:</span> 3-Point Field Goals Made-Attempted</div>
+					<div class="glossary__item"><span class="glossary__abbr">OR:</span> Offensive Rebounds</div>
+					<div class="glossary__item"><span class="glossary__abbr">BLK:</span> Blocks</div>
+					<div class="glossary__item"><span class="glossary__abbr">PTS:</span> Points Scored</div>
+					<div class="glossary__item"><span class="glossary__abbr">3P%:</span> 3-Point Field Goal Percentage</div>
+					<div class="glossary__item"><span class="glossary__abbr">DR:</span> Defensive Rebounds</div>
+					<div class="glossary__item"><span class="glossary__abbr">STL:</span> Steals</div>
+					<div class="glossary__item"><span class="glossary__abbr">FGM-A:</span> Field Goals Made-Attempted</div>
+					<div class="glossary__item"><span class="glossary__abbr">FTM-A:</span> Free Throws Made-Attempted</div>
+					<div class="glossary__item"><span class="glossary__abbr">REB:</span> Rebounds</div>
+					<div class="glossary__item"><span class="glossary__abbr">PF:</span> Personal Fouls</div>
+					<div class="glossary__item"><span class="glossary__abbr">FG%:</span> Field Goal Percentage</div>
+					<div class="glossary__item"><span class="glossary__abbr">FT%:</span> Free Throw Percentage</div>
+					<div class="glossary__item"><span class="glossary__abbr">AST:</span> Assists</div>
+					<div class="glossary__item"><span class="glossary__abbr">TO:</span> Turnovers</div>
+				</div>
+			</div>
+		</div>
+		<!-- Player Glossary / End -->
+
+	</div>
+</div>
+
+<!-- Content / End -->

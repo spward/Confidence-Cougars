@@ -1,0 +1,115 @@
+/* Marquee
+/* ------------------------- */
+
+.marquee-wrapper {
+	width: 100%;
+	background-color: $card-bg;
+	height: 38px;
+	position: relative;
+	overflow: hidden;
+
+	.container {
+		position: relative;
+	}
+
+	&::before {
+		content: "";
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 0;
+		bottom: 0;
+		width: 50%;
+		background-color: $color-primary;
+	}
+	&::after {
+		content: "";
+		display: block;
+		position: absolute;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		width: 50%;
+		background-color: $color-4;
+	}
+}
+.marquee {
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+	line-height: 38px;
+	background-color: $card-bg;
+
+	@media (min-width: 768px) {
+		&::before {
+			content: "";
+			display: block;
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			right: -20px;
+			width: 135px;
+			transform: skew(-25deg);
+			background-color: $color-4;
+			z-index: 1;
+		}
+
+		&::after {
+			content: "";
+			display: block;
+			position: absolute;
+			width: 4px;
+			right: 107px;
+			top: 0;
+			bottom: 0;
+			background-color: $card-bg;
+			transform: skew(-25deg);
+			z-index: 1;
+		}
+	}
+}
+	.marquee-label {
+		display: none;
+
+		@media (min-width: 768px) {
+			display: block;
+			white-space: nowrap;
+			position: absolute;
+			left: 8px;
+			padding: 0 10px 0 0;
+			top: 0;
+			line-height: 38px;
+			z-index: 2;
+			@include font-accent(10px);
+			color: $headings-color;
+			background-color: $color-primary;
+
+			&::before {
+				content: "";
+				display: block;
+				position: absolute;
+				right: -26px;
+				top: 0;
+				bottom: 0;
+				background-color: $color-primary;
+				width: 35px;
+				transform: skew(-25deg);
+			}
+
+			&::after {
+				content: "";
+				display: block;
+				position: absolute;
+				right: -22px;
+				top: 0;
+				bottom: 0;
+				background-color: $card-bg;
+				width: 4px;
+				transform: skew(-25deg);
+			}
+		}
+	}
+	.marquee-content {
+
+	}

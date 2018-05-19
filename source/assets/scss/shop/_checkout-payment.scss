@@ -1,0 +1,37 @@
+/* Checkout Payment */
+.df-checkout-payment {
+
+  .place-order {
+    padding: $card-vertical-padding $card-horizontal-padding;
+    border-top: 1px solid $card-border-color;
+  }
+}
+  .df_payment_methods {
+    list-style: none;
+    padding: $card-vertical-padding $card-horizontal-padding;
+    margin: 0;
+  }
+    .df_payment_method {
+      padding: 0;
+      margin: 0 0 20px 0;
+      box-shadow: none;
+      background-color: transparent;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      label {
+        font-weight: bold;
+      }
+
+      .payment_box {
+        font-size: 14px;
+        line-height: 22px;
+        padding: 13px 0 0 24px;
+
+        p:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }

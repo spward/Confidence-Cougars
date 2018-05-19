@@ -1,0 +1,47 @@
+/* Widget: Tabbed */
+.widget-tabbed {
+
+	.widget__content {
+
+	}
+
+	.nav.widget-tabbed__nav {
+		margin: -24px -24px 26px -24px;
+		border-bottom: 1px solid $card-border-color;
+		width: auto;
+
+		.nav-link {
+			border: none;
+			border-radius: 0;
+			font-size: 11px;
+			line-height: 1.5em;
+			font-family: $font-family-accent;
+			text-transform: uppercase;
+			padding: 12px 6px;
+			color: rgba($headings-color, .4);
+			font-weight: bold;
+			letter-spacing: -0.02em;
+			transition: color 0.2s ease-in-out;
+
+			@if $template == 'football' {
+				color: $color-gray-3;
+			}
+
+			&:hover {
+				color: $headings-color;
+				background-color: transparent;
+				border: none;
+
+				@if $template == 'football' {
+					color: #fff;
+				}
+			}
+
+			&.active {
+				color: $headings-color;
+				background-color: transparent;
+				border: none;
+			}
+		}
+	}
+}

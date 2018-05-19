@@ -1,0 +1,131 @@
+/* Team Results */
+.team-result {
+
+	.team-result__date {
+
+		@media (min-width: 1200px) {
+			padding-left: 23px;
+		}
+	}
+
+	.team-result__score,
+	.team-result__status,
+	.team-result__points,
+	.team-result__rebounds,
+	.team-result__assists,
+	.team-result__steals {
+		text-align: center;
+	}
+
+	tbody {
+		.team-result__date,
+		.team-result__vs,
+		.team-result__score,
+		.team-result__status,
+		.team-result__points,
+		.team-result__rebounds,
+		.team-result__assists,
+		.team-result__steals {
+			vertical-align: middle;
+			color: $body-font-color;
+		}
+	}
+}
+	.team-result__game {
+		color: $headings-color;
+	}
+
+
+/* Team Result Filter */
+.team-result-filter {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+
+	@media (min-width: 1200px) {
+		float: right;
+	}
+}
+	.team-result-filter__item {
+		padding-left: 14px;
+		float: left;
+
+		@media (max-width: 479px) {
+			padding: 5px 0 5px 0;
+		}
+
+		select.form-control {
+			border: none;
+			@include font-accent(9px);
+			height: 24px !important;
+			padding: 4px 24px 4px 10px;
+			display: inline-block;
+			vertical-align: top;
+			background-image: $team-select-arrow;
+			background-size: 6px 4px;
+			color: $team-select-color;
+		}
+
+		@media (max-width: 479px) {
+
+			&:last-child {
+				float: none;
+				clear: both;
+			}
+		}
+	}
+
+
+@if $template == soccer {
+	.team-result {
+
+		/* Team Results - Soccer */
+		.team-result__game-overview {
+
+			@media (min-width: 1200px) {
+				padding-right: 23px;
+			}
+		}
+
+		.team-result__ball-posession,
+		.team-result__shots,
+		.team-result__fouls,
+		.team-result__game-overview {
+			text-align: center;
+			vertical-align: middle;
+		}
+	}
+}
+
+@if $template == football {
+	.team-result {
+
+		/* Team Results - Football */
+		.team-result__game-overview {
+
+			@media (min-width: 1200px) {
+				padding-right: 23px;
+			}
+		}
+
+		.team-result__pass,
+		.team-result__rush,
+		.team-result__receiving {
+			text-align: center;
+			vertical-align: middle;
+		}
+
+		td.team-result__score {
+			color: #fff;
+		}
+	}
+	.team-result__game {
+		color: #fff;
+	}
+	.team-result__game--win {
+		color: $color-success;
+	}
+	.team-result__game--lose {
+		color: $color-danger;
+	}
+}

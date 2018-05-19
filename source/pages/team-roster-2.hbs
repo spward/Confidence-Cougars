@@ -1,0 +1,126 @@
+---
+page-title: Roster V2
+page-heading: "Roster <span class=\"highlight\">V2</span>"
+
+breadcrumbs: [
+	{
+		label: "Team",
+		link: "team-overview.html"
+	},
+	{
+		label: "Roster V2"
+	}
+]
+---
+
+{{> team-filter}}
+
+<!-- Content
+================================================== -->
+<div class="site-content">
+	<div class="container">
+
+		<!-- Team Roster: Slider -->
+		<div class="team-roster team-roster--slider">
+			{{#each basketball.sp.team.roster-2}}
+			<!-- Player #{{@key}}-->
+			<div class="team-roster__item">
+				<!-- Player Photo -->
+				<figure class="team-roster__img">
+					<img src="{{../root}}assets/images/samples/{{img}}" alt="">
+					<div class="team-roster__img-ring-top"></div>
+					<div class="team-roster__img-ring-bottom"></div>
+				</figure>
+				<!-- Player Photo / End-->
+				<!-- Player Details -->
+				<div class="team-roster__player-details">
+					<div class="team-roster__player-number">{{number}}</div>
+					<div class="team-roster__player-info">
+						<h3 class="team-roster__player-name">
+							<span class="team-roster__player-first-name">{{firstname}}</span>
+							<span class="team-roster__player-last-name">{{lastname}}</span>
+						</h3>
+						<div class="team-roster__player-position">{{position}}</div>
+					</div>
+				</div>
+				<!-- Player Details / End -->
+				<!-- FAB (More Info)-->
+				<div class="team-roster__player-fab">
+					<a href="player-overview.html" class="team-roster__player-more">
+						<span class="btn-fab btn-fab--sm"></span>
+						<span class="team-roster__player-fab-txt">Check the<br>Player's Bio</span>
+					</a>
+				</div>
+				<!-- FAB (More Info) / End -->
+			</div>
+			<!-- Player #{{@key}} / End -->
+			{{/each}}
+		</div>
+		<!-- Team Roster: Slider / End -->
+
+
+
+		<div class="row">
+			<!-- Team Roster: Table -->
+			<div class="col-md-8">
+				<div class="card card--has-table">
+					<div class="card__header">
+						<h4>Complete Roster</h4>
+					</div>
+					<div class="card__content">
+						<div class="table-responsive">
+							<table class="table table--lg team-roster-table">
+								<thead>
+									<tr>
+										<th class="team-roster-table__number">NBR</th>
+										<th class="team-roster-table__name">Player Name</th>
+										<th class="team-roster-table__position hidden-xs hidden-sm">Position</th>
+										<th class="team-roster-table__age">Age</th>
+										<th class="team-roster-table__height">Height</th>
+										<th class="team-roster-table__weight">Weight</th>
+										<th class="team-roster-table__college hidden-xs hidden-sm">College</th>
+									</tr>
+								</thead>
+								<tbody>
+									{{#each basketball.sp.team.main-roster}}
+									<tr>
+										<td class="team-roster-table__number">{{number}}</td>
+										<td class="team-roster-table__name">{{name}}</td>
+										<td class="team-roster-table__position hidden-xs hidden-sm">{{position}}</td>
+										<td class="team-roster-table__age">{{age}}</td>
+										<td class="team-roster-table__height">{{height}}</td>
+										<td class="team-roster-table__weight">{{weight}}</td>
+										<td class="team-roster-table__college hidden-xs hidden-sm">{{place}}</td>
+									</tr>
+									{{/each}}
+									{{#each basketball.sp.team.staff}}
+									<tr>
+										<td class="team-roster-table__number">{{number}}</td>
+										<td class="team-roster-table__name">{{firstname}} {{lastname}}</td>
+										<td class="team-roster-table__position hidden-xs hidden-sm">{{position}}</td>
+										<td class="team-roster-table__age">{{age}}</td>
+										<td class="team-roster-table__height">{{height}}</td>
+										<td class="team-roster-table__weight">{{weight}}</td>
+										<td class="team-roster-table__college hidden-xs hidden-sm">{{place}}</td>
+									</tr>
+									{{/each}}
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Team Roster: Table / End -->
+
+			<!-- Featured Player -->
+			<div class="col-md-4">
+
+				{{> widget-player-alt-extended}}
+
+			</div>
+			<!-- Featured Player / End -->
+		</div>
+	</div>
+</div>
+
+<!-- Content / End -->

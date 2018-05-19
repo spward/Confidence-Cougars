@@ -1,0 +1,72 @@
+---
+page-title: Search Results
+page-heading: "Search <span class=\"highlight\">Results</span>"
+
+breadcrumbs: [
+	{
+		label: "Search Results"
+	}
+]
+---
+
+{{> blog-filter}}
+
+<!-- Content
+================================================== -->
+<div class="site-content">
+	<div class="container">
+
+		<div class="row">
+			<!-- Content -->
+			<div class="content col-md-8">
+
+				<div class="alert alert-success">
+					<strong>3 Articles were found for your "<span class="text-success">Alchemists Roster</span>" search</strong>
+				</div>
+
+				<!-- Search Results -->
+				<ul class="posts posts--simple-list posts--simple-list--search">
+
+					{{#each basketball.posts.search-result}}
+					<li class="posts__item card posts__item--{{category.class}}">
+						<div class="posts__inner card__content">
+							<div class="posts__cat">
+								<span class="label posts__cat-label">{{category.name}}</span>
+							</div>
+							<h6 class="posts__title"><a href="#">{{title}}</a></h6>
+							<time datetime="2017-08-23" class="posts__date">{{date}}</time>
+							<div class="posts__excerpt">
+								{{excerpt}}
+							</div>
+						</div>
+					</li>
+					{{/each}}
+
+				</ul>
+				<!-- Search Results / End -->
+
+
+				{{> blog-pagination}}
+
+			</div>
+			<!-- Content / End -->
+
+			<!-- Sidebar -->
+			<div id="sidebar" class="sidebar col-md-4">
+
+				{{> widget-social}}
+
+				{{> widget-popular-posts}}
+
+				{{> widget-tagcloud}}
+
+				{{> widget-banner}}
+
+			</div>
+			<!-- Sidebar / End -->
+		</div>
+
+	</div>
+</div>
+
+<!-- Content / End -->

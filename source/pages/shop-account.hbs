@@ -1,0 +1,171 @@
+---
+page-title: Account
+page-heading: "Your <span class=\"highlight\">Account</span>"
+
+breadcrumbs: [
+	{
+		label: "Shop",
+		link: "shop-grid.html"
+	},
+	{
+		label: "Your Account"
+	}
+]
+---
+
+<!-- Content
+================================================== -->
+<div class="site-content">
+	<div class="container">
+
+		<div class="row">
+
+			<div class="col-md-4">
+
+				<!-- Account Navigation -->
+				<div class="card">
+					<div class="card__header">
+						<h4>Welcome Back!</h4>
+					</div>
+					<div class="card__content">
+						<nav class="df-account-navigation">
+							<ul>
+								<li class="df-account-navigation__link">
+									<a href="#">Personal Information</a>
+								</li>
+								<li class="df-account-navigation__link">
+									<a href="#">Billing Information</a>
+								</li>
+								<li class="df-account-navigation__link">
+									<a href="#">Shipping Information</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+				<!-- Account Navigation / End -->
+			</div>
+
+			<div class="col-md-8">
+
+				<!-- Personal Information -->
+				<div class="card card--lg">
+					<div class="card__header">
+						<h4>Personal Information</h4>
+					</div>
+					<div class="card__content">
+						<form action="#" class="df-personal-info">
+
+							<div class="form-group form-group--upload">
+								<div class="form-group__avatar">
+									<img src="assets/images/samples/avatar-empty.png" alt="">
+									<div class="form-group__label">
+										<h6>Profile Photo</h6>
+										<span>Minimum size 60x60px</span>
+									</div>
+								</div>
+								<div class="form-group__upload">
+									<label class="btn btn-default btn-xs btn-file">
+										Upload Image... <input type="file" style="display: none;">
+									</label>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+										<label for="account-email">Email</label>
+										<input type="email" class="form-control" value="" name="account-email" id="account-email" placeholder="jamesgirobilli@yourmail.com">
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<label for="account-username">Username</label>
+										<input type="text" class="form-control" value="" name="account-username" id="account-username" placeholder="James Girobilli MVP ">
+									</div>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+										<label for="account-password">Change Password</label>
+										<input type="password" class="form-control" value="" name="account-password" id="account-password" placeholder="**********">
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<label for="account-password-repeat">Repeat Password</label>
+										<input type="password" class="form-control" value="" name="account-password-repeat" id="account-password-repeat" placeholder="**********">
+									</div>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+										<label for="account-first-name">First Name</label>
+										<input type="text" class="form-control" value="" name="account-first-name" id="account-first-name" placeholder="Your first name...">
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<label for="account-last-name">Last Name</label>
+										<input type="text" class="form-control" value="" name="account-last-name" id="account-last-name" placeholder="Your last name...">
+									</div>
+								</div>
+							</div>
+
+							<div class="form-group form-group--sm">
+								<label for="account-address-1">Full Address</label>
+								<input type="text" class="form-control" value="" name="account-address-1" id="account-address-1" placeholder="Enter your street address...">
+							</div>
+							<div class="form-group">
+								<input type="text" class="form-control" value="" name="account-address-2" id="account-address-2" placeholder="Enter your apartment, floor, suite, etc...">
+							</div>
+
+							<div class="form-group">
+								<label for="account-country">Country</label>
+								<select name="account-country" id="account-country" class="form-control">
+									<option value="0">Select your country...</option>
+									<option value="Canada">Canada</option>
+									<option value="Italy">Italy</option>
+									<option value="Spain">Spain</option>
+									<option value="Greece">Greece</option>
+								</select>
+							</div>
+
+							<div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+										<label for="account-city">State or City</label>
+										<select name="account-city" id="account-city" class="form-control">
+											<option value="0">Select your state or city...</option>
+											<option value="1">New York</option>
+											<option value="2">Barcelona</option>
+											<option value="3">Paris</option>
+											<option value="4">London</option>
+										</select>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<label for="account-postcode">Zip Code</label>
+										<input type="text" name="account-postcode" id="account-postcode" class="form-control" placeholder="Your zip or postal code...">
+									</div>
+								</div>
+							</div>
+
+							<div class="form-group--submit">
+								<button type="submit" class="btn btn-default btn-lg btn-block">See all the changes</button>
+							</div>
+
+						</form>
+					</div>
+				</div>
+				<!-- Personal Information / End -->
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Content / End -->

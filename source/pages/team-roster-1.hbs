@@ -1,0 +1,138 @@
+---
+page-title: Roster V1
+page-heading: "Roster <span class=\"highlight\">V1</span>"
+
+breadcrumbs: [
+	{
+		label: "Team",
+		link: "team-overview.html"
+	},
+	{
+		label: "Roster V1"
+	}
+]
+---
+
+{{> team-filter}}
+
+<!-- Content
+================================================== -->
+<div class="site-content">
+	<div class="container">
+
+		<!-- Team Roster: Grid -->
+		<div class="team-roster team-roster--grid row">
+			{{#each basketball.sp.team.roster-1}}
+			<div class="team-roster__item col-6 col-sm-4">
+				<div class="team-roster__holder">
+					<figure class="team-roster__img">
+						<img src="{{../root}}assets/images/samples/{{img}}" alt="">
+					</figure>
+					<div class="team-roster__content">
+						<div class="team-roster__content-inner">
+							<div class="team-roster__member-number">{{number}}</div>
+							<div class="team-roster__member-info">
+								<h2 class="team-roster__member-name">
+									<span class="team-roster__member-first-name">{{firstname}}</span>
+									<span class="team-roster__member-last-name">{{lastname}}</span>
+								</h2>
+								<span class="team-roster__member-position">{{position}}</span>
+							</div>
+						</div>
+					</div>
+					<a href="player-overview.html" class="btn-fab"></a>
+				</div>
+			</div>
+			{{/each}}
+
+			{{#each basketball.sp.team.staff}}
+			<div class="team-roster__item col-6 col-sm-4">
+				<div class="team-roster__holder">
+					<figure class="team-roster__img">
+						<img src="{{../root}}assets/images/samples/{{img}}" alt="">
+					</figure>
+					<div class="team-roster__content">
+						<div class="team-roster__content-inner">
+							<div class="team-roster__member-number">{{number}}</div>
+							<div class="team-roster__member-info">
+								<h2 class="team-roster__member-name">
+									<span class="team-roster__member-first-name">{{firstname}}</span>
+									<span class="team-roster__member-last-name">{{lastname}}</span>
+								</h2>
+								<span class="team-roster__member-position">{{position}}</span>
+							</div>
+						</div>
+					</div>
+					<a href="staff-single.html" class="btn-fab"></a>
+				</div>
+			</div>
+			{{/each}}
+
+		</div>
+		<!-- Team Roster: Grid / End -->
+
+
+		<div class="row">
+			<!-- Team Roster: Table -->
+			<div class="col-md-8">
+				<div class="card card--has-table">
+					<div class="card__header">
+						<h4>Complete Roster</h4>
+					</div>
+					<div class="card__content">
+						<div class="table-responsive">
+							<table class="table table--lg team-roster-table">
+								<thead>
+									<tr>
+										<th class="team-roster-table__number">NBR</th>
+										<th class="team-roster-table__name">Player Name</th>
+										<th class="team-roster-table__position hidden-xs hidden-sm">Position</th>
+										<th class="team-roster-table__age">Age</th>
+										<th class="team-roster-table__height">Height</th>
+										<th class="team-roster-table__weight">Weight</th>
+										<th class="team-roster-table__college hidden-xs hidden-sm">College</th>
+									</tr>
+								</thead>
+								<tbody>
+									{{#each basketball.sp.team.main-roster}}
+									<tr>
+										<td class="team-roster-table__number">{{number}}</td>
+										<td class="team-roster-table__name">{{name}}</td>
+										<td class="team-roster-table__position hidden-xs hidden-sm">{{position}}</td>
+										<td class="team-roster-table__age">{{age}}</td>
+										<td class="team-roster-table__height">{{height}}</td>
+										<td class="team-roster-table__weight">{{weight}}</td>
+										<td class="team-roster-table__college hidden-xs hidden-sm">{{place}}</td>
+									</tr>
+									{{/each}}
+									{{#each basketball.sp.team.staff}}
+									<tr>
+										<td class="team-roster-table__number">{{number}}</td>
+										<td class="team-roster-table__name">{{firstname}} {{lastname}}</td>
+										<td class="team-roster-table__position hidden-xs hidden-sm">{{position}}</td>
+										<td class="team-roster-table__age">{{age}}</td>
+										<td class="team-roster-table__height">{{height}}</td>
+										<td class="team-roster-table__weight">{{weight}}</td>
+										<td class="team-roster-table__college hidden-xs hidden-sm">{{place}}</td>
+									</tr>
+									{{/each}}
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Team Roster: Table / End -->
+
+			<!-- Featured Player -->
+			<div class="col-md-4">
+
+				{{> widget-player-alt-extended}}
+
+			</div>
+			<!-- Featured Player / End -->
+		</div>
+	</div>
+</div>
+
+<!-- Content / End -->

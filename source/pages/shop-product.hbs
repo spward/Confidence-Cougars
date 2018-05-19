@@ -1,0 +1,144 @@
+---
+page-title: Product
+page-heading: "Single <span class=\"highlight\">Product</span>"
+
+breadcrumbs: [
+	{
+		label: "Shop",
+		link: "shop-grid.html"
+	},
+	{
+		label: "Product"
+	}
+]
+---
+
+<!-- Content
+================================================== -->
+<div class="site-content">
+	<div class="container">
+
+		<!-- Single Product -->
+		<div class="products products--list products--list-lg">
+
+			<div class="product__item product__item--color-1 card">
+
+				<div class="product__img">
+					<div class="product__img-holder">
+						<div class="product__bg-letters">SK</div>
+
+						<div class="product__slider">
+							<div class="product__slide">
+								<div class="product__slide-img">
+									<img src="{{../root}}assets/images/samples/product-img1-lg.png" alt="">
+								</div>
+							</div>
+							<div class="product__slide">
+								<div class="product__slide-img">
+									<img src="{{../root}}assets/images/samples/product-img1-lg.png" alt="">
+								</div>
+							</div>
+							<div class="product__slide">
+								<div class="product__slide-img">
+									<img src="{{../root}}assets/images/samples/product-img1-lg.png" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="product__content card__content">
+
+					<header class="product__header">
+						<div class="product__header-inner">
+							<span class="product__category">Sneakers</span>
+							<h2 class="product__title">Sundown Sneaker</h2>
+							<div class="product__ratings">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star empty"></i>
+							</div>
+						</div>
+						<div class="product__price">$28.00</div>
+					</header>
+
+					<div class="product__excerpt">
+						<h6>Description</h6>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</div>
+
+					<form action="#" class="product__params">
+						<div class="product__param-item product__param-item--color">
+							<label>Color</label>
+							<ul class="filter-color">
+								<li class="filter-color__item">
+									<label class="radio">
+										<input type="radio" id="product_color_1" name="product-color" value="1" class="color-violet">
+										<span class="radio-indicator"></span>
+									</label>
+								</li>
+								<li class="filter-color__item">
+									<label class="radio">
+										<input type="radio" id="product_color_2" name="product-color" value="2" class="color-blue" checked>
+										<span class="radio-indicator"></span>
+									</label>
+								</li>
+								<li class="filter-color__item">
+									<label class="radio">
+										<input type="radio" id="product_color_3" name="product-color" value="3" class="color-light-blue">
+										<span class="radio-indicator"></span>
+									</label>
+								</li>
+								<li class="filter-color__item">
+									<label class="radio">
+										<input type="radio" id="product_color_8" name="product-color" value="8" class="color-orange">
+										<span class="radio-indicator"></span>
+									</label>
+								</li>
+								<li class="filter-color__item">
+									<label class="radio">
+										<input type="radio" id="product_color_7" name="product-color" value="7" class="color-yellow">
+										<span class="radio-indicator"></span>
+									</label>
+								</li>
+							</ul>
+						</div>
+						<div class="product__param-item product__param-item--size">
+							<label class="control-label" for="select-size">Size</label>
+							<select name="select-size" id="select-size" class="form-control form-control--clean">
+								<option value="1">8,5 (USA)</option>
+								<option value="2">9,0 (USA)</option>
+								<option value="3">42 (EUR)</option>
+								<option value="4">41 (EUR)</option>
+							</select>
+						</div>
+						<div class="product__param-item product__param-item--quantity">
+							<label>Quantity</label>
+							<div class="quantity-control">
+								<button class="btn btn-xs"><i class="fa fa-minus"></i></button>
+								<input type="number" step="1" value="2" size="4" class="form-control input-sm">
+								<button class="btn btn-xs"><i class="fa fa-plus"></i></button>
+							</div>
+						</div>
+					</form>
+
+					<footer class="product__footer">
+						<a href="shop-cart.html" class="btn btn-primary btn-icon product__add-to-cart"><i class="icon-bag"></i> Add to Cart</a>
+						<a href="#" class="btn btn-default btn-single-icon product__wish"><i class="icon-heart"></i></a>
+					</footer>
+				</div>
+			</div>
+
+		</div>
+		<!-- Single Product / End -->
+
+		{{> product-tabs}}
+
+		{{> product-related}}
+
+	</div>
+</div>
+
+<!-- Content / End -->

@@ -1,0 +1,79 @@
+---
+page-title: Schedule & Tickets
+page-heading: "Schedule <span class=\"highlight\">& Tickets</span>"
+
+breadcrumbs: [
+	{
+		label: "Team",
+		link: "team-overview.html"
+	},
+	{
+		label: "Schedule & Tickets"
+	}
+]
+---
+
+{{> team-filter}}
+
+<!-- Content
+================================================== -->
+<div class="site-content">
+	<div class="container">
+
+		<!-- Schedule & Tickets -->
+		<div class="card card--has-table">
+			<div class="card__header">
+				<h4>Schedule and Tickets</h4>
+			</div>
+			<div class="card__content">
+				<div class="table-responsive">
+					<table class="table table-hover team-schedule team-schedule--full">
+						<thead>
+							<tr>
+								<th class="team-schedule__date">Date</th>
+								<th class="team-schedule__versus">Versus</th>
+								<th class="team-schedule__status">Status</th>
+								<th class="team-schedule__time">Time</th>
+								<th class="team-schedule__compet">Competition</th>
+								<th class="team-schedule__venue">Venue</th>
+								<th class="team-schedule__tickets">Tickets</th>
+							</tr>
+						</thead>
+						<tbody>
+							{{#each basketball.sp.team.schedule}}
+							<tr>
+								<td class="team-schedule__date">{{date}}</td>
+								<td class="team-schedule__versus">
+									<div class="team-meta">
+										<figure class="team-meta__logo">
+											<img src="{{../root}}assets/images/samples/logos/{{team.logo}}" alt="">
+										</figure>
+										<div class="team-meta__info">
+											<h6 class="team-meta__name">{{team.name}}</h6>
+											<span class="team-meta__place">{{team.place}}</span>
+										</div>
+									</div>
+								</td>
+								<td class="team-schedule__status">{{status}}</td>
+								<td class="team-schedule__time">{{time}}</td>
+								<td class="team-schedule__compet">{{league}}</td>
+								<td class="team-schedule__venue">{{venue}}</td>
+								<td class="team-schedule__tickets">
+									<a href="#" class="btn btn-xs btn-default btn-outline btn-block {{#unless availability}}disabled{{/unless}}">
+										{{#if availability}}Buy Game Tickets{{else}}Sold Out{{/if}}
+									</a>
+								</td>
+							</tr>
+							{{/each}}
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+		<!-- Schedule & Tickets / End -->
+
+		{{> team-pagination custom-class="justify-content-end"}}
+	</div>
+</div>
+
+<!-- Content / End -->

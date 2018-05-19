@@ -1,0 +1,40 @@
+<!-- Single Product Tabbed Content -->
+<div class="product-tabs card card--xlg">
+
+	<!-- Nav tabs -->
+	<ul class="nav nav-tabs nav-justified nav-product-tabs" role="tablist">
+		<li class="nav-item"><a class="nav-link active" href="#tab-desciption" role="tab" data-toggle="tab"><small>Product</small>Full Description</a></li>
+		<li class="nav-item"><a class="nav-link" href="#tab-info" role="tab" data-toggle="tab"><small>Product</small>Additional Information</a></li>
+		<li class="nav-item"><a class="nav-link" href="#tab-reviews" role="tab" data-toggle="tab"><small>Product</small>Customer Reviews (3)</a></li>
+	</ul>
+
+	<!-- Tab panes -->
+	<div class="tab-content card__content">
+
+		<!-- Tab: Description -->
+		<div role="tabpanel" class="tab-pane fade show active" id="tab-desciption">
+
+			{{> product-tab-description}}
+
+		</div>
+		<!-- Tab: Description / End -->
+
+		<!-- Tab: Shipping -->
+		<div role="tabpanel" class="tab-pane fade" id="tab-info">
+
+			{{> product-tab-info}}
+
+		</div>
+		<!-- Tab: Shipping / End -->
+
+		<!-- Tab: Reviews -->
+		<div role="tabpanel" class="tab-pane fade" id="tab-reviews">
+
+			{{> product-tab-reviews}}
+
+		</div>
+		<!-- Tab: Reviews / End -->
+	</div>
+
+</div>
+<!-- Single Product Tabbed Content / End -->

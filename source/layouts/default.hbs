@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+
+	<!-- Basic Page Needs
+	================================================== -->
+	<title>{{basketball.site-title}} - {{page-title}}</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="{{global.description}}">
+	<meta name="author" content="{{global.author}}">
+	<meta name="keywords" content="{{global.keywords}}">
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="{{root}}assets/images/{{basketball.template}}/favicons/favicon.ico">
+	<link rel="apple-touch-icon" sizes="120x120" href="{{root}}assets/images/{{basketball.template}}/favicons/favicon-120.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="{{root}}assets/images/{{basketball.template}}/favicons/favicon-152.png">
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+
+	<!-- Google Web Fonts
+	================================================== -->
+	<link href="https://fonts.googleapis.com/css?family={{basketball.fonts}}" rel="stylesheet">
+
+	<!-- CSS
+	================================================== -->
+	<!-- Vendor CSS -->
+	<link href="{{root}}assets/vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+	<link href="{{root}}assets/fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="{{root}}assets/fonts/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+	<link href="{{root}}assets/vendor/magnific-popup/dist/magnific-popup.css" rel="stylesheet">
+	<link href="{{root}}assets/vendor/slick/slick.css" rel="stylesheet">
+
+	<!-- Template CSS-->
+	<link href="{{root}}assets/css/style-{{basketball.template}}.css" rel="stylesheet">
+	{{!-- <link href="{{root}}assets/css/style-{{basketball.template}}-dark.css" rel="stylesheet"> --}}
+
+	<!-- Custom CSS-->
+	<link href="{{root}}assets/css/custom.css" rel="stylesheet">
+
+</head>
+<body class="template-{{basketball.template}}">
+
+	<div class="site-wrapper clearfix">
+		<div class="site-overlay"></div>
+
+		{{> _basketball_header }}
+
+		{{#if hero-unit-static}}
+		{{> _basketball_hero-unit }}
+		{{else if player-heading}}
+		{{> player-heading }}
+		{{else if post-heading}}
+		{{> post-heading }}
+		{{else}}
+		{{> _basketball_page-heading }}
+		{{/if}}
+
+		{{#if featured-carousel}}
+		{{> _basketball_header-featured-carousel }}
+		{{/if}}
+
+		{{> body}}
+
+	</div>
+
+	{{> _basketball_footer }}
+
+	{{> _basketball_footer-scripts}}
+
+</body>
+</html>

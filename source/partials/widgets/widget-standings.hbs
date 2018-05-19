@@ -1,0 +1,44 @@
+<!-- Widget: Standings -->
+<aside class="widget card widget--sidebar widget-standings">
+	<div class="widget__title card__header card__header--has-btn">
+		<h4>Playoff Standings</h4>
+		<a href="#" class="btn btn-default btn-outline btn-xs card-header__button">See All Stats</a>
+	</div>
+	<div class="widget__content card__content">
+		<div class="table-responsive">
+			<table class="table table-hover table-standings">
+				<thead>
+					<tr>
+						<th>Team Positions</th>
+						<th>W</th>
+						<th>L</th>
+						<th>GB</th>
+					</tr>
+				</thead>
+				<tbody>
+
+					{{#each basketball.sp.league-table}}
+					<tr>
+						<td>
+							<div class="team-meta">
+								<figure class="team-meta__logo">
+									<img src="{{../root}}assets/images/samples/logos/{{logo}}" alt="{{name}}">
+								</figure>
+								<div class="team-meta__info">
+									<h6 class="team-meta__name">{{name}}</h6>
+									<span class="team-meta__place">{{place}}</span>
+								</div>
+							</div>
+						</td>
+						<td>{{stats.w}}</td>
+						<td>{{stats.l}}</td>
+						<td>{{stats.gb}}</td>
+					</tr>
+					{{/each}}
+
+				</tbody>
+			</table>
+		</div>
+	</div>
+</aside>
+<!-- Widget: Standings / End -->

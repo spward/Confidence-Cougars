@@ -1,0 +1,121 @@
+<!-- Footer
+================================================== -->
+<footer id="footer" class="footer">
+
+	<!-- Footer Widgets -->
+	<div class="footer-widgets">
+		<div class="footer-widgets__inner">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 col-md-3">
+						<div class="footer-col-inner">
+
+							<!-- Footer Logo -->
+							<div class="footer-logo">
+								<a href="index.html"><img src="{{root}}assets/images/logo.png" srcset="{{root}}assets/images/logo@2x.png 2x" alt="Alchemists" class="footer-logo__img"></a>
+							</div>
+							<!-- Footer Logo / End -->
+
+						</div>
+					</div>
+					<div class="col-sm-4 col-md-3">
+						<div class="footer-col-inner">
+							<!-- Widget: Contact Info -->
+							<div class="widget widget--footer widget-contact-info">
+								<h4 class="widget__title">Contact Info</h4>
+								<div class="widget__content">
+									<div class="widget-contact-info__desc">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+									</div>
+									<div class="widget-contact-info__body info-block">
+										<div class="info-block__item">
+											<svg role="img" class="df-icon df-icon--basketball">
+												<use xlink:href="{{../root}}assets/images/icons-basket.svg#basketball"/>
+											</svg>
+											<h6 class="info-block__heading">Contact Us</h6>
+											<a class="info-block__link" href="mailto:{{basketball.contact-info.email-1}}">{{basketball.contact-info.email-1}}</a>
+										</div>
+										<div class="info-block__item">
+											<svg role="img" class="df-icon df-icon--jersey">
+												<use xlink:href="{{../root}}assets/images/icons-basket.svg#jersey"/>
+											</svg>
+											<h6 class="info-block__heading">Join Our Team!</h6>
+											<a class="info-block__link" href="mailto:{{basketball.contact-info.email-2}}">{{basketball.contact-info.email-2}}</a>
+										</div>
+										<div class="info-block__item info-block__item--nopadding">
+											<ul class="social-links">
+
+												{{#each basketball.contact-info.social}}
+												<li class="social-links__item">
+													<a href="{{link}}" class="social-links__link"><i class="{{icon}}"></i> {{name}}</a>
+												</li>
+												{{/each}}
+
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Widget: Contact Info / End -->
+						</div>
+					</div>
+					<div class="col-sm-4 col-md-3">
+						<div class="footer-col-inner">
+							<!-- Widget: Popular Posts / End -->
+							<div class="widget widget--footer widget-popular-posts">
+								<h4 class="widget__title">Popular News</h4>
+								<div class="widget__content">
+									<ul class="posts posts--simple-list">
+
+										{{#each basketball.posts.widget-popular-footer}}
+										<li class="posts__item posts__item--{{category.class}}">
+											<div class="posts__cat">
+												<span class="label posts__cat-label">{{category.name}}</span>
+											</div>
+											<h6 class="posts__title"><a href="#">{{title}}</a></h6>
+											<time datetime="2017-08-23" class="posts__date">{{date}}</time>
+										</li>
+										{{/each}}
+
+									</ul>
+								</div>
+							</div>
+							<!-- Widget: Popular Posts / End -->
+						</div>
+					</div>
+					<div class="col-sm-4 col-md-3">
+						<div class="footer-col-inner">
+
+							{{> footer-widget-instagram}}
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Footer Widgets / End -->
+
+	<!-- Footer Secondary -->
+	<div class="footer-secondary footer-secondary--has-decor">
+		<div class="container">
+			<div class="footer-secondary__inner">
+				<div class="row">
+					<div class="col-md-10 offset-md-1">
+						<ul class="footer-nav">
+
+							{{#each basketball.nav-footer}}
+							<li class="footer-nav__item"><a href="{{link}}">{{label}}</a></li>
+							{{/each}}
+
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Footer Secondary / End -->
+</footer>
+<!-- Footer / End -->
+
+{{> _basketball_modal-login}}

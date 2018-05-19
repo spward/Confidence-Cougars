@@ -1,0 +1,47 @@
+<!-- Widget: Latest Results -->
+<aside class="widget card widget--sidebar widget-results">
+	<div class="widget__title card__header card__header--has-btn">
+		<h4>Latest Results</h4>
+		<a href="#" class="btn btn-default btn-outline btn-xs card-header__button">See Full Results</a>
+	</div>
+	<div class="widget__content card__content">
+		<ul class="widget-results__list">
+
+			{{#each basketball.sp.team.widget-results}}
+			<!-- Game #{{@key}} -->
+			<li class="widget-results__item">
+				<h5 class="widget-results__title">{{date}}</h5>
+				<div class="widget-results__content">
+					<div class="widget-results__team widget-results__team--first">
+						<figure class="widget-results__team-logo">
+							<img src="{{../root}}assets/images/samples/logos/{{team1.logo}}" alt="">
+						</figure>
+						<div class="widget-results__team-details">
+							<h5 class="widget-results__team-name">{{team1.name}}</h5>
+							<span class="widget-results__team-info">{{team1.place}}</span>
+						</div>
+					</div>
+					<div class="widget-results__result">
+						<div class="widget-results__score">
+							<span class="widget-results__score-{{#if team1.result.outcome.win}}winner{{else}}loser{{/if}}">{{team1.result.score}}</span> - <span class="widget-results__score-{{#if team2.result.outcome.win}}winner{{else}}loser{{/if}}">{{team2.result.score}}</span>
+							<div class="widget-results__status">{{event_place}}</div>
+						</div>
+					</div>
+					<div class="widget-results__team widget-results__team--second">
+						<figure class="widget-results__team-logo">
+							<img src="{{../root}}assets/images/samples/logos/{{team2.logo}}" alt="">
+						</figure>
+						<div class="widget-results__team-details">
+							<h5 class="widget-results__team-name">{{team2.name}}</h5>
+							<span class="widget-results__team-info">{{team2.place}}</span>
+						</div>
+					</div>
+				</div>
+			</li>
+			<!-- Game #{{@key}} / End -->
+			{{/each}}
+
+		</ul>
+	</div>
+</aside>
+<!-- Widget: Latest Results / End -->

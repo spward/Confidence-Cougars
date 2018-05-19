@@ -1,0 +1,15 @@
+<!-- Team Pages Filter -->
+<nav class="content-filter">
+	<div class="container">
+		<a href="#" class="content-filter__toggle"></a>
+		<ul class="content-filter__list">
+			<li class="content-filter__item {{#ifpage 'team-overview.hbs'}}content-filter__item--active{{/ifpage}}"><a href="team-overview.html" class="content-filter__link"><small>The Team</small>Overview</a></li>
+			<li class="content-filter__item {{#ifpage 'team-roster-1.hbs' 'team-roster-2.hbs' 'team-roster-3.hbs'}}content-filter__item--active{{/ifpage}}"><a href="team-roster-1.html" class="content-filter__link"><small>The Team</small>Roster</a></li>
+			<li class="content-filter__item {{#ifpage 'team-standings.hbs'}}content-filter__item--active{{/ifpage}}"><a href="team-standings.html" class="content-filter__link"><small>The Team</small>Standings</a></li>
+			<li class="content-filter__item {{#ifpage 'team-last-results.hbs'}}content-filter__item--active{{/ifpage}}"><a href="team-last-results.html" class="content-filter__link"><small>The Team</small>Latest Results</a></li>
+			<li class="content-filter__item {{#ifpage 'team-schedule.hbs'}}content-filter__item--active{{/ifpage}}"><a href="team-schedule.html" class="content-filter__link"><small>The Team</small>Schedule</a></li>
+			<li class="content-filter__item {{#ifpage 'team-gallery.hbs'}}content-filter__item--active{{/ifpage}}"><a href="team-gallery.html" class="content-filter__link"><small>The Team</small>Gallery</a></li>
+		</ul>
+	</div>
+</nav>
+<!-- Team Pages Filter / End -->

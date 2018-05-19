@@ -1,0 +1,14 @@
+<!-- Player Pages Filter -->
+<nav class="content-filter">
+	<div class="container">
+		<a href="#" class="content-filter__toggle"></a>
+		<ul class="content-filter__list">
+			<li class="content-filter__item {{#ifpage 'player-overview.hbs'}}content-filter__item--active{{/ifpage}}"><a href="player-overview.html" class="content-filter__link"><small>Player</small>Overview</a></li>
+			<li class="content-filter__item {{#ifpage 'player-stats.hbs'}}content-filter__item--active{{/ifpage}}"><a href="player-stats.html" class="content-filter__link"><small>Player</small>Full Statistics</a></li>
+			<li class="content-filter__item {{#ifpage 'player-bio.hbs'}}content-filter__item--active{{/ifpage}}"><a href="player-bio.html" class="content-filter__link"><small>Player</small>Biography</a></li>
+			<li class="content-filter__item {{#ifpage 'player-news.hbs'}}content-filter__item--active{{/ifpage}}"><a href="player-news.html" class="content-filter__link"><small>Player</small>Related News</a></li>
+			<li class="content-filter__item {{#ifpage 'player-gallery.hbs'}}content-filter__item--active{{/ifpage}}"><a href="player-gallery.html" class="content-filter__link"><small>Player</small>Gallery</a></li>
+		</ul>
+	</div>
+</nav>
+<!-- Player Pages Filter / End -->

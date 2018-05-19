@@ -1,0 +1,65 @@
+/* Post Filter
+/* ------------------------- */
+.post-filter {
+  background-color: $filter-bg;
+  border-bottom: 1px solid $filter-border;
+  position: relative;
+  z-index: 2;
+
+  .container {
+
+    @media (max-width: 767px) {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+}
+  .post-filter__select {
+    position: relative;
+
+    @media (min-width: 992px) {
+      float: left;
+      width: 20%;
+
+      & + & {
+
+        div.cs-skin-border > span {
+          margin-left: -1px;
+        }
+      }
+    }
+
+    .cs-select {
+      margin-bottom: -1px;
+    }
+
+    .post-filter__label {
+      display: block;
+      position: absolute;
+      left: 24px;
+      top: 20px;
+      @include font-accent(8px);
+      line-height: 1.2em;
+      color: $filter-label-color;
+
+      @media (min-width: 992px) {
+        top: 28px;
+      }
+    }
+  }
+  .post-filter__submit {
+
+    @media (min-width: 992px) {
+      float: left;
+      width: 20%;
+    }
+
+    .btn {
+      border-radius: 0;
+
+      @media (min-width: 992px) {
+        padding-top: 30px;
+        padding-bottom: 31px;
+      }
+    }
+  }

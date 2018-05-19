@@ -1,0 +1,56 @@
+{
+	"name": "alchemists",
+	"version": "3.0.0",
+	"description": "Basketball, Soccer, American Football Sports Club and eSports HTML Template",
+	"main": "gulpfile.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/danfisher85/alchemists_html.git"
+	},
+	"author": "Dan Fisher",
+	"license": "SEE LICENSE IN https://themeforest.net/licenses",
+	"bugs": {
+		"url": "https://github.com/danfisher85/alchemists_html/issues"
+	},
+	"homepage": "https://github.com/danfisher85/alchemists_html#readme",
+	"devDependencies": {
+		"browser-sync": "^2.23.3",
+		"del": "^3.0.0",
+		"gulp": "^3.9.1",
+		"gulp-autoprefixer": "^4.0.0",
+		"gulp-concat": "^2.6.1",
+		"gulp-cssnano": "^2.1.2",
+		"gulp-htmlmin": "^4.0.0",
+		"gulp-if": "^2.0.2",
+		"gulp-imagemin": "^4.1.0",
+		"gulp-include": "^2.3.1",
+		"gulp-jimp": "^1.2.9",
+		"gulp-jshint": "^2.1.0",
+		"gulp-notify": "^3.1.0",
+		"gulp-plumber": "^1.2.0",
+		"gulp-postcss": "^7.0.1",
+		"gulp-rename": "^1.2.2",
+		"gulp-replace": "^0.6.1",
+		"gulp-sass": "^3.1.0",
+		"gulp-sourcemaps": "^2.6.3",
+		"gulp-svg-sprites": "^4.1.2",
+		"gulp-uglify": "^3.0.0",
+		"gulp-util": "^3.0.8",
+		"gulp-zip": "^4.1.0",
+		"jshint": "^2.9.5",
+		"jshint-stylish": "^2.2.1",
+		"panini": "^1.5.1",
+		"run-sequence": "^2.2.1",
+		"vinyl-ftp": "^0.6.0",
+		"yargs": "^8.0.2"
+	},
+	"scripts": {
+		"start": "gulp",
+		"build": "gulp build --production",
+		"deploy": "gulp deploy --production"
+	},
+	"dependencies": {
+		"npm": "^5.8.0"
+	},
+	"optionalDependencies": {}
+}

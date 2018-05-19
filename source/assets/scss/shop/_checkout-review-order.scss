@@ -1,0 +1,165 @@
+/* Checkout Review Order */
+.df-checkout-review-order {
+
+}
+  .df-checkout-review-order-table {
+
+    .product-name {
+      padding-left: 15px;
+
+      @media (min-width: 1200px) {
+        padding-left: 23px;
+      }
+
+    }
+    .product-total {
+      width: 22%;
+
+      @media (min-width: 1200px) {
+        padding-right: 23px;
+      }
+    }
+
+    tbody {
+
+      .product-name {
+        text-transform: uppercase;
+        color: $headings-color;
+        font-weight: 700;
+      }
+    }
+
+    // Table Body
+    .cart_item {
+
+      &:first-child {
+
+        .product-name,
+        .product-total {
+          padding-top: 30px;
+        }
+      }
+
+      &:last-child {
+
+        .product-name,
+        .product-total {
+          padding-bottom: 30px;
+        }
+      }
+
+      .product-name,
+      .product-total {
+        border-top: none;
+        border-bottom: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+      .product-total {
+
+      }
+    }
+
+
+    // Table Footer
+    tfoot {
+
+      tr {
+
+        th {
+          text-transform: uppercase;
+          color: $headings-color;
+          font-weight: 700;
+          padding-left: 15px;
+
+          @media (min-width: 1200px) {
+            padding-left: 23px;
+          }
+        }
+
+        th,
+        td {
+          border-top: none;
+          padding-top: 10px;
+          padding-bottom: 10px;
+
+          @if $template == football {
+            border-bottom: 1px solid $card-border-color;
+            padding-top: 17px;
+            padding-bottom: 17px;
+          } @else {
+            border-bottom: none;
+          }
+        }
+
+        td:last-child {
+          width: 22%;
+          text-align: right;
+
+          @media (min-width: 1200px) {
+            padding-right: 23px;
+          }
+        }
+
+        &:first-child {
+
+          th,
+          td {
+
+            @if $template != football {
+              border-top: 1px solid $card-border-color;
+              padding-top: 30px;
+            }
+          }
+        }
+
+        &:nth-last-child(2) {
+
+          th,
+          td {
+
+            @if $template != football {
+              padding-bottom: 30px;
+            }
+          }
+        }
+
+        &.order-total {
+
+          th,
+          td {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            border-top: 1px solid $card-border-color;
+            border-bottom: 1px solid $card-border-color;
+            margin-top: 20px;
+          }
+
+          .amount {
+
+            @if $template == football {
+              color: $color-4;
+            } @else {
+              color: $headings-color;
+            }
+          }
+        }
+      }
+    }
+
+    .cart-subtotal {
+
+      @if $template == football {
+        color: $headings-color;
+      }
+    }
+    .shipping {
+
+    }
+    .coupon {
+
+    }
+    .order-total {
+
+    }
+  }

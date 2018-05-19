@@ -1,0 +1,46 @@
+---
+page-title: Single Player
+player-heading: true
+---
+
+{{> player-filter}}
+
+
+<!-- Content
+================================================== -->
+<div class="site-content">
+
+	<!-- Album -->
+	<div class="album-wrapper">
+		<div class="album">
+
+			{{#each basketball.sp.player.gallery}}
+			<div class="album__item {{col}}">
+				<div class="album__item-holder">
+					<a href="{{../root}}assets/images/samples/{{img.full}}" class="album__item-link mp_gallery">
+						<figure class="album__thumb">
+							<img src="assets/images/samples/{{img.thumb}}" alt="">
+						</figure>
+						<div class="album__item-desc album__item-desc--bottom-left">
+							<span class="album__item-icon">
+								<span class="icon-camera"></span>
+							</span>
+							<div class="album__item-desc-inner">
+								<h4 class="album__item-title">{{title}}</h4>
+								<time class="album__item-date" datetime="2016-08-23">{{date}}</time>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			{{/each}}
+
+		</div>
+	</div>
+	<!-- Gallery Album / End -->
+
+	{{> player-album-load-more}}
+
+</div>
+
+<!-- Content / End -->

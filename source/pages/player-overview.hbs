@@ -1,0 +1,150 @@
+---
+page-title: Single Player
+player-heading: true
+---
+
+{{> player-filter}}
+
+<!-- Content
+================================================== -->
+<div class="site-content">
+	<div class="container">
+
+		<div class="row">
+
+			<!-- Content -->
+			<div class="content col-md-8">
+
+				<!-- Last Game Log -->
+				<div class="card card--has-table">
+					<div class="card__header card__header--has-btn">
+						<h4>Last Games Log</h4>
+						<a href="player-stats.html" class="btn btn-default btn-outline btn-xs card-header__button">See complete games log</a>
+					</div>
+					<div class="card__content">
+						<div class="table-responsive">
+							<table class="table table-hover game-player-result">
+								<thead>
+									<tr>
+										<th class="game-player-result__date">Date</th>
+										<th class="game-player-result__vs">Versus</th>
+										<th class="game-player-result__score">Score</th>
+										<th class="game-player-result__min">Min</th>
+										<th class="game-player-result__reb">REB</th>
+										<th class="game-player-result__ast">AST</th>
+										<th class="game-player-result__blk">BLK</th>
+										<th class="game-player-result__stl">STL</th>
+										<th class="game-player-result__pf">PF</th>
+										<th class="game-player-result__to">TO</th>
+										<th class="game-player-result__pts">PTS</th>
+									</tr>
+								</thead>
+								<tbody>
+
+									{{#each (limit basketball.sp.player.log 5)}}
+									<tr>
+										<td class="game-player-result__date">{{date}}</td>
+										<td class="game-player-result__vs">
+											<div class="team-meta">
+												<figure class="team-meta__logo">
+													<img src="{{../root}}assets/images/samples/logos/{{team.logo}}" alt="">
+												</figure>
+												<div class="team-meta__info">
+													<h6 class="team-meta__name">{{team.name}}</h6>
+													<span class="team-meta__place">{{team.place}}</span>
+												</div>
+											</div>
+										</td>
+										<td class="game-player-result__score"><span class="game-player-result__game">{{result.outcome}}</span> {{result.score}}</td>
+										<td class="game-player-result__min">{{stats.min}}</td>
+										<td class="game-player-result__reb">{{stats.reb}}</td>
+										<td class="game-player-result__ast">{{stats.ast}}</td>
+										<td class="game-player-result__blk">{{stats.blk}}</td>
+										<td class="game-player-result__stl">{{stats.stl}}</td>
+										<td class="game-player-result__pf">{{stats.pf}}</td>
+										<td class="game-player-result__to">{{stats.to}}</td>
+										<td class="game-player-result__pts">{{stats.pts}}</td>
+									</tr>
+									{{/each}}
+
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+				<!-- Last Game Log / End -->
+
+				<!-- Lates News -->
+				<div class="card card--clean">
+					<header class="card__header card__header--has-btn">
+						<h4>Player Related News</h4>
+						<a href="blog-1.html" class="btn btn-default btn-outline btn-xs card-header__button">See All Related News</a>
+					</header>
+					<div class="card__content">
+
+						<!-- Posts Grid -->
+						<div class="posts posts--cards post-grid post-grid--2cols post-grid--fitRows row">
+
+							{{#each (limit basketball.sp.player.related_posts 4)}}
+							<div class="post-grid__item col-6">
+								<div class="posts__item posts__item--card posts__item--{{category.class}} card">
+									<figure class="posts__thumb">
+										<div class="posts__cat">
+											<span class="label posts__cat-label">{{category.name}}</span>
+										</div>
+										<a href="#"><img src="{{../root}}assets/images/samples/{{thumb}}.jpg" alt=""></a>
+									</figure>
+									<div class="posts__inner card__content">
+										<a href="#" class="posts__cta"></a>
+										<time datetime="2016-08-23" class="posts__date">{{date}}</time>
+										<h6 class="posts__title"><a href="#">{{title}}</a></h6>
+										<div class="posts__excerpt">
+											{{excerpt}}
+										</div>
+									</div>
+									<footer class="posts__footer card__footer">
+										<div class="post-author">
+											<figure class="post-author__avatar">
+												<img src="{{../root}}assets/images/samples/{{author.avatar}}" alt="Post Author Avatar">
+											</figure>
+											<div class="post-author__info">
+												<h4 class="post-author__name">{{author.name}}</h4>
+											</div>
+										</div>
+										<ul class="post__meta meta">
+											<li class="meta__item meta__item--views">{{meta.views}}</li>
+											<li class="meta__item meta__item--likes"><a href="#"><i class="meta-like icon-heart"></i> {{meta.likes}}</a></li>
+											<li class="meta__item meta__item--comments"><a href="#">{{meta.comments}}</a></li>
+										</ul>
+									</footer>
+								</div>
+							</div>
+							{{/each}}
+
+						</div>
+						<!-- Post Grid / End -->
+
+					</div>
+				</div>
+				<!-- Lates News / End -->
+
+			</div>
+			<!-- Content / End -->
+
+			<!-- Sidebar -->
+			<div class="sidebar col-md-4">
+
+				{{> widget-social-player}}
+
+				{{> widget-player-alt-stats}}
+
+				{{> widget-newslog-player}}
+
+			</div>
+			<!-- Sidebar / End -->
+		</div>
+
+	</div>
+</div>
+
+<!-- Content / End -->

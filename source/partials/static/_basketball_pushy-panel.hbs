@@ -1,0 +1,77 @@
+<!-- Pushy Panel -->
+<aside class="pushy-panel {{#if dark}}pushy-panel--dark{{/if}}">
+	<div class="pushy-panel__inner">
+		<header class="pushy-panel__header">
+			<div class="pushy-panel__logo">
+				<a href="index.html"><img src="{{../root}}assets/images/logo.png" srcset="{{../root}}assets/images/logo@2x.png 2x" alt="Alchemists"></a>
+			</div>
+		</header>
+		<div class="pushy-panel__content">
+
+			<!-- Widget: Posts -->
+			<aside class="widget widget--side-panel">
+				<div class="widget__content">
+					<ul class="posts posts--simple-list posts--simple-list--lg">
+						{{#each basketball.posts.posts-7}}
+						<li class="posts__item posts__item--{{category.class}}">
+							<div class="posts__inner">
+								<div class="posts__cat">
+									<span class="label posts__cat-label">{{category.name}}</span>
+								</div>
+								<h6 class="posts__title"><a href="#">{{title}}</a></h6>
+								<time datetime="2017-08-23" class="posts__date">{{date}}</time>
+								<div class="posts__excerpt">
+									{{excerpt}}
+								</div>
+							</div>
+							<footer class="posts__footer card__footer">
+								<div class="post-author">
+									<figure class="post-author__avatar">
+										<img src="{{../root}}assets/images/samples/{{author.avatar}}" alt="Post Author Avatar">
+									</figure>
+									<div class="post-author__info">
+										<h4 class="post-author__name">{{author.name}}</h4>
+									</div>
+								</div>
+								<ul class="post__meta meta">
+									<li class="meta__item meta__item--likes"><a href="#"><i class="meta-like meta-like--active icon-heart"></i> {{meta.likes}}</a></li>
+									<li class="meta__item meta__item--comments"><a href="#">{{meta.comments}}</a></li>
+								</ul>
+							</footer>
+						</li>
+						{{/each}}
+					</ul>
+				</div>
+			</aside>
+			<!-- Widget: Posts / End -->
+
+			<!-- Widget: Tag Cloud -->
+			<aside class="widget widget--side-panel widget-tagcloud">
+				<div class="widget__title">
+					<h4>Tag Cloud</h4>
+				</div>
+				<div class="widget__content">
+					<div class="tagcloud">
+						{{#each basketball.posts.tagcloud}}
+						<a href="#" class="btn btn-primary btn-xs btn-outline btn-sm">{{label}}</a>
+						{{/each}}
+					</div>
+				</div>
+			</aside>
+			<!-- Widget: Tag Cloud / End -->
+
+			<!-- Widget: Banner -->
+			<aside class="widget widget--side-panel widget-banner">
+				<div class="widget__content">
+					<figure class="widget-banner__img">
+						<a href="#"><img src="{{../root}}assets/images/samples/banner.jpg" alt="Banner"></a>
+					</figure>
+				</div>
+			</aside>
+			<!-- Widget: Banner / End -->
+
+		</div>
+		<a href="#" class="pushy-panel__back-btn"></a>
+	</div>
+</aside>
+<!-- Pushy Panel / End -->

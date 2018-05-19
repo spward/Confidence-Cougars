@@ -1,0 +1,52 @@
+---
+page-title: Team Gallery
+page-heading: "Team <span class=\"highlight\">Gallery</span>"
+
+breadcrumbs: [
+	{
+		label: "Team",
+		link: "team-overview.html"
+	},
+	{
+		label: "Team Gallery"
+	}
+]
+---
+
+{{> team-filter}}
+
+<!-- Content
+================================================== -->
+<div class="site-content">
+	<div class="container">
+
+		<!-- Gallery -->
+		<div class="gallery row">
+			{{#each basketball.sp.team.gallery}}
+			<div class="gallery__item col-6 col-sm-4">
+				<a href="team-gallery-album.html" class="gallery__item-inner card">
+					<figure class="gallery__thumb">
+						<img src="{{../root}}assets/images/samples/{{thumb}}" alt="">
+						<span class="btn-fab gallery__btn-fab"></span>
+					</figure>
+					<div class="gallery__content card__content">
+						<span class="gallery__icon">
+							<span class="icon-camera"></span>
+						</span>
+						<div class="gallery__details">
+							<h4 class="gallery__name">{{title}}</h4>
+							<div class="gallery__date">{{date}}</div>
+						</div>
+					</div>
+				</a>
+			</div>
+			{{/each}}
+		</div>
+		<!-- Gallery / End -->
+
+
+		{{> team-pagination custom-class="justify-content-center"}}
+	</div>
+</div>
+
+<!-- Content / End -->

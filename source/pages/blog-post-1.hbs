@@ -1,0 +1,112 @@
+---
+page-title: Post Page V1
+page-heading: "Post Page <span class=\"highlight\">V1</span>"
+
+breadcrumbs: [
+	{
+		label: "News",
+		link: "blog-1.html"
+	},
+	{
+		label: "Post Page V1"
+	}
+]
+---
+
+<!-- Content
+================================================== -->
+<div class="site-content">
+	<div class="container">
+
+		<div class="row">
+			<!-- Content -->
+			<div class="content col-md-8">
+
+				<!-- Article -->
+				<article class="card card--lg post post--single">
+
+					<figure class="post__thumbnail">
+						<img src="{{../root}}assets/images/samples/single-post-img1.jpg" alt="">
+					</figure>
+
+					<div class="card__content">
+						<div class="post__category">
+							<span class="label posts__cat-label">The Team</span>
+						</div>
+						<header class="post__header">
+							<h2 class="post__title">The Planetrotters will perform this May 4th at Madison Cube</h2>
+							<ul class="post__meta meta">
+								<li class="meta__item meta__item--date"><time datetime="2017-08-23">August 23rd, 2017</time></li>
+								<li class="meta__item meta__item--views">2369</li>
+								<li class="meta__item meta__item--likes"><a href="#"><i class="meta-like icon-heart"></i> 530</a></li>
+								<li class="meta__item meta__item--comments"><a href="#">18</a></li>
+							</ul>
+						</header>
+
+						<div class="post__content">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+							<div class="spacer"></div>
+
+							<h4>A Show to Remember</h4>
+							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+
+							<div class="spacer"></div>
+
+							<figure class="aligncenter">
+								<img src="{{../root}}assets/images/samples/single-post-img2.jpg" alt="">
+								<figcaption>Madison Cube train station. You can take the A and C lines to get there.</figcaption>
+							</figure>
+
+							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+
+							<div class="spacer"></div>
+
+							<h4>The Planetrotters Around the World</h4>
+							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+						</div>
+
+						{{> post-footer}}
+
+					</div>
+				</article>
+				<!-- Article / End -->
+
+				{{> post-sharing}}
+
+				{{> post-author}}
+
+				{{> post-related-1}}
+
+				{{> post-comments}}
+
+				{{> post-comments-form}}
+
+			</div>
+			<!-- Content / End -->
+
+			<!-- Sidebar -->
+			<div id="sidebar" class="sidebar col-md-4">
+
+				{{> widget-social}}
+
+				{{> widget-popular-posts}}
+
+				{{> widget-tagcloud}}
+
+				{{> widget-banner}}
+
+				{{> widget-tabbed}}
+
+				{{> widget-preview}}
+
+				{{> widget-newsletter}}
+
+			</div>
+			<!-- Sidebar / End -->
+		</div>
+
+	</div>
+</div>
+
+<!-- Content / End -->

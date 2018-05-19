@@ -1,0 +1,121 @@
+---
+page-title: Shop
+page-heading: "Shop <span class=\"highlight\">Full Width</span>"
+
+breadcrumbs: [
+	{
+		label: "Shop"
+	}
+]
+---
+
+<!-- Content
+================================================== -->
+<div class="site-content">
+	<div class="container">
+
+		<!-- Products -->
+		<ul class="products products--list products--list-lg">
+
+			{{#each (limit basketball.products.shop 4)}}
+			<!-- Product #{{key}} -->
+			<li class="product__item product__item--{{color}} card">
+
+				<div class="product__img">
+					<div class="product__img-holder">
+						{{#if onsale}}
+						<span class="onsale">Sale!</span>
+						{{/if}}
+						<div class="product__bg-letters">{{abbr}}</div>
+
+						<div class="product__slider">
+							{{#each img_lg}}
+							<div class="product__slide">
+								<div class="product__slide-img">
+									<img src="{{../root}}assets/images/samples/{{thumb}}" alt="">
+								</div>
+							</div>
+							{{/each}}
+						</div>
+					</div>
+				</div>
+
+				<div class="product__content card__content">
+
+					<header class="product__header">
+						<div class="product__header-inner">
+							<span class="product__category">{{category}}</span>
+							<h2 class="product__title"><a href="shop-product.html">{{title}}</a></h2>
+							<div class="product__ratings">
+								{{#repeat rating.full}}
+								<i class="fa fa-star"></i>
+								{{/repeat}}
+								{{#repeat rating.empty}}
+								<i class="fa fa-star empty"></i>
+								{{/repeat}}
+							</div>
+						</div>
+						<div class="product__price">
+							{{#if onsale}}
+								<del>{{price.old}}</del>
+								<ins>{{price.new}}</ins>
+							{{else}}
+								{{price}}
+							{{/if}}
+						</div>
+					</header>
+
+					<div class="product__excerpt">
+						<h6>Description</h6>
+						{{excerpt_lg}}
+					</div>
+
+					<form action="#" class="product__params">
+						<div class="product__param-item product__param-item--color">
+							<label>Color</label>
+							<ul class="filter-color">
+								{{#each colors}}
+								<li class="filter-color__item">
+									<label class="radio">
+										<input type="radio" id="product_color_1-1" name="product-1-color" value="1" class="color-{{color}}" {{#if active}}checked{{/if}}>
+										<span class="radio-indicator"></span>
+									</label>
+								</li>
+								{{/each}}
+							</ul>
+						</div>
+						<div class="product__param-item product__param-item--size">
+							<label class="control-label" for="select-size-1">Size</label>
+							<select name="select-size-1" id="select-size-1" class="form-control form-control--clean">
+								<option value="1">{{size}}</option>
+								<option value="2">9,0 (USA)</option>
+								<option value="3">42 (EUR)</option>
+								<option value="4">41 (EUR)</option>
+							</select>
+						</div>
+						<div class="product__param-item product__param-item--quantity">
+							<label>Quantity</label>
+							<div class="quantity-control">
+								<button class="btn btn-xs"><i class="fa fa-minus"></i></button>
+								<input type="number" step="1" value="{{quantity}}" size="4" class="form-control input-sm">
+								<button class="btn btn-xs"><i class="fa fa-plus"></i></button>
+							</div>
+						</div>
+					</form>
+
+					<footer class="product__footer">
+						<a href="shop-cart.html" class="btn btn-primary btn-icon product__add-to-cart"><i class="icon-bag"></i> Add to Cart</a>
+						<a href="#" class="btn btn-default btn-single-icon product__wish"><i class="icon-heart"></i></a>
+					</footer>
+				</div>
+			</li>
+			<!-- Product #{{key}} / End -->
+			{{/each}}
+
+		</ul>
+		<!-- Products / End -->
+
+	</div>
+</div>
+
+<!-- Content / End -->

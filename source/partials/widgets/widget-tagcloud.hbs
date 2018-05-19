@@ -1,0 +1,14 @@
+<!-- Widget: Tag Cloud -->
+<aside class="widget widget--sidebar card widget-tagcloud">
+	<div class="widget__title card__header">
+		<h4>Tag Cloud</h4>
+	</div>
+	<div class="widget__content card__content">
+		<div class="tagcloud">
+			{{#each basketball.posts.tagcloud}}
+			<a href="#" class="btn btn-primary btn-xs btn-outline btn-sm">{{label}}</a>
+			{{/each}}
+		</div>
+	</div>
+</aside>
+<!-- Widget: Tag Cloud / End -->

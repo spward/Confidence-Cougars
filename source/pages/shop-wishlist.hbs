@@ -1,0 +1,90 @@
+---
+page-title: Wishlist
+page-heading: "Your <span class=\"highlight\">Wishlist</span>"
+
+breadcrumbs: [
+	{
+		label: "Shop",
+		link: "shop-grid.html"
+	},
+	{
+		label: "Wishlist"
+	}
+]
+---
+
+<!-- Content
+================================================== -->
+<div class="site-content">
+	<div class="container">
+
+		<!-- Wishlist -->
+		<div class="card card--has-table">
+			<div class="card__header">
+				<h4>Your Wishlist (8)</h4>
+			</div>
+			<div class="card__content">
+
+				<div class="table-responsive">
+					<table class="table shop-table">
+						<thead>
+							<tr>
+								<th class="product__photo">Photo</th>
+								<th class="product__info">Product Info</th>
+								<th class="product__desc visible-md visible-lg">Description</th>
+								<th class="product__price">Price</th>
+								<th class="product__availability">Availability</th>
+								<th class="product__remove">Remove</th>
+							</tr>
+						</thead>
+						<tbody>
+
+							{{#each basketball.products.wishlist}}
+							<tr>
+								<td class="product__photo">
+									<figure class="product__thumb">
+										<a href="#"><img src="{{../root}}assets/images/samples/{{thumb}}" alt=""></a>
+									</figure>
+								</td>
+								<td class="product__info">
+									<span class="product__cat">{{category}}</span>
+									<h5 class="product__name"><a href="#">{{title}}</a></h5>
+									<div class="product__ratings">
+										{{#repeat rating.full}}
+										<i class="fa fa-star"></i>
+										{{/repeat}}
+										{{#repeat rating.empty}}
+										<i class="fa fa-star empty"></i>
+										{{/repeat}}
+									</div>
+								</td>
+								<td class="product__desc visible-md visible-lg">
+									{{excerpt}}
+								</td>
+								<td class="product__price">
+									{{price}}
+								</td>
+								<td class="product__availability">
+									{{#if availability}}
+									In Stock
+									{{else}}
+									<span class="product__no-available">Out of Stock</span>
+									{{/if}}
+								</td>
+								<td class="product__remove">
+									<a href="#" class="fa fa-times product__remove-icon"></a>
+								</td>
+							</tr>
+							{{/each}}
+
+						</tbody>
+					</table>
+				</div>
+
+			</div>
+		</div>
+		<!-- Wishlist / End -->
+	</div>
+</div>
+
+<!-- Content / End -->

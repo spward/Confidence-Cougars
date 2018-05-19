@@ -1,0 +1,85 @@
+<!-- Widget: Trending News -->
+<aside class="widget widget--sidebar card widget-tabbed">
+	<div class="widget__title card__header">
+		<h4>Top Trending News</h4>
+	</div>
+	<div class="widget__content card__content">
+		<div class="widget-tabbed__tabs">
+			<!-- Widget Tabs -->
+			<ul class="nav nav-tabs nav-justified widget-tabbed__nav" role="tablist">
+				<li class="nav-item"><a href="#widget-tabbed-newest" class="nav-link active" aria-controls="widget-tabbed-newest" role="tab" data-toggle="tab">Newest</a></li>
+				<li class="nav-item"><a href="#widget-tabbed-commented" class="nav-link" aria-controls="widget-tabbed-commented" role="tab" data-toggle="tab">Most Commented</a></li>
+				<li class="nav-item"><a href="#widget-tabbed-popular" class="nav-link" aria-controls="widget-tabbed-popular" role="tab" data-toggle="tab">Popular</a></li>
+			</ul>
+
+			<!-- Widget Tab panes -->
+			<div class="tab-content widget-tabbed__tab-content">
+				<!-- Newest -->
+				<div role="tabpanel" class="tab-pane fade show active" id="widget-tabbed-newest">
+					<ul class="posts posts--simple-list">
+
+						{{#each basketball.posts.widget-tabbed.newest}}
+						<li class="posts__item posts__item--{{category.class}}">
+							<div class="posts__inner">
+								<div class="posts__cat">
+									<span class="label posts__cat-label">{{category.name}}</span>
+								</div>
+								<h6 class="posts__title"><a href="#">{{title}}</a></h6>
+								<time datetime="2016-08-23" class="posts__date">{{date}}</time>
+								<div class="posts__excerpt">
+									{{excerpt}}
+								</div>
+							</div>
+						</li>
+						{{/each}}
+
+					</ul>
+				</div>
+				<!-- Commented -->
+				<div role="tabpanel" class="tab-pane fade" id="widget-tabbed-commented">
+					<ul class="posts posts--simple-list">
+
+						{{#each basketball.posts.widget-tabbed.commented}}
+						<li class="posts__item posts__item--{{category.class}}">
+							<div class="posts__inner">
+								<div class="posts__cat">
+									<span class="label posts__cat-label">{{category.name}}</span>
+								</div>
+								<h6 class="posts__title"><a href="#">{{title}}</a></h6>
+								<time datetime="2016-08-23" class="posts__date">{{date}}</time>
+								<div class="posts__excerpt">
+									{{excerpt}}
+								</div>
+							</div>
+						</li>
+						{{/each}}
+
+					</ul>
+				</div>
+				<!-- Popular -->
+				<div role="tabpanel" class="tab-pane fade" id="widget-tabbed-popular">
+					<ul class="posts posts--simple-list">
+
+						{{#each basketball.posts.widget-tabbed.popular}}
+						<li class="posts__item posts__item--{{category.class}}">
+							<div class="posts__inner">
+								<div class="posts__cat">
+									<span class="label posts__cat-label">{{category.name}}</span>
+								</div>
+								<h6 class="posts__title"><a href="#">{{title}}</a></h6>
+								<time datetime="2016-08-23" class="posts__date">{{date}}</time>
+								<div class="posts__excerpt">
+									{{excerpt}}
+								</div>
+							</div>
+						</li>
+						{{/each}}
+
+					</ul>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</aside>
+<!-- Widget: Trending News / End -->

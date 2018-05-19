@@ -1,0 +1,75 @@
+<!-- Related Products -->
+<div class="card card--clean">
+	<header class="card__header">
+		<h4>Related Products</h4>
+	</header>
+	<div class="card__content">
+
+		<!-- Products -->
+		<ul class="products products--grid products--grid-4">
+
+			{{#each basketball.products.related}}
+			<!-- Product #{{@key}} -->
+			<li class="product__item product__item--{{color}} card">
+
+				<div class="product__img">
+					<div class="product__img-holder">
+						{{#if onsale}}
+						<span class="onsale">Sale!</span>
+						{{/if}}
+						<div class="product__bg-letters">{{abbr}}</div>
+
+						<div class="product__slider">
+							{{#each img}}
+							<div class="product__slide">
+								<div class="product__slide-img">
+									<img src="{{../root}}assets/images/samples/{{thumb}}" alt="">
+								</div>
+							</div>
+							{{/each}}
+						</div>
+
+					</div>
+				</div>
+
+				<div class="product__content card__content">
+
+					<header class="product__header">
+						<div class="product__header-inner">
+							<span class="product__category">{{category}}</span>
+							<h2 class="product__title"><a href="{{../root}}shop-product.html">{{title}}</a></h2>
+							<div class="product__ratings">
+								{{#repeat rating.full}}
+								<i class="fa fa-star"></i>
+								{{/repeat}}
+								{{#repeat rating.empty}}
+								<i class="fa fa-star empty"></i>
+								{{/repeat}}
+							</div>
+						</div>
+						<div class="product__price">
+							{{#if onsale}}
+								<del>{{price.old}}</del>
+								<ins>{{price.new}}</ins>
+							{{else}}
+								{{price}}
+							{{/if}}
+						</div>
+					</header>
+
+					<footer class="product__footer">
+						<a href="{{../root}}shop-cart.html" class="btn btn-primary btn-icon product__add-to-cart">Add to Cart</a>
+						<a href="#" class="btn btn-default btn-single-icon btn-outline btn-inverse product__wish"><i class="icon-heart"></i></a>
+						<a href="#" class="btn btn-default btn-single-icon btn-outline btn-inverse product__view"><i class="icon-eye"></i></a>
+					</footer>
+				</div>
+			</li>
+			<!-- Product #{{@key}} / End -->
+			{{/each}}
+
+		</ul>
+		<!-- Products / End -->
+
+	</div>
+</div>
+<!-- Related Products / End -->

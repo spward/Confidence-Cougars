@@ -1,0 +1,162 @@
+---
+page-title: News V4
+page-heading: "News <span class=\"highlight\">V4</span>"
+
+breadcrumbs: [
+	{
+		label: "News V4"
+	}
+]
+---
+
+{{> blog-filter}}
+
+<!-- Content
+================================================== -->
+<div class="site-content">
+	<div class="container">
+
+		<div class="row">
+			<!-- Content -->
+			<div class="content col-md-12">
+
+				<!-- Posts Grid -->
+				<div class="posts posts--cards post-grid post-grid--masonry row">
+
+					{{#each basketball.posts.news-4}}
+
+						{{#ifequal format 'quote'}}
+
+						<div class="post-grid__item col-sm-4">
+							<div class="posts__item posts__item--card posts__item--quote">
+								<div class="card__content">
+									<blockquote class="blockquote blockquote--card">
+										<p class="blockquote__content">{{{content}}}</p>
+										<footer class="blockquote__footer">
+											<cite class="blockquote__cite">
+												<span class="blockquote__author-name">{{author.name}}</span>
+												<span class="blockquote__author-info">{{author.info}}</span>
+											</cite>
+										</footer>
+									</blockquote>
+								</div>
+							</div>
+						</div>
+
+						{{else}}
+
+						<div class="post-grid__item col-sm-4">
+							<div class="posts__item posts__item--card posts__item--{{category.class}} card">
+								{{#if thumb}}
+								<figure class="posts__thumb">
+									<div class="posts__cat">
+										<span class="label posts__cat-label">{{category.name}}</span>
+									</div>
+									<a href="#"><img src="{{../root}}assets/images/samples/{{thumb}}" alt=""></a>
+								</figure>
+								{{/if}}
+								<div class="posts__inner card__content">
+									{{#if thumb}}
+									<a href="#" class="posts__cta"></a>
+									{{else}}
+									<div class="posts__cat posts__cat--flow">
+										<span class="label posts__cat-label">{{category.name}}</span>
+									</div>
+									{{/if}}
+									{{#if thumb}}
+									<time datetime="2016-08-23" class="posts__date">{{date}}</time>
+									{{/if}}
+									<h6 class="posts__title"><a href="#">{{title}}</a></h6>
+									{{#unless thumb}}
+									<time datetime="2016-08-23" class="posts__date">{{date}}</time>
+									{{/unless}}
+								</div>
+								<footer class="posts__footer card__footer">
+									<div class="post-author">
+										<figure class="post-author__avatar">
+											<img src="{{../root}}assets/images/samples/{{author.avatar}}" alt="Post Author Avatar">
+										</figure>
+										<div class="post-author__info">
+											<h4 class="post-author__name">{{author.name}}</h4>
+										</div>
+									</div>
+									<ul class="post__meta meta">
+										<li class="meta__item meta__item--views">{{meta.views}}</li>
+										<li class="meta__item meta__item--likes"><a href="#"><i class="meta-like icon-heart"></i> {{meta.likes}}</a></li>
+										<li class="meta__item meta__item--comments"><a href="#">{{meta.comments}}</a></li>
+									</ul>
+								</footer>
+							</div>
+						</div>
+
+						{{/ifequal}}
+
+
+						{{#ifequal @index 6}}
+						<div class="post-grid__item col-sm-4">
+							<a href="#" class="btn-social-counter btn-social-counter--card btn-social-counter--fb">
+								<div class="btn-social-counter__name">Facebook</div>
+								<footer class="btn-social-counter__footer">
+									<h6 class="btn-social-counter__title">Like Our Facebook Page</h6>
+									<span class="btn-social-counter__count">83600 Likes</span>
+									<span class="btn-social-counter__add-icon"></span>
+								</footer>
+							</a>
+						</div>
+						{{/ifequal}}
+
+						{{#ifequal @index 8}}
+						<div class="post-grid__item col-sm-4">
+							<a href="#" class="btn-social-counter btn-social-counter--card btn-social-counter--twitter">
+								<div class="btn-social-counter__name">Twitter</div>
+								<footer class="btn-social-counter__footer">
+									<h6 class="btn-social-counter__title">Follow Us on Twitter</h6>
+									<span class="btn-social-counter__count">580 Followers</span>
+									<span class="btn-social-counter__add-icon"></span>
+								</footer>
+							</a>
+						</div>
+						{{/ifequal}}
+
+						{{#ifequal @index 10}}
+						<div class="post-grid__item col-sm-4">
+							<a href="#" class="btn-social-counter btn-social-counter--card btn-social-counter--gplus">
+								<div class="btn-social-counter__name">Google+</div>
+								<footer class="btn-social-counter__footer">
+									<h6 class="btn-social-counter__title">Friend us on Google+</h6>
+									<span class="btn-social-counter__count">10250 Friends</span>
+									<span class="btn-social-counter__add-icon"></span>
+								</footer>
+							</a>
+						</div>
+						{{/ifequal}}
+
+						{{#ifequal @index 12}}
+						<div class="post-grid__item col-sm-4">
+							<a href="#" class="btn-social-counter btn-social-counter--card btn-social-counter--rss">
+								<div class="btn-social-counter__name"><i class="fa fa-rss"></i> RSS Feed</div>
+								<footer class="btn-social-counter__footer">
+									<h6 class="btn-social-counter__title">Subscribe to our RSS</h6>
+									<span class="btn-social-counter__count">840 Subscribers</span>
+									<span class="btn-social-counter__add-icon"></span>
+								</footer>
+							</a>
+						</div>
+						{{/ifequal}}
+
+					{{/each}}
+
+				</div>
+				<!-- Post Grid / End -->
+
+				{{> blog-load-more}}
+
+			</div>
+			<!-- Content / End -->
+
+		</div>
+
+	</div>
+</div>
+
+<!-- Content / End -->

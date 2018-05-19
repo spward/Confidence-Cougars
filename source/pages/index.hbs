@@ -1,0 +1,367 @@
+---
+page-title: Home
+hero-unit-static: true
+featured-carousel: true
+---
+
+<!-- Content
+================================================== -->
+<div class="site-content">
+	<div class="container">
+
+		<div class="row">
+			<!-- Content -->
+			<div class="content col-md-8">
+
+				<!-- Featured News -->
+				<div class="card card--clean">
+					<header class="card__header card__header--has-filter">
+						<h4>Featured News</h4>
+						<ul class="category-filter category-filter--featured">
+							<li class="category-filter__item"><a href="#" class="category-filter__link category-filter__link--reset category-filter__link--active">All</a></li>
+							<li class="category-filter__item"><a href="#" class="category-filter__link" data-category="posts__item--category-1">The Team</a></li>
+							<li class="category-filter__item"><a href="#" class="category-filter__link" data-category="posts__item--category-3">Playoffs</a></li>
+							<li class="category-filter__item"><a href="#" class="category-filter__link" data-category="posts__item--category-2">Injuries</a></li>
+						</ul>
+					</header>
+					<div class="card__content">
+
+						<!-- Slider -->
+						<div class="slick posts posts--slider-featured">
+
+							{{#each basketball.posts.posts-1}}
+							<div class="posts__item posts__item--{{category.class}}">
+								<a href="#" class="posts__link-wrapper">
+									<figure class="posts__thumb">
+										<img src="{{../root}}assets/images/samples/{{thumb}}.jpg" alt="">
+									</figure>
+									<div class="posts__inner">
+										<div class="posts__cat">
+											<span class="label posts__cat-label">{{category.name}}</span>
+										</div>
+										<h3 class="posts__title">{{{title}}}</h3>
+										<div class="post-author">
+											<figure class="post-author__avatar">
+												<img src="{{../root}}assets/images/samples/{{author.avatar}}.jpg" alt="Post Author Avatar">
+											</figure>
+											<div class="post-author__info">
+												<h4 class="post-author__name">{{author.name}}</h4>
+												<time datetime="2017-08-28" class="posts__date">{{date}}</time>
+											</div>
+										</div>
+									</div>
+								</a>
+							</div>
+							{{/each}}
+
+						</div>
+						<!-- Slider / End -->
+
+					</div>
+				</div>
+				<!-- Featured News / End -->
+
+
+				<!-- Post Area 1 -->
+				<div class="posts posts--cards post-grid row">
+
+					{{#each basketball.posts.posts-2}}
+					<div class="post-grid__item col-sm-6">
+						<div class="posts__item posts__item--card posts__item--{{category.class}} card">
+							<figure class="posts__thumb">
+								<div class="posts__cat">
+									<span class="label posts__cat-label">{{category.name}}</span>
+								</div>
+								<a href="#"><img src="{{../root}}assets/images/samples/{{thumb}}.jpg" alt=""></a>
+							</figure>
+							<div class="posts__inner card__content">
+								<a href="#" class="posts__cta"></a>
+								<time datetime="2016-08-23" class="posts__date">{{date}}</time>
+								<h6 class="posts__title"><a href="#">{{title}}</a></h6>
+								<div class="posts__excerpt">
+									{{excerpt}}
+								</div>
+							</div>
+							<footer class="posts__footer card__footer">
+								<div class="post-author">
+									<figure class="post-author__avatar">
+										<img src="{{../root}}assets/images/samples/{{author.avatar}}.jpg" alt="Post Author Avatar">
+									</figure>
+									<div class="post-author__info">
+										<h4 class="post-author__name">{{author.name}}</h4>
+									</div>
+								</div>
+								<ul class="post__meta meta">
+									<li class="meta__item meta__item--views">{{meta.views}}</li>
+									<li class="meta__item meta__item--likes"><a href="#"><i class="meta-like icon-heart"></i> {{meta.likes}}</a></li>
+									<li class="meta__item meta__item--comments"><a href="#">{{meta.comments}}</a></li>
+								</ul>
+							</footer>
+						</div>
+					</div>
+					{{/each}}
+
+				</div>
+				<!-- Post Area 1 / End -->
+
+
+				<!-- Post Area 2 -->
+				<div class="posts posts--cards post-grid row">
+
+					<div class="col-sm-6">
+						<div class="posts posts--cards post-grid">
+							<div class="post-grid__item">
+								<div class="posts__item posts__item--card posts__item--category-1 card">
+									<figure class="posts__thumb">
+										<div class="posts__cat">
+											<span class="label posts__cat-label">The Team</span>
+										</div>
+										<a href="#"><img src="{{../root}}assets/images/samples/post-img5.jpg" alt=""></a>
+									</figure>
+									<div class="posts__inner card__content">
+										<a href="#" class="posts__cta"></a>
+										<time datetime="2016-08-23" class="posts__date">August 23rd, 2016</time>
+										<h6 class="posts__title"><a href="#">The Alchemists team is appearing in L.A. Beach for charity</a></h6>
+										<div class="posts__excerpt">
+											Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.
+										</div>
+									</div>
+									<footer class="posts__footer card__footer">
+										<div class="post-author">
+											<figure class="post-author__avatar">
+												<img src="{{../root}}assets/images/samples/avatar-1.jpg" alt="Post Author Avatar">
+											</figure>
+											<div class="post-author__info">
+												<h4 class="post-author__name">James Spiegel</h4>
+											</div>
+										</div>
+										<ul class="post__meta meta">
+											<li class="meta__item meta__item--views">2369</li>
+											<li class="meta__item meta__item--likes"><a href="#"><i class="meta-like icon-heart"></i> 530</a></li>
+											<li class="meta__item meta__item--comments"><a href="#">18</a></li>
+										</ul>
+									</footer>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-6">
+						<div class="card">
+							<div class="card__content">
+								<ul class="posts posts--simple-list posts--simple-list--lg">
+
+									{{#each basketball.posts.posts-3}}
+									<li class="posts__item posts__item--{{category.class}}">
+										<div class="posts__inner">
+											<div class="posts__cat">
+												<span class="label posts__cat-label">{{category.name}}</span>
+											</div>
+											<h6 class="posts__title"><a href="#">{{title}}</a></h6>
+											<time datetime="2017-08-23" class="posts__date">{{date}}</time>
+											<div class="posts__excerpt">
+												{{excerpt}}
+											</div>
+										</div>
+									</li>
+									{{/each}}
+
+								</ul>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<!-- Post Area 2 / End -->
+
+
+				<!-- Main News Banner -->
+				<div class="main-news-banner main-news-banner--img-left">
+					<figure class="main-news-banner__img">
+						<img src="{{../root}}assets/images/samples/main-news-banner__img.png" alt="">
+					</figure>
+					<div class="main-news-banner__inner">
+						<div class="posts posts--simple-list posts--simple-list--xlg">
+							<div class="posts__item posts__item--category-1">
+								<div class="posts__inner">
+									<div class="posts__cat">
+										<span class="label posts__cat-label">The Team</span>
+									</div>
+									<h6 class="posts__title"><a href="#">Take a look at the brand <span class="text-primary">New Uniforms</span> for next season</a></h6>
+									<time datetime="2017-08-23" class="posts__date">August 23rd, 2017</time>
+									<div class="posts__excerpt">
+										Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor.
+									</div>
+									<div class="posts__more">
+										<a href="#" class="btn btn-inverse btn-sm btn-outline btn-icon-right btn-condensed">Read More <i class="fa fa-plus text-primary"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<!-- Main News Banner / End -->
+
+
+				<!-- Post Area 3 -->
+				<div class="posts posts--cards post-grid row">
+
+					{{#each basketball.posts.posts-4}}
+					<div class="post-grid__item col-sm-6">
+						<div class="posts__item posts__item--card posts__item--{{category.class}} card">
+							<figure class="posts__thumb">
+								<div class="posts__cat">
+									<span class="label posts__cat-label">{{category.name}}</span>
+								</div>
+								<a href="#"><img src="assets/images/samples/{{thumb}}.jpg" alt=""></a>
+							</figure>
+							<div class="posts__inner card__content">
+								<a href="#" class="posts__cta"></a>
+								<time datetime="2016-08-23" class="posts__date">{{date}}</time>
+								<h6 class="posts__title"><a href="#">{{title}}</a></h6>
+							</div>
+							<footer class="posts__footer card__footer">
+								<div class="post-author">
+									<figure class="post-author__avatar">
+										<img src="assets/images/samples/{{author.avatar}}.jpg" alt="Post Author Avatar">
+									</figure>
+									<div class="post-author__info">
+										<h4 class="post-author__name">{{author.name}}</h4>
+									</div>
+								</div>
+								<ul class="post__meta meta">
+									<li class="meta__item meta__item--views">{{meta.views}}</li>
+									<li class="meta__item meta__item--likes"><a href="#"><i class="meta-like icon-heart"></i> {{meta.likes}}</a></li>
+									<li class="meta__item meta__item--comments"><a href="#">{{meta.comments}}</a></li>
+								</ul>
+							</footer>
+						</div>
+					</div>
+					{{/each}}
+
+					<div class="clearfix hidden-md hidden-lg"></div>
+
+					{{#each basketball.posts.posts-5}}
+					<div class="post-grid__item col-sm-6">
+						<div class="posts__item posts__item--card posts__item--{{category.class}} card">
+							<figure class="posts__thumb">
+								<div class="posts__cat">
+									<span class="label posts__cat-label">{{category.name}}</span>
+								</div>
+								<a href="#"><img src="assets/images/samples/{{thumb}}.jpg" alt=""></a>
+							</figure>
+							<div class="posts__inner card__content">
+								<a href="#" class="posts__cta"></a>
+								<time datetime="2016-08-23" class="posts__date">{{date}}</time>
+								<h6 class="posts__title"><a href="#">{{title}}</a></h6>
+							</div>
+							<footer class="posts__footer card__footer">
+								<div class="post-author">
+									<figure class="post-author__avatar">
+										<img src="assets/images/samples/{{author.avatar}}.jpg" alt="Post Author Avatar">
+									</figure>
+									<div class="post-author__info">
+										<h4 class="post-author__name">{{author.name}}</h4>
+									</div>
+								</div>
+								<ul class="post__meta meta">
+									<li class="meta__item meta__item--views">{{meta.views}}</li>
+									<li class="meta__item meta__item--likes"><a href="#"><i class="meta-like icon-heart"></i> {{meta.likes}}</a></li>
+									<li class="meta__item meta__item--comments"><a href="#">{{meta.comments}}</a></li>
+								</ul>
+							</footer>
+						</div>
+					</div>
+					{{/each}}
+
+				</div>
+				<!-- Post Area 3 / End -->
+
+
+				<!-- Lates News -->
+				<div class="card card--clean">
+					<header class="card__header card__header--has-btn">
+						<h4>Latest News</h4>
+						<a href="#" class="btn btn-default btn-outline btn-xs card-header__button">See All Posts</a>
+					</header>
+					<div class="card__content">
+						<!-- Posts List -->
+						<div class="posts posts--cards posts--cards-thumb-left post-list">
+
+							{{#each basketball.posts.posts-6}}
+							<div class="post-list__item">
+								<div class="posts__item posts__item--card posts__item--{{category.class}} card card--block">
+									<figure class="posts__thumb">
+										<a href="#"><img src="{{../root}}assets/images/samples/{{thumb}}.jpg" alt=""></a>
+										<a href="#" class="posts__cta"></a>
+									</figure>
+									<div class="posts__inner">
+										<div class="card__content">
+											<div class="posts__cat">
+												<span class="label posts__cat-label">{{category.name}}</span>
+											</div>
+											<h6 class="posts__title"><a href="#">{{title}}</a></h6>
+											<time datetime="2016-08-17" class="posts__date">{{date}}</time>
+											<div class="posts__excerpt">
+												{{excerpt}}
+											</div>
+										</div>
+										<footer class="posts__footer card__footer">
+											<div class="post-author">
+												<figure class="post-author__avatar">
+													<img src="{{../root}}assets/images/samples/{{author.avatar}}.jpg" alt="Post Author Avatar">
+												</figure>
+												<div class="post-author__info">
+													<h4 class="post-author__name">{{author.name}}</h4>
+												</div>
+											</div>
+											<ul class="post__meta meta">
+												<li class="meta__item meta__item--views">{{meta.views}}</li>
+												<li class="meta__item meta__item--likes"><a href="#"><i class="meta-like icon-heart"></i> {{meta.likes}}</a></li>
+												<li class="meta__item meta__item--comments"><a href="#">{{meta.comments}}</a></li>
+											</ul>
+										</footer>
+									</div>
+								</div>
+							</div>
+							{{/each}}
+
+						</div>
+						<!-- Posts List / End -->
+					</div>
+				</div>
+				<!-- Lates News / End -->
+
+
+			</div>
+			<!-- Content / End -->
+
+			<!-- Sidebar -->
+			<div id="sidebar" class="sidebar col-md-4">
+
+				{{> widget-standings}}
+
+				{{> widget-social}}
+
+				{{> widget-popular-posts}}
+
+				{{> widget-player}}
+
+				{{> widget-game-result}}
+
+				{{> widget-tabbed}}
+
+				{{> widget-banner}}
+
+				{{> widget-newsletter}}
+
+				{{> widget-preview}}
+			</div>
+			<!-- Sidebar / End -->
+		</div>
+
+	</div>
+</div>
+
+<!-- Content / End -->

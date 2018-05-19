@@ -1,0 +1,57 @@
+/* Team Schedule & Tickets */
+.team-schedule {
+
+  .team-schedule__status,
+  .team-schedule__time {
+    text-align: center;
+  }
+
+  .team-schedule__date {
+    @media (min-width: 1200px) {
+      padding-left: 23px;
+    }
+  }
+
+  .team-schedule__tickets {
+    @media (min-width: 1200px) {
+      padding-right: 25px;
+    }
+  }
+
+    &.team-schedule--full {
+
+      .team-schedule__tickets {
+        @media (min-width: 1200px) {
+          padding-right: 70px
+        }
+      }
+    }
+
+  .team-schedule__compet {
+    @media (min-width: 1200px) {
+      width: 170px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+
+  .team-schedule__venue {
+    @media (min-width: 1200px) {
+      width: 200px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+
+  tbody {
+    .team-schedule__date,
+    .team-schedule__versus,
+    .team-schedule__status,
+    .team-schedule__time,
+    .team-schedule__compet,
+    .team-schedule__venue,
+    .team-schedule__tickets {
+      vertical-align: middle;
+    }
+  }
+}

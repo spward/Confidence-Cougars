@@ -1,0 +1,95 @@
+/* Spacers */
+.spacer {
+	height: 30px;
+	overflow: hidden;
+}
+.spacer-sm {
+	height: 15px;
+	overflow: hidden;
+}
+.spacer-xs {
+	height: 10px;
+	overflow: hidden;
+}
+.spacer-lg {
+	height: 45px;
+	overflow: hidden;
+}
+.spacer-xlg {
+	height: 60px;
+	overflow: hidden;
+}
+.spacer-xxlg {
+	height: 90px;
+	overflow: hidden;
+}
+
+
+/* Color Pallete */
+.df-color-pallete {
+	list-style-type: none;
+	display: flex;
+	padding: 0;
+	margin: 0;
+
+	@media (max-width: 767px) {
+		flex-wrap: wrap;
+	}
+}
+	.df-color-pallete__item {
+		height: 120px;
+		flex-grow: 1;
+		@include font-accent(10px);
+		color: #fff;
+		line-height: 1.2em;
+		text-align: center;
+		line-height: 120px;
+
+		@media (max-width: 767px) {
+			flex-basis: 25%;
+		}
+
+		@media (max-width: 479px) {
+			flex-basis: 50%;
+		}
+
+		&.color-dark {
+			background-color: $color-dark;
+		}
+		&.color-dark-lighten {
+			background-color: $color-dark-lighten;
+		}
+		&.color-2 {
+			background-color: $color-2;
+		}
+		&.color-3 {
+			background-color: $color-3;
+		}
+		&.color-4 {
+			background-color: $color-4;
+		}
+		@if $template == 'football' {
+			&.color-4-darken {
+				background-color: $color-4-darken;
+			}
+		}
+		&.color-gray {
+			background-color: $color-gray;
+		}
+
+		@if $template == 'football' {
+			&.color-gray-2 {
+				background-color: $color-gray-2;
+			}
+			&.color-gray-3 {
+				background-color: $color-gray-3;
+			}
+		}
+
+		&.color-primary {
+			background-color: $color-primary;
+		}
+		&.color-primary-darken {
+			background-color: $color-primary-darken;
+		}
+	}

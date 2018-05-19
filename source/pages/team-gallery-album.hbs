@@ -1,0 +1,61 @@
+---
+page-title: Album
+page-heading: "Single <span class=\"highlight\">Album</span>"
+
+breadcrumbs: [
+	{
+		label: "Team",
+		link: "team-overview.html"
+	},
+	{
+		label: "Gallery",
+		link: "team-gallery.html"
+	},
+	{
+		label: "Album"
+	}
+]
+---
+
+<!-- Content
+================================================== -->
+<div class="site-content">
+
+	<div class="container">
+		<div class="content-title">
+			<h2 class="content-title__h">Photoshoot for 2017</h2>
+			<a href="team-gallery.html" class="btn btn-xs btn-default btn-outline">Go Back to the Albums</a>
+		</div>
+	</div>
+
+	<!-- Album -->
+	<div class="album album--condensed container-fluid">
+		<div class="row">
+			{{#each basketball.sp.team.album}}
+			<div class="album__item {{col}}">
+				<div class="album__item-holder">
+					<a href="{{../root}}assets/images/samples/{{imgs.full}}" class="album__item-link mp_gallery">
+						<figure class="album__thumb">
+							<img src="{{../root}}assets/images/samples/{{imgs.thumb}}" alt="">
+						</figure>
+						<div class="album__item-desc">
+							<h4 class="album__item-title">{{title}}</h4>
+							<time class="album__item-date" datetime="2016-08-23">{{date}}</time>
+							<span class="album__item-btn-fab btn-fab btn-fab--clean"></span>
+						</div>
+					</a>
+					<ul class="album__item-meta meta">
+						<li class="meta__item meta__item--likes"><a href="#"><i class="meta-like meta-like--active icon-heart"></i> {{meta.likes}}</a></li>
+					</ul>
+				</div>
+			</div>
+			{{/each}}
+		</div>
+	</div>
+	<!-- Gallery Album / End -->
+
+	{{> team-album-load-more}}
+
+</div>
+
+<!-- Content / End -->

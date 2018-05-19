@@ -1,0 +1,22 @@
+/* Images
+/* ------------------------- */
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.aligncenter {
+	text-align: center;
+	margin-bottom: 20px;
+
+	figcaption {
+		padding: 14px;
+		font-size: 13px;
+	}
+}
+
+// Figure
+figure {
+	margin: 0;
+}

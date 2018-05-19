@@ -1,0 +1,18 @@
+/* Team Glossary */
+.glossary {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+  .glossary__item {
+    flex-basis: 25%;
+    font-family: $font-family-accent;
+    font-size: 11px;
+    line-height: 1.2em;
+    padding: 8px 0;
+  }
+    .glossary__abbr {
+      font-weight: 700;
+      color: $headings-color;
+      text-transform: uppercase;
+    }

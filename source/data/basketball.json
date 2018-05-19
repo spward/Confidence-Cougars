@@ -1,0 +1,4297 @@
+{
+	"site-title": "Alchemists Basketball Club & Sports News HTML Template",
+	"template": "basketball",
+	"fonts": "Montserrat:400,700%7CSource+Sans+Pro:400,700",
+	"posts": {
+		"featured-carousel": [
+			{
+				"title": "Alchemists women team tryouts will start in January",
+				"thumb": "featured-carousel-2",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"date": "June 8th, 2018",
+				"meta": {
+					"views": "2369",
+					"likes": "530",
+					"comments": "18"
+				}
+			},
+			{
+				"title": "Checkout the new ride of our best player of the season",
+				"thumb": "featured-carousel-3",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"date": "August 23rd, 2018",
+				"meta": {
+					"views": "2369",
+					"likes": "530",
+					"comments": "18"
+				}
+			},
+			{
+				"title": "All the players are taking a team trip this summer",
+				"thumb": "featured-carousel-1",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"date": "August 23rd, 2018",
+				"meta": {
+					"views": "2369",
+					"likes": "530",
+					"comments": "18"
+				}
+			},
+			{
+				"title": "Alchemists women team tryouts will start in January",
+				"thumb": "featured-carousel-2",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"date": "August 23rd, 2018",
+				"meta": {
+					"views": "2369",
+					"likes": "530",
+					"comments": "18"
+				}
+			},
+			{
+				"title": "All the players are taking a team trip this summer",
+				"thumb": "featured-carousel-1",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"date": "August 23rd, 2018",
+				"meta": {
+					"views": "2369",
+					"likes": "530",
+					"comments": "18"
+				}
+			}
+		],
+		"posts-1": [
+			{
+				"title": "The Planettroters will <span class=\"posts__title-higlight\">perform this May 4th</span> at Madison Cube",
+				"thumb": "post-slide1",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"author": {
+					"name": "Jesse Stevens",
+					"avatar": "avatar-4"
+				},
+				"date": "August 28th, 2018"
+			},
+			{
+				"title": "New York is preparing all <span class=\"posts__title-higlight\">for the Playoffs Final</span> next December",
+				"thumb": "post-slide2",
+				"category": {
+					"class": "category-3",
+					"name": "Playoffs"
+				},
+				"author": {
+					"name": "James Spiegel",
+					"avatar": "avatar-1"
+				},
+				"date": "June 28th, 2018"
+			},
+			{
+				"title": "The new eco friendly <span class=\"posts__title-higlight\">stadium won a Leafy</span> Award in 2016",
+				"thumb": "post-slide3",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"author": {
+					"name": "James Spiegel",
+					"avatar": "avatar-1"
+				},
+				"date": "June 28th, 2018"
+			},
+			{
+				"title": "New York Islanders are <span class=\"posts__title-higlight\">now flying to California</span> for the big game",
+				"thumb": "post-slide4",
+				"category": {
+					"class": "category-3",
+					"name": "Playoffs"
+				},
+				"author": {
+					"name": "James Spiegel",
+					"avatar": "avatar-1"
+				},
+				"date": "June 28th, 2018"
+			},
+			{
+				"title": "Jeremy Rittersen was <span class=\"posts__title-higlight\">called to be</span> in the National Team",
+				"thumb": "post-slide6",
+				"category": {
+					"class": "category-3",
+					"name": "Playoffs"
+				},
+				"author": {
+					"name": "Jessica Hoops",
+					"avatar": "avatar-2"
+				},
+				"date": "May 24th, 2018"
+			},
+			{
+				"title": "Jessica Valentine has a <span class=\"posts__title-higlight\">sprained ankle</span> and won't be in the Final",
+				"thumb": "post-slide5",
+				"category": {
+					"class": "category-2",
+					"name": "Injuries"
+				},
+				"author": {
+					"name": "Jesse Stevens",
+					"avatar": "avatar-4"
+				},
+				"date": "April 12th, 2018"
+			}
+		],
+		"posts-2": [
+			{
+				"title": "Michael Bryan was chosen again as best player with 45 points",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.",
+				"thumb": "post-img6",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"author": {
+					"name": "Jesse Stevens",
+					"avatar": "avatar-4"
+				},
+				"date": "August 23rd, 2018",
+				"meta": {
+					"views": "2369",
+					"likes": "530",
+					"comments": "18"
+				}
+			},
+			{
+				"title": "The new eco friendly stadium won a Leafy Award in 2016",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.",
+				"thumb": "post-img3",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"author": {
+					"name": "Jessica Hoops",
+					"avatar": "avatar-2"
+				},
+				"date": "August 23rd, 2018",
+				"meta": {
+					"views": "2369",
+					"likes": "530",
+					"comments": "18"
+				}
+			}
+		],
+		"posts-3": [
+			{
+				"title": "Trainings are getting really hard reaching the final",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor incididunt ut labore...",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"date": "August 23rd, 2018"
+			},
+			{
+				"title": "The victory againts The Sharks brings us closer to the Final",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor incididunt ut labore...",
+				"category": {
+					"class": "category-3",
+					"name": "Playoffs"
+				},
+				"date": "February 2nd, 2018"
+			},
+			{
+				"title": "The next match against The Clovers will be this Friday",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor incididunt ut labore...",
+				"category": {
+					"class": "category-3",
+					"name": "Playoffs"
+				},
+				"date": "November 27th, 2017"
+			}
+		],
+		"posts-4": [
+			{
+				"title": "Mark Johnson has a Tibia Fracture and is gonna be out",
+				"thumb": "post-img1",
+				"category": {
+					"class": "category-2",
+					"name": "Injuries"
+				},
+				"author": {
+					"name": "James Spiegel",
+					"avatar": "avatar-1"
+				},
+				"date": "August 23rd, 2018",
+				"meta": {
+					"views": "2369",
+					"likes": "530",
+					"comments": "18"
+				}
+			},
+			{
+				"title": "Jay Rorks is only 24 points away from breaking the record",
+				"thumb": "post-img7",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"author": {
+					"name": "Jessica Hoops",
+					"avatar": "avatar-2"
+				},
+				"date": "July 12th, 2018",
+				"meta": {
+					"views": "2369",
+					"likes": "530",
+					"comments": "18"
+				}
+			}
+		],
+		"posts-5": [
+			{
+				"title": "The team is starting a new power breakfast regimen",
+				"thumb": "post-img8",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"author": {
+					"name": "James Spiegel",
+					"avatar": "avatar-1"
+				},
+				"date": "February 24th, 2018",
+				"meta": {
+					"views": "2369",
+					"likes": "530",
+					"comments": "18"
+				}
+			},
+			{
+				"title": "Cheerleader tryouts will start next Friday at 5pm",
+				"thumb": "post-img2",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"author": {
+					"name": "James Spiegel",
+					"avatar": "avatar-1"
+				},
+				"date": "January 2nd, 2018",
+				"meta": {
+					"views": "2369",
+					"likes": "530",
+					"comments": "18"
+				}
+			}
+		],
+		"posts-6": [
+			{
+				"title": "The team is taking a summer vacation on Woody Valley",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+				"thumb": "post-img9-m",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"author": {
+					"name": "Jessica Hoops",
+					"avatar": "avatar-2"
+				},
+				"date": "August 17th, 2018",
+				"meta": {
+					"views": "2369",
+					"likes": "530",
+					"comments": "18"
+				}
+			},
+			{
+				"title": "Jeremy Rittersen was called to be in the National Team",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+				"thumb": "post-img10-m",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"author": {
+					"name": "James Spiegel",
+					"avatar": "avatar-1"
+				},
+				"date": "August 12th, 2018",
+				"meta": {
+					"views": "2369",
+					"likes": "530",
+					"comments": "18"
+				}
+			},
+			{
+				"title": "Alchemists New Stadium is gonna be ready in September 2017",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+				"thumb": "post-img11-m",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"author": {
+					"name": "Jessica Hoops",
+					"avatar": "avatar-2"
+				},
+				"date": "July 14th, 2018",
+				"meta": {
+					"views": "2369",
+					"likes": "530",
+					"comments": "18"
+				}
+			},
+			{
+				"title": "The Championship Final will be be played in San Francisco",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+				"thumb": "post-img14-m",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"author": {
+					"name": "Jessica Hoops",
+					"avatar": "avatar-2"
+				},
+				"date": "June 2nd, 2018",
+				"meta": {
+					"views": "2369",
+					"likes": "530",
+					"comments": "18"
+				}
+			}
+		],
+		"posts-7": [
+			{
+				"title": "The new eco friendly stadium won a Leafy Award in 2016",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.",
+				"thumb": "post-img14-m",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"author": {
+					"name": "James Spiegel",
+					"avatar": "avatar-1.jpg"
+				},
+				"date": "August 23rd, 2018",
+				"meta": {
+					"likes": "530",
+					"comments": "18"
+				}
+			},
+			{
+				"title": "Mark Johnson has a Tibia Fracture and is gonna be out",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.",
+				"thumb": "post-img14-m",
+				"category": {
+					"class": "category-2",
+					"name": "Injuries"
+				},
+				"author": {
+					"name": "Jessica Hoops",
+					"avatar": "avatar-2.jpg"
+				},
+				"date": "August 23rd, 2018",
+				"meta": {
+					"likes": "530",
+					"comments": "18"
+				}
+			}
+		],
+		"posts-8": [
+			{
+				"title": "New York is preparing all <span class=\"posts__title-higlight\">for the Playoffs Final</span> next December",
+				"thumb": "post-slide2",
+				"category": {
+					"class": "category-3",
+					"name": "Playoffs"
+				},
+				"author": {
+					"name": "James Spiegel",
+					"avatar": "avatar-1"
+				},
+				"date": "June 28th, 2018"
+			},
+			{
+				"title": "The new eco friendly <span class=\"posts__title-higlight\">stadium won a Leafy</span> Award in 2016",
+				"thumb": "post-slide3",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"author": {
+					"name": "James Spiegel",
+					"avatar": "avatar-1"
+				},
+				"date": "June 28th, 2018"
+			},
+			{
+				"title": "New York Islanders are <span class=\"posts__title-higlight\">now flying to California</span> for the big game",
+				"thumb": "post-slide4",
+				"category": {
+					"class": "category-3",
+					"name": "Playoffs"
+				},
+				"author": {
+					"name": "James Spiegel",
+					"avatar": "avatar-1"
+				},
+				"date": "June 28th, 2018"
+			},
+			{
+				"title": "Jeremy Rittersen was <span class=\"posts__title-higlight\">called to be</span> in the National Team",
+				"thumb": "post-slide6",
+				"category": {
+					"class": "category-3",
+					"name": "Playoffs"
+				},
+				"author": {
+					"name": "Jessica Hoops",
+					"avatar": "avatar-2"
+				},
+				"date": "May 24th, 2018"
+			},
+			{
+				"title": "Jessica Valentine has a <span class=\"posts__title-higlight\">sprained ankle</span> and won't be in the Final",
+				"thumb": "post-slide5",
+				"category": {
+					"class": "category-2",
+					"name": "Injuries"
+				},
+				"author": {
+					"name": "Jesse Stevens",
+					"avatar": "avatar-4"
+				},
+				"date": "April 12th, 2018"
+			}
+		],
+		"posts-9": [
+			{
+				"title": "The new eco friendly stadium won a Leafy Award in 2016",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.",
+				"thumb": "post-img3",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"author": {
+					"name": "Jessica Hoops",
+					"avatar": "avatar-2.jpg"
+				},
+				"date": "August 23rd, 2018",
+				"meta": {
+					"views": 2369,
+					"likes": 530,
+					"comments": 18
+				}
+			},
+			{
+				"title": "The Alchemists team is appearing in L.A. Beach for charity",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.",
+				"thumb": "post-img5",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"author": {
+					"name": "James Spiegel",
+					"avatar": "avatar-1.jpg"
+				},
+				"date": "August 23rd, 2018",
+				"meta": {
+					"views": 2369,
+					"likes": 530,
+					"comments": 18
+				}
+			}
+		],
+		"posts-10": [
+			{
+				"title": "The Alchemists are close to land a big sponsor contract",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"date": "August 23rd, 2018"
+			},
+			{
+				"title": "Thomas Durry has a hand injury and will come back in September",
+				"category": {
+					"class": "category-2",
+					"name": "Injuries"
+				},
+				"date": "August 23rd, 2018"
+			},
+			{
+				"title": "The team will attend a charity event in Malibu next Saturday",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"date": "August 23rd, 2018"
+			}
+		],
+		"posts-11": [
+			{
+				"title": "Mark Johnson has a Tibia Fracture and is gonna be out",
+				"thumb": "post-img1",
+				"category": {
+					"class": "category-2",
+					"name": "Injuries"
+				},
+				"author": {
+					"name": "James Spiegel",
+					"avatar": "avatar-1.jpg"
+				},
+				"date": "August 23rd, 2018",
+				"meta": {
+					"views": 2369,
+					"likes": 530,
+					"comments": 18
+				}
+			},
+			{
+				"title": "Jay Rorks is only 24 points away from breaking the record",
+				"thumb": "post-img7",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"author": {
+					"name": "Jessica Hoops",
+					"avatar": "avatar-2.jpg"
+				},
+				"date": "August 23rd, 2018",
+				"meta": {
+					"views": 2369,
+					"likes": 530,
+					"comments": 18
+				}
+			},
+			{
+				"title": "The team is starting a new power breakfast regimen",
+				"thumb": "post-img8",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"author": {
+					"name": "James Spiegel",
+					"avatar": "avatar-1.jpg"
+				},
+				"date": "August 23rd, 2018",
+				"meta": {
+					"views": 2369,
+					"likes": 530,
+					"comments": 18
+				}
+			},
+			{
+				"title": "Cheerleader tryouts will start next Friday at 5pm",
+				"thumb": "post-img2",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"author": {
+					"name": "James Spiegel",
+					"avatar": "avatar-1.jpg"
+				},
+				"date": "August 23rd, 2018",
+				"meta": {
+					"views": 2369,
+					"likes": 530,
+					"comments": 18
+				}
+			},
+			{
+				"title": "Jeremy Rittersen was called to be in the National Team",
+				"thumb": "post-img10",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"author": {
+					"name": "Jessica Hoops",
+					"avatar": "avatar-2.jpg"
+				},
+				"date": "August 23rd, 2018",
+				"meta": {
+					"views": 2369,
+					"likes": 530,
+					"comments": 18
+				}
+			},
+			{
+				"isquote": true,
+				"content": "The most <span class=\"blockquote-stress\">important</span> thing about basketball is <span class=\"blockquote-stress\">the passion</span> you feel",
+				"author": {
+					"name": "Markus Keymore",
+					"info": "Alchemists Coach"
+				}
+			},
+			{
+				"title": "The team is taking a summer vacation on Woody Valley",
+				"thumb": "post-img9",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"author": {
+					"name": "James Spiegel",
+					"avatar": "avatar-1.jpg"
+				},
+				"date": "August 23rd, 2018",
+				"meta": {
+					"views": 2369,
+					"likes": 530,
+					"comments": 18
+				}
+			},
+			{
+				"title": "Alchemists New Stadium is gonna be ready in September 2017",
+				"thumb": "post-img11",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"author": {
+					"name": "Jessica Hoops",
+					"avatar": "avatar-2.jpg"
+				},
+				"date": "August 23rd, 2018",
+				"meta": {
+					"views": 2369,
+					"likes": 530,
+					"comments": 18
+				}
+			}
+		],
+		"posts-12": [
+			{
+				"title": "Training are getting really hard reaching the Final",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.",
+				"thumb": "post-img15",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"author": {
+					"name": "James Spiegel",
+					"avatar": "avatar-1.jpg"
+				},
+				"date": "August 23rd, 2018",
+				"meta": {
+					"views": 2369,
+					"likes": 530,
+					"comments": 18
+				}
+			},
+			{
+				"title": "The Alchemists team is appearing in L.A. beach for charity",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.",
+				"thumb": "post-img5",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"author": {
+					"name": "James Spiegel",
+					"avatar": "avatar-1.jpg"
+				},
+				"date": "August 23rd, 2018",
+				"meta": {
+					"views": 2369,
+					"likes": 530,
+					"comments": 18
+				}
+			},
+			{
+				"title": "Mark Johnson has a Tibia Fracture and is gonna be out",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.",
+				"thumb": "post-img11",
+				"category": {
+					"class": "category-2",
+					"name": "Injuries"
+				},
+				"author": {
+					"name": "James Spiegel",
+					"avatar": "avatar-1.jpg"
+				},
+				"date": "August 23rd, 2018",
+				"meta": {
+					"views": 2369,
+					"likes": 530,
+					"comments": 18
+				}
+			},
+			{
+				"title": "Jay Rorks is only 24 points away from breaking the record",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.",
+				"thumb": "post-img7",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"author": {
+					"name": "Jessica Hoops",
+					"avatar": "avatar-2.jpg"
+				},
+				"date": "August 23rd, 2018",
+				"meta": {
+					"views": 2369,
+					"likes": 530,
+					"comments": 18
+				}
+			},
+			{
+				"title": "The team is starting a new power breakfast regimen",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.",
+				"thumb": "post-img8",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"author": {
+					"name": "James Spiegel",
+					"avatar": "avatar-1.jpg"
+				},
+				"date": "August 23rd, 2018",
+				"meta": {
+					"views": 2369,
+					"likes": 530,
+					"comments": 18
+				}
+			},
+			{
+				"title": "Cheerleader tryouts will start next Friday at 5pm",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.",
+				"thumb": "post-img2",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"author": {
+					"name": "James Spiegel",
+					"avatar": "avatar-1.jpg"
+				},
+				"date": "August 23rd, 2018",
+				"meta": {
+					"views": 2369,
+					"likes": 530,
+					"comments": 18
+				}
+			}
+		],
+		"posts-13": [
+			{
+				"title": "The team is taking a summer vacation on Woody Valley",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+				"thumb": "post-img9-m",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"author": {
+					"name": "Jessica Hoops",
+					"avatar": "avatar-2.jpg"
+				},
+				"date": "August 17th, 2018",
+				"meta": {
+					"views": 2369,
+					"likes": 530,
+					"comments": 18
+				}
+			},
+			{
+				"title": "Jeremy Rittersen was called to be in the National Team",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+				"thumb": "post-img10-m",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"author": {
+					"name": "James Spiegel",
+					"avatar": "avatar-1.jpg"
+				},
+				"date": "August 17th, 2018",
+				"meta": {
+					"views": 2369,
+					"likes": 530,
+					"comments": 18
+				}
+			},
+			{
+				"title": "Alchemists New Stadium is gonna be ready in September 2017",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+				"thumb": "post-img11-m",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"author": {
+					"name": "Jessica Hoops",
+					"avatar": "avatar-1.jpg"
+				},
+				"date": "August 17th, 2018",
+				"meta": {
+					"views": 2369,
+					"likes": 530,
+					"comments": 18
+				}
+			}
+		],
+		"posts-video": [
+			{
+				"title": "Cheerleader tryouts will start next Friday at 5pm",
+				"thumb": "video-slide1",
+				"video": "https://www.youtube.com/watch?v=XE0fU9PCrWE",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"date": "August 28th, 2018"
+			},
+			{
+				"title": "Spectacular view from the top of the stadium",
+				"thumb": "video-slide2",
+				"video": "https://vimeo.com/68384616",
+				"category": {
+					"class": "category-3",
+					"name": "Playoffs"
+				},
+				"date": "August 28th, 2018"
+			},
+			{
+				"title": "\"Shiw Wow\" is the Alchemists new pet, check him out!",
+				"thumb": "video-slide3",
+				"video": "https://www.youtube.com/watch?v=87FAolfQ0LY",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"date": "August 28th, 2018"
+			},
+			{
+				"title": "Mark Johnson has a Tibia Fracture and is gonna be out",
+				"thumb": "video-slide4",
+				"video": "https://www.youtube.com/watch?v=ck0MCCIFD-o",
+				"category": {
+					"class": "category-2",
+					"name": "Injuries"
+				},
+				"date": "August 28th, 2018"
+			},
+			{
+				"title": "Cheerleader tryouts will start next Friday at 5pm",
+				"thumb": "video-slide5",
+				"video": "https://www.youtube.com/watch?v=XE0fU9PCrWE",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"date": "August 28th, 2018"
+			},
+			{
+				"title": "Spectacular view from the top of the stadium",
+				"thumb": "video-slide6",
+				"video": "https://www.youtube.com/watch?v=ab0TSkLe-E0",
+				"category": {
+					"class": "category-3",
+					"name": "Playoffs"
+				},
+				"date": "August 28th, 2018"
+			},
+			{
+				"title": "\"Shiw Wow\" is the Alchemists new pet, check him out!",
+				"thumb": "video-slide7",
+				"video": "https://vimeo.com/68384616",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"date": "August 28th, 2018"
+			},
+			{
+				"title": "Mark Johnson has a Tibia Fracture and is gonna be out",
+				"thumb": "video-slide8",
+				"video": "https://www.youtube.com/watch?v=XE0fU9PCrWE",
+				"category": {
+					"class": "category-2",
+					"name": "Injuries"
+				},
+				"date": "August 28th, 2018"
+			}
+		],
+		"news-1": [
+			{
+				"title": "The Planetrotters will perform this May 4th at Madison Cube",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.",
+				"thumb": "post-img4.jpg",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"author": {
+					"name": "James Spiegel",
+					"avatar": "avatar-1.jpg"
+				},
+				"date": "August 23rd, 2018",
+				"meta": {
+					"views": 2369,
+					"likes": 530,
+					"comments": 18
+				}
+			},
+			{
+				"title": "The new eco friendly stadium won a Leafy Award in 2016",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.",
+				"thumb": "post-img3.jpg",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"author": {
+					"name": "Jessica Hoops",
+					"avatar": "avatar-2.jpg"
+				},
+				"date": "August 23rd, 2018",
+				"meta": {
+					"views": 2369,
+					"likes": 530,
+					"comments": 18
+				}
+			},
+			{
+				"title": "The Alchemists team is appearing in L.A. Beach for charity",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.",
+				"thumb": "post-img5.jpg",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"author": {
+					"name": "James Spiegel",
+					"avatar": "avatar-1.jpg"
+				},
+				"date": "August 23rd, 2018",
+				"meta": {
+					"views": 2369,
+					"likes": 530,
+					"comments": 18
+				}
+			},
+			{
+				"title": "Michael Bryan was chosen again as best player with 45 points",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.",
+				"thumb": "post-img6.jpg",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"author": {
+					"name": "James Spiegel",
+					"avatar": "avatar-1.jpg"
+				},
+				"date": "August 23rd, 2018",
+				"meta": {
+					"views": 2369,
+					"likes": 530,
+					"comments": 18
+				}
+			},
+			{
+				"title": "Mark Johnson has a Tibia Fracture and is gonna be out",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.",
+				"thumb": "post-img1.jpg",
+				"category": {
+					"class": "category-2",
+					"name": "Injuries"
+				},
+				"author": {
+					"name": "James Spiegel",
+					"avatar": "avatar-1.jpg"
+				},
+				"date": "August 23rd, 2018",
+				"meta": {
+					"views": 2369,
+					"likes": 530,
+					"comments": 18
+				}
+			},
+			{
+				"title": "Jay Rorks is only 24 points away from breaking the record",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.",
+				"thumb": "post-img7.jpg",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"author": {
+					"name": "Jessica Hoops",
+					"avatar": "avatar-2.jpg"
+				},
+				"date": "August 23rd, 2018",
+				"meta": {
+					"views": 2369,
+					"likes": 530,
+					"comments": 18
+				}
+			},
+			{
+				"title": "The team is starting a new power breakfast regimen",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.",
+				"thumb": "post-img8.jpg",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"author": {
+					"name": "James Spiegel",
+					"avatar": "avatar-1.jpg"
+				},
+				"date": "August 23rd, 2018",
+				"meta": {
+					"views": 2369,
+					"likes": 530,
+					"comments": 18
+				}
+			},
+			{
+				"title": "Cheerleader tryouts will start next Friday at 5pm",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.",
+				"thumb": "post-img2.jpg",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"author": {
+					"name": "James Spiegel",
+					"avatar": "avatar-1.jpg"
+				},
+				"date": "August 23rd, 2018",
+				"meta": {
+					"views": 2369,
+					"likes": 530,
+					"comments": 18
+				}
+			}
+		],
+		"news-2": [
+			{
+				"title": "The Planetrotters will perform this May 4th at Madison Cube",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+				"thumb": "post-img4-m.jpg",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"author": {
+					"name": "James Spiegel",
+					"avatar": "avatar-1.jpg"
+				},
+				"date": "August 23rd, 2018",
+				"meta": {
+					"views": 2369,
+					"likes": 530,
+					"comments": 18
+				}
+			},
+			{
+				"title": "The new eco friendly stadium won a Leafy Award in 2016",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+				"thumb": "post-img3-m.jpg",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"author": {
+					"name": "Jessica Hoops",
+					"avatar": "avatar-2.jpg"
+				},
+				"date": "August 23rd, 2018",
+				"meta": {
+					"views": 2369,
+					"likes": 530,
+					"comments": 18
+				}
+			},
+			{
+				"title": "The Alchemists team is appearing in L.A. Beach for charity",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+				"thumb": "post-img5-m.jpg",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"author": {
+					"name": "James Spiegel",
+					"avatar": "avatar-1.jpg"
+				},
+				"date": "August 23rd, 2018",
+				"meta": {
+					"views": 2369,
+					"likes": 530,
+					"comments": 18
+				}
+			},
+			{
+				"title": "Mark Johnson has a Tibia Fracture and is gonna be out",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+				"thumb": "post-img1-m.jpg",
+				"category": {
+					"class": "category-2",
+					"name": "Injuries"
+				},
+				"author": {
+					"name": "James Spiegel",
+					"avatar": "avatar-1.jpg"
+				},
+				"date": "August 23rd, 2018",
+				"meta": {
+					"views": 2369,
+					"likes": 530,
+					"comments": 18
+				}
+			},
+			{
+				"title": "The team is taking a summer vacation on Woody Valley",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+				"thumb": "post-img9-m.jpg",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"author": {
+					"name": "Jessica Hoops",
+					"avatar": "avatar-1.jpg"
+				},
+				"date": "August 23rd, 2018",
+				"meta": {
+					"views": 2369,
+					"likes": 530,
+					"comments": 18
+				}
+			},
+			{
+				"title": "Jeremy Rittersen was called to be in the National Team",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+				"thumb": "post-img10-m.jpg",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"author": {
+					"name": "James Spiegel",
+					"avatar": "avatar-1.jpg"
+				},
+				"date": "August 23rd, 2018",
+				"meta": {
+					"views": 2369,
+					"likes": 530,
+					"comments": 18
+				}
+			},
+			{
+				"title": "Alchemists New Stadium is gonna be ready in September 2017",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+				"thumb": "post-img11-m.jpg",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"author": {
+					"name": "Jessica Hoops",
+					"avatar": "avatar-2.jpg"
+				},
+				"date": "August 23rd, 2018",
+				"meta": {
+					"views": 2369,
+					"likes": 530,
+					"comments": 18
+				}
+			}
+		],
+		"news-3": [
+			{
+				"title": "The Planetrotters will perform this May 4th at Madison Cube",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore ere magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.",
+				"thumb": "post-img4-lg.jpg",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"author": {
+					"name": "James Spiegel",
+					"avatar": "avatar-1.jpg"
+				},
+				"date": "August 23rd, 2018",
+				"meta": {
+					"views": 2369,
+					"likes": 530,
+					"comments": 18
+				}
+			},
+			{
+				"title": "The new eco friendly stadium won a Leafy Award in 2016",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore ere magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.",
+				"thumb": "post-img3-lg.jpg",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"author": {
+					"name": "James Spiegel",
+					"avatar": "avatar-1.jpg"
+				},
+				"date": "August 23rd, 2018",
+				"meta": {
+					"views": 2369,
+					"likes": 530,
+					"comments": 18
+				}
+			},
+			{
+				"title": "Mark Johnson has a Tibia Fracture and is gonna be out",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore ere magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.",
+				"thumb": "post-img1-lg.jpg",
+				"category": {
+					"class": "category-2",
+					"name": "Injuries"
+				},
+				"author": {
+					"name": "James Spiegel",
+					"avatar": "avatar-1.jpg"
+				},
+				"date": "August 23rd, 2018",
+				"meta": {
+					"views": 2369,
+					"likes": 530,
+					"comments": 18
+				}
+			},
+			{
+				"title": "The team is starting a new power breakfast regimen",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore ere magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.",
+				"thumb": "post-img8-lg.jpg",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"author": {
+					"name": "James Spiegel",
+					"avatar": "avatar-1.jpg"
+				},
+				"date": "August 23rd, 2018",
+				"meta": {
+					"views": 2369,
+					"likes": 530,
+					"comments": 18
+				}
+			}
+		],
+		"news-4": [
+			{
+				"title": "The Planetrotters will perform this May 4th at Madison Cube",
+				"thumb": "post-img4.jpg",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"author": {
+					"name": "James Spiegel",
+					"avatar": "avatar-1.jpg"
+				},
+				"date": "August 23rd, 2018",
+				"meta": {
+					"views": 2369,
+					"likes": 530,
+					"comments": 18
+				}
+			},
+			{
+				"title": "The new eco friendly stadium won a Leafy Award in 2016",
+				"thumb": "post-img3.jpg",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"author": {
+					"name": "Jessica Hoops",
+					"avatar": "avatar-2.jpg"
+				},
+				"date": "August 23rd, 2018",
+				"meta": {
+					"views": 2369,
+					"likes": 530,
+					"comments": 18
+				}
+			},
+			{
+				"title": "The Alchemists team is appearing in L.A. Beach for charity",
+				"thumb": "post-img5.jpg",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"author": {
+					"name": "James Spiegel",
+					"avatar": "avatar-1.jpg"
+				},
+				"date": "August 23rd, 2018",
+				"meta": {
+					"views": 2369,
+					"likes": 530,
+					"comments": 18
+				}
+			},
+			{
+				"title": "Mark Johnson has a Tibia Fracture and is gonna be out",
+				"thumb": "post-img1.jpg",
+				"category": {
+					"class": "category-2",
+					"name": "Injuries"
+				},
+				"author": {
+					"name": "James Spiegel",
+					"avatar": "avatar-1.jpg"
+				},
+				"date": "August 23rd, 2018",
+				"meta": {
+					"views": 2369,
+					"likes": 530,
+					"comments": 18
+				}
+			},
+			{
+				"format": "quote",
+				"content": "The most <span class=\"blockquote-stress\">important</span> thing about basketball is <span class=\"blockquote-stress\">the passion</span> you feel",
+				"author": {
+					"name": "Markus Keymore",
+					"info": "Alchemists Coach"
+				}
+			},
+			{
+				"title": "The team will attend a charity event in Malibu this Saturday",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"author": {
+					"name": "James Spiegel",
+					"avatar": "avatar-1.jpg"
+				},
+				"date": "August 23rd, 2018",
+				"meta": {
+					"views": 2369,
+					"likes": 530,
+					"comments": 18
+				}
+			},
+			{
+				"title": "Jay Rorks is only 24 points away from breaking the record",
+				"thumb": "post-img7.jpg",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"author": {
+					"name": "Jessica Hoops",
+					"avatar": "avatar-2.jpg"
+				},
+				"date": "August 23rd, 2018",
+				"meta": {
+					"views": 2369,
+					"likes": 530,
+					"comments": 18
+				}
+			},
+			{
+				"title": "Alchemists are starting a new power breakfast program",
+				"thumb": "post-img13.jpg",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"author": {
+					"name": "Jessica Hoops",
+					"avatar": "avatar-2.jpg"
+				},
+				"date": "August 23rd, 2018",
+				"meta": {
+					"views": 2369,
+					"likes": 530,
+					"comments": 18
+				}
+			},
+			{
+				"title": "Jeremy Rittersen was called to be in the National Team",
+				"thumb": "post-img10.jpg",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"author": {
+					"name": "Jessica Hoops",
+					"avatar": "avatar-2.jpg"
+				},
+				"date": "August 23rd, 2018",
+				"meta": {
+					"views": 2369,
+					"likes": 530,
+					"comments": 18
+				}
+			},
+			{
+				"title": "Cheerleader tryouts will start next Friday at 5pm",
+				"thumb": "post-img2.jpg",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"author": {
+					"name": "James Spiegel",
+					"avatar": "avatar-1.jpg"
+				},
+				"date": "August 23rd, 2018",
+				"meta": {
+					"views": 2369,
+					"likes": 530,
+					"comments": 18
+				}
+			},
+			{
+				"title": "Thomas Durry has a hand injury and will come back in September",
+				"category": {
+					"class": "category-2",
+					"name": "Injuries"
+				},
+				"author": {
+					"name": "James Spiegel",
+					"avatar": "avatar-1.jpg"
+				},
+				"date": "August 23rd, 2018",
+				"meta": {
+					"views": 2369,
+					"likes": 530,
+					"comments": 18
+				}
+			},
+			{
+				"title": "The team is starting a new power breakfast regimen",
+				"thumb": "post-img8.jpg",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"author": {
+					"name": "James Spiegel",
+					"avatar": "avatar-1.jpg"
+				},
+				"date": "August 23rd, 2018",
+				"meta": {
+					"views": 2369,
+					"likes": 530,
+					"comments": 18
+				}
+			},
+			{
+				"title": "Jessica Valentine has a sprained ankle and won't be in the Final",
+				"category": {
+					"class": "category-2",
+					"name": "Injuries"
+				},
+				"author": {
+					"name": "James Spiegel",
+					"avatar": "avatar-1.jpg"
+				},
+				"date": "August 23rd, 2018",
+				"meta": {
+					"views": 2369,
+					"likes": 530,
+					"comments": 18
+				}
+			}
+		],
+		"widget-popular": [
+			{
+				"title": "Mark Johnson has a Tibia Fracture and is gonna be out",
+				"thumb": "post-img1-xs",
+				"category": {
+					"class": "category-2",
+					"name": "Injuries"
+				},
+				"date": "August 23rd, 2018"
+			},
+			{
+				"title": "Jay Rorks is only 24 points away from breaking the record",
+				"thumb": "post-img2-xs",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"date": "August 22nd, 2018"
+			},
+			{
+				"title": "The new eco friendly stadium won a Leafy Award in 2016",
+				"thumb": "post-img3-xs",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"date": "June 8th, 2018"
+			},
+			{
+				"title": "The team is starting a new power breakfast regimen",
+				"thumb": "post-img4-xs",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"date": "May 12th, 2018"
+			}
+		],
+		"widget-popular-footer": [
+			{
+				"title": "Mark Johnson has a Tibia Fracture and is gonna be out",
+				"category": {
+					"class": "category-2",
+					"name": "Injuries"
+				},
+				"date": "August 23rd, 2018"
+			},
+			{
+				"title": "Jay Rorks is only 24 points away from breaking the record",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"date": "August 22nd, 2018"
+			},
+			{
+				"title": "The new eco friendly stadium won a Leafy Award in 2016",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"date": "June 8th, 2018"
+			}
+		],
+		"widget-tabbed": {
+			"newest": [
+				{
+					"title": "Jake Dribbler Announced that he is retiring next month",
+					"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+					"category": {
+						"class": "category-1",
+						"name": "The Team"
+					},
+					"date": "August 23rd, 2018"
+				},
+				{
+					"title": "The Alchemists news coach is bringin a new shooting guard",
+					"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+					"category": {
+						"class": "category-1",
+						"name": "The Team"
+					},
+					"date": "August 23rd, 2018"
+				},
+				{
+					"title": "This Saturday starts the intensive training for the Final",
+					"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+					"category": {
+						"class": "category-1",
+						"name": "The Team"
+					},
+					"date": "August 23rd, 2018"
+				},
+				{
+					"title": "New York Islanders are now flying to California for the big game",
+					"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+					"category": {
+						"class": "category-3",
+						"name": "Playoffs"
+					},
+					"date": "August 23rd, 2018"
+				},
+				{
+					"title": "The Female Division is growing strong after their third game",
+					"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+					"category": {
+						"class": "category-1",
+						"name": "The Team"
+					},
+					"date": "August 23rd, 2018"
+				}
+			],
+			"commented": [
+				{
+					"title": "New York Islanders are now flying to California for the big game",
+					"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+					"category": {
+						"class": "category-3",
+						"name": "Playoffs"
+					},
+					"date": "August 23rd, 2018"
+				},
+				{
+					"title": "The Female Division is growing strong after their third game",
+					"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+					"category": {
+						"class": "category-1",
+						"name": "The Team"
+					},
+					"date": "August 23rd, 2018"
+				},
+				{
+					"title": "The Alchemists news coach is bringin a new shooting guard",
+					"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+					"category": {
+						"class": "category-1",
+						"name": "The Team"
+					},
+					"date": "August 23rd, 2018"
+				},
+				{
+					"title": "This Saturday starts the intensive training for the Final",
+					"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+					"category": {
+						"class": "category-1",
+						"name": "The Team"
+					},
+					"date": "August 23rd, 2018"
+				},
+				{
+					"title": "Jake Dribbler Announced that he is retiring next month",
+					"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+					"category": {
+						"class": "category-1",
+						"name": "The Team"
+					},
+					"date": "August 23rd, 2018"
+				},
+				{
+					"title": "Jake Dribbler Announced that he is retiring next month",
+					"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+					"category": {
+						"class": "category-1",
+						"name": "The Team"
+					},
+					"date": "August 23rd, 2018"
+				}
+			],
+			"popular": [
+				{
+					"title": "The Alchemists news coach is bringin a new shooting guard",
+					"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+					"category": {
+						"class": "category-1",
+						"name": "The Team"
+					},
+					"date": "August 23rd, 2018"
+				},
+				{
+					"title": "This Saturday starts the intensive training for the Final",
+					"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+					"category": {
+						"class": "category-1",
+						"name": "The Team"
+					},
+					"date": "August 23rd, 2018"
+				},
+				{
+					"title": "Jake Dribbler Announced that he is retiring next month",
+					"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+					"category": {
+						"class": "category-1",
+						"name": "The Team"
+					},
+					"date": "August 23rd, 2018"
+				},
+				{
+					"title": "The Female Division is growing strong after their third game",
+					"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+					"category": {
+						"class": "category-1",
+						"name": "The Team"
+					},
+					"date": "August 23rd, 2018"
+				},
+				{
+					"title": "New York Islanders are now flying to California for the big game",
+					"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+					"category": {
+						"class": "category-3",
+						"name": "Playoffs"
+					},
+					"date": "August 23rd, 2018"
+				}
+			]
+		},
+		"widget-tabbed-sm": {
+			"newest": [
+				{
+					"title": "Jake Dribbler Announced that he is retiring next month",
+					"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+					"category": {
+						"class": "category-1",
+						"name": "The Team"
+					},
+					"date": "August 23rd, 2018"
+				},
+				{
+					"title": "The Alchemists news coach is bringin a new shooting guard",
+					"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+					"category": {
+						"class": "category-1",
+						"name": "The Team"
+					},
+					"date": "August 23rd, 2018"
+				},
+				{
+					"title": "This Saturday starts the intensive training for the Final",
+					"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+					"category": {
+						"class": "category-1",
+						"name": "The Team"
+					},
+					"date": "August 23rd, 2018"
+				}
+			],
+			"commented": [
+				{
+					"title": "New York Islanders are now flying to California for the big game",
+					"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+					"category": {
+						"class": "category-3",
+						"name": "Playoffs"
+					},
+					"date": "August 23rd, 2018"
+				},
+				{
+					"title": "The Female Division is growing strong after their third game",
+					"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+					"category": {
+						"class": "category-1",
+						"name": "The Team"
+					},
+					"date": "August 23rd, 2018"
+				},
+				{
+					"title": "The Alchemists news coach is bringin a new shooting guard",
+					"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+					"category": {
+						"class": "category-1",
+						"name": "The Team"
+					},
+					"date": "August 23rd, 2018"
+				}
+			],
+			"popular": [
+				{
+					"title": "The Alchemists news coach is bringin a new shooting guard",
+					"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+					"category": {
+						"class": "category-1",
+						"name": "The Team"
+					},
+					"date": "August 23rd, 2018"
+				},
+				{
+					"title": "This Saturday starts the intensive training for the Final",
+					"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+					"category": {
+						"class": "category-1",
+						"name": "The Team"
+					},
+					"date": "August 23rd, 2018"
+				},
+				{
+					"title": "Jake Dribbler Announced that he is retiring next month",
+					"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+					"category": {
+						"class": "category-1",
+						"name": "The Team"
+					},
+					"date": "August 23rd, 2018"
+				}
+			]
+		},
+		"widget-comments": [
+			{
+				"comment": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+				"author": {
+					"name": "Samantha Rodgers",
+					"avatar": "avatar-11.jpg"
+				},
+				"date": "25 mins ago"
+			},
+			{
+				"comment": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.",
+				"author": {
+					"name": "Alexandra Dason",
+					"avatar": "avatar-2.jpg"
+				},
+				"date": "48 mins ago"
+			},
+			{
+				"comment": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor incididunt.",
+				"author": {
+					"name": "Jake Casspon",
+					"avatar": "avatar-9.jpg"
+				},
+				"date": "23 hours ago"
+			}
+		],
+		"tagcloud": [
+			{ "label": "PLAYOFFS" },
+			{ "label": "ALCHEMISTS" },
+			{ "label": "INJURIES" },
+			{ "label": "TEAM" },
+			{ "label": "INCORPORATIONS" },
+			{ "label": "UNIFORMS" },
+			{ "label": "CHAMPIONS" },
+			{ "label": "PROFESSIONAL" },
+			{ "label": "COACH" },
+			{ "label": "STADIUM" },
+			{ "label": "NEWS" },
+			{ "label": "PLAYERS" },
+			{ "label": "WOMEN DIVISION" },
+			{ "label": "AWARDS" }
+		],
+		"search-result": [
+			{
+				"title": "Alchemists coach on Jake Summer's injury \"It looks really bad\"",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in enderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+				"category": {
+					"class": "category-2",
+					"name": "Injuries"
+				},
+				"date": "September 17th, 2018"
+			},
+			{
+				"title": "The team is gonna make a trip to the beach for a small vacation",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in enderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"date": "August 12th, 2018"
+			},
+			{
+				"title": "The perfect breakfast for the team's high intensity training",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in enderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+				"category": {
+					"class": "category-1",
+					"name": "The Team"
+				},
+				"date": "January 2nd, 2018"
+			}
+		]
+	},
+	"sp": {
+		"league-table": [
+			{
+				"logo": "pirates_shield.png",
+				"name": "L.A Pirates",
+				"place": "Bebop Institute",
+				"stats": {
+					"w": 45,
+					"l": 5,
+					"gb": 0
+				}
+			},
+			{
+				"logo": "sharks_shield.png",
+				"name": "Sharks",
+				"place": "Marine College",
+				"stats": {
+					"w": 42,
+					"l": 8,
+					"gb": 3
+				}
+			},
+			{
+				"logo": "alchemists_b_shield.png",
+				"name": "The Alchemists",
+				"place": "Eric Bros School",
+				"stats": {
+					"w": 40,
+					"l": 10,
+					"gb": 5
+				}
+			},
+			{
+				"logo": "ocean_kings_shield.png",
+				"name": "Ocean Kings",
+				"place": "Bay College",
+				"stats": {
+					"w": 38,
+					"l": 12,
+					"gb": 7
+				}
+			},
+			{
+				"logo": "red_wings_shield.png",
+				"name": "Red Wings",
+				"place": "Icarus College",
+				"stats": {
+					"w": 37,
+					"l": 13,
+					"gb": 8
+				}
+			},
+			{
+				"logo": "lucky_clovers_shield.png",
+				"name": "Lucky Clovers",
+				"place": "St. Patrick’s Institute",
+				"stats": {
+					"w": 34,
+					"l": 16,
+					"gb": 11
+				}
+			},
+			{
+				"logo": "draconians_shield.png",
+				"name": "Draconians",
+				"place": "High Rock College",
+				"stats": {
+					"w": 31,
+					"l": 19,
+					"gb": 14
+				}
+			},
+			{
+				"logo": "bloody_wave_shield.png",
+				"name": "Bloody Wave",
+				"place": "Atlantic School",
+				"stats": {
+					"w": 30,
+					"l": 20,
+					"gb": 15
+				}
+			}
+		],
+		"team": {
+			"standings": [
+				{
+					"pos": "01",
+					"team": {
+						"logo": "pirates_shield.png",
+						"name": "L.A. Pirates",
+						"place": "Bebop Institute"
+					},
+					"win": "45",
+					"lose": "5",
+					"pct": ".695",
+					"gb": "0",
+					"home": "33-8",
+					"road": "24-17",
+					"div": "8-8",
+					"ppg": "104.3",
+					"op-ppg": "98.3",
+					"diff": "+ 6.0",
+					"strk": "L 1",
+					"lead": "6-4"
+				},
+				{
+					"pos": "02",
+					"team": {
+						"logo": "sharks_shield.png",
+						"name": "Sharks",
+						"place": "Marine College"
+					},
+					"win": "42",
+					"lose": "8",
+					"pct": ".638",
+					"gb": "3",
+					"home": "32-9",
+					"road": "20-21",
+					"div": "14-2",
+					"ppg": "102.7",
+					"op-ppg": "97.5",
+					"diff": "+ 4.5",
+					"strk": "W 4",
+					"lead": "7-3"
+				},
+				{
+					"pos": "03",
+					"team": {
+						"logo": "alchemists_b_shield.png",
+						"name": "The Alchemists",
+						"place": "Eric Bros School"
+					},
+					"win": "40",
+					"lose": "10",
+					"pct": ".596",
+					"gb": "5",
+					"home": "28-13",
+					"road": "21-20",
+					"div": "10-6",
+					"ppg": "100.5",
+					"op-ppg": "96.3",
+					"diff": "+ 2.3",
+					"strk": "W 5",
+					"lead": "6-8"
+				},
+				{
+					"pos": "04",
+					"team": {
+						"logo": "ocean_kings_shield.png",
+						"name": "Ocean Kings",
+						"place": "Bay College"
+					},
+					"win": "38",
+					"lose": "12",
+					"pct": ".523",
+					"gb": "7",
+					"home": "27-14",
+					"road": "20-21",
+					"div": "8-8",
+					"ppg": "103.9",
+					"op-ppg": "97.5",
+					"diff": "+ 3.4",
+					"strk": "L 3",
+					"lead": "8-5"
+				},
+				{
+					"pos": "05",
+					"team": {
+						"logo": "red_wings_shield.png",
+						"name": "Red Wings",
+						"place": "Icarus College"
+					},
+					"win": "37",
+					"lose": "13",
+					"pct": ".508",
+					"gb": "8",
+					"home": "28-13",
+					"road": "24-17",
+					"div": "10-6",
+					"ppg": "107.2",
+					"op-ppg": "96.8",
+					"diff": "+ 4.8",
+					"strk": "L 3",
+					"lead": "9-4"
+				},
+				{
+					"pos": "06",
+					"team": {
+						"logo": "lucky_clovers_shield.png",
+						"name": "Lucky Clovers",
+						"place": "St. Patrick’s Institute"
+					},
+					"win": "34",
+					"lose": "16",
+					"pct": ".496",
+					"gb": "11",
+					"home": "30-11",
+					"road": "22-24",
+					"div": "8-8",
+					"ppg": "104.8",
+					"op-ppg": "98.6",
+					"diff": "+ 2.3",
+					"strk": "W 6",
+					"lead": "7-3"
+				},
+				{
+					"pos": "07",
+					"team": {
+						"logo": "draconians_shield.png",
+						"name": "Draconians",
+						"place": "Wyvern College"
+					},
+					"win": "31",
+					"lose": "19",
+					"pct": ".477",
+					"gb": "14",
+					"home": "26-15",
+					"road": "23-26",
+					"div": "8-8",
+					"ppg": "109.4",
+					"op-ppg": "94.7",
+					"diff": "+ 4.6",
+					"strk": "W 9",
+					"lead": "6-4"
+				},
+				{
+					"pos": "08",
+					"team": {
+						"logo": "bloody_wave_shield.png",
+						"name": "Bloody Wave",
+						"place": "Atlantic School"
+					},
+					"win": "30",
+					"lose": "20",
+					"pct": ".398",
+					"gb": "15",
+					"home": "26-11",
+					"road": "24-18",
+					"div": "10-6",
+					"ppg": "106.7",
+					"op-ppg": "96.2",
+					"diff": "- 1.2",
+					"strk": "L 7",
+					"lead": "5-8"
+				},
+				{
+					"pos": "09",
+					"team": {
+						"logo": "icarus_wings_shield.png",
+						"name": "Icarus Wings",
+						"place": "Waxer College"
+					},
+					"win": "28",
+					"lose": "22",
+					"pct": ".352",
+					"gb": "17",
+					"home": "23-18",
+					"road": "19-22",
+					"div": "4-12",
+					"ppg": "101.3",
+					"op-ppg": "102.5",
+					"diff": "- 2.3",
+					"strk": "W 3",
+					"lead": "6-2"
+				},
+				{
+					"pos": "10",
+					"team": {
+						"logo": "aqua_keyes_shield.png",
+						"name": "Aqua Keyes",
+						"place": "Pacific Institute"
+					},
+					"win": "27",
+					"lose": "23",
+					"pct": ".247",
+					"gb": "18",
+					"home": "14-27",
+					"road": "17-29",
+					"div": "6-10",
+					"ppg": "102.5",
+					"op-ppg": "97.7",
+					"diff": "- 0.5",
+					"strk": "L 4",
+					"lead": "4-9"
+				}
+			],
+			"results": [
+				{
+					"date": "Saturday, Mar 24",
+					"team": {
+						"name": "Sharks",
+						"logo": "sharks_shield.png",
+						"place": "Marine College"
+					},
+					"result": {
+						"outcome": "W",
+						"score": "107-102"
+					},
+					"status": "Home",
+					"points": "James Girobilli 23 (ALC)",
+					"rebounds": "Tom Hoopstern 11 (SHR)",
+					"assists": "Jet Valentine 6 (SHR)",
+					"steals": "Griffin Peterson 8 (ALC)"
+				},
+				{
+					"date": "Friday, Mar 16",
+					"team": {
+						"name": "L.A. Pirates",
+						"logo": "pirates_shield.png",
+						"place": "Bebop Institute"
+					},
+					"result": {
+						"outcome": "L",
+						"score": "124-106"
+					},
+					"status": "Away",
+					"points": "Nick Robertson 26 (LAP)",
+					"rebounds": "Tony Rodgers 15 (LAP)",
+					"assists": "James Girobilli 9 (ALC)",
+					"steals": "Robert Frankson 6 (ALC)"
+				},
+				{
+					"date": "Saturday, Mar 10",
+					"team": {
+						"name": "Lucky Clovers",
+						"logo": "lucky_clovers_shield.png",
+						"place": "St. Patrick’s Institute"
+					},
+					"result": {
+						"outcome": "L",
+						"score": "95-98"
+					},
+					"status": "Home",
+					"points": "James Girobilli 24 (ALC)",
+					"rebounds": "Johnny Richards 18 (LCL)",
+					"assists": "Robert Frankson 6 (ALC)",
+					"steals": "Johnny Richards 10 (LCL)"
+				},
+				{
+					"date": "Friday, Mar 4",
+					"team": {
+						"name": "Ocean Kings",
+						"logo": "ocean_kings_shield.png",
+						"place": "Bay College"
+					},
+					"result": {
+						"outcome": "L",
+						"score": "110-104"
+					},
+					"status": "Away",
+					"points": "Edward Storm 29 (OCK)",
+					"rebounds": "Edward Storm 14 (OCK)",
+					"assists": "Peter Watson 6 (OCK)",
+					"steals": "James Girobilli 9 (ALC)"
+				},
+				{
+					"date": "Saturday, Feb 29",
+					"team": {
+						"name": "Red Wings",
+						"logo": "icarus_wings_shield.png",
+						"place": "Icarus College"
+					},
+					"result": {
+						"outcome": "W",
+						"score": "102-97"
+					},
+					"status": "Home",
+					"points": "James Girobilli 29 (ALC)",
+					"rebounds": "Terrence Parker 14 (RDW)",
+					"assists": "Terrence Parker 8 (RDW)",
+					"steals": "Robert Frankson 11 (ALC)"
+				},
+				{
+					"date": "Friday, Feb 21",
+					"team": {
+						"name": "Draconians",
+						"logo": "draconians_shield.png",
+						"place": "Wyvern College"
+					},
+					"result": {
+						"outcome": "W",
+						"score": "104-113"
+					},
+					"status": "Away",
+					"points": "Steven Franklin 28 (DRC)",
+					"rebounds": "Steven Franklin 16 (DRC)",
+					"assists": "Steven Franklin 10 (DRC)",
+					"steals": "Griffin Peterson 8 (ALC)"
+				},
+				{
+					"date": "Saturday, Feb 17",
+					"team": {
+						"name": "Icarus Wings",
+						"logo": "icarus_wings_shield.png",
+						"place": "Waxer College"
+					},
+					"result": {
+						"outcome": "W",
+						"score": "105-94"
+					},
+					"status": "Home",
+					"points": "Benjamin Storm 22 (ICW)",
+					"rebounds": "James Girobilli 19 (ALC)",
+					"assists": "Benjamin Storm 12 (ICW)",
+					"steals": "Robert Frankson 7 (ALC)"
+				},
+				{
+					"date": "Friday, Feb 9",
+					"team": {
+						"name": "Aqua Keyes",
+						"logo": "aqua_keyes_shield.png",
+						"place": "Pacific Institute"
+					},
+					"result": {
+						"outcome": "W",
+						"score": "102-116"
+					},
+					"status": "Away",
+					"points": "James Girobilli 20 (ALC)",
+					"rebounds": "Logan Summers 16 (AQK)",
+					"assists": "Remy Lebeau 7 (AQK)",
+					"steals": "James Girobilli 8 (ALC)"
+				},
+				{
+					"date": "Saturday, Feb 3",
+					"team": {
+						"name": "Sharks",
+						"logo": "sharks_shield.png",
+						"place": "Marine College"
+					},
+					"result": {
+						"outcome": "W",
+						"score": "107-102"
+					},
+					"status": "Home",
+					"points": "James Girobilli 23 (ALC)",
+					"rebounds": "Tom Hoopstern 11 (SHR)",
+					"assists": "Jet Valentine 6 (SHR)",
+					"steals": "Griffin Peterson 8 (ALC)"
+				},
+				{
+					"date": "Friday, Jan 28",
+					"team": {
+						"name": "L.A. Pirates",
+						"logo": "pirates_shield.png",
+						"place": "Bebop Institute"
+					},
+					"result": {
+						"outcome": "L",
+						"score": "124-106"
+					},
+					"status": "Away",
+					"points": "Nick Robertson 26 (LAP)",
+					"rebounds": "Tony Rodgers 15 (LAP)",
+					"assists": "James Girobilli 9 (ALC)",
+					"steals": "Robert Frankson 6 (ALC)"
+				},
+				{
+					"date": "Saturday, Jan 22",
+					"team": {
+						"name": "Lucky Clovers",
+						"logo": "lucky_clovers_shield.png",
+						"place": "St. Patrick’s Institute"
+					},
+					"result": {
+						"outcome": "L",
+						"score": "95-98"
+					},
+					"status": "Home",
+					"points": "James Girobilli 24 (ALC)",
+					"rebounds": "Johnny Richards 18 (LCL)",
+					"assists": "James Girobilli 9 (ALC)",
+					"steals": "Johnny Richards 10 (LCL)"
+				},
+				{
+					"date": "Friday, Jan 14",
+					"team": {
+						"name": "Ocean Kings",
+						"logo": "ocean_kings_shield.png",
+						"place": "Bay College"
+					},
+					"result": {
+						"outcome": "L",
+						"score": "110-104"
+					},
+					"status": "Away",
+					"points": "Edward Storm 29 (OCK)",
+					"rebounds": "Edward Storm 14 (OCK)",
+					"assists": "Peter Watson 6 (OCK)",
+					"steals": "James Girobilli 9 (ALC)"
+				},
+				{
+					"date": "Saturday, Jan 8",
+					"team": {
+						"name": "Red Wings",
+						"logo": "icarus_wings_shield.png",
+						"place": "Icarus College"
+					},
+					"result": {
+						"outcome": "W",
+						"score": "102-97"
+					},
+					"status": "Home",
+					"points": "James Girobilli 29 (ALC)",
+					"rebounds": "Terrence Parker 14 (RDW)",
+					"assists": "Terrence Parker 8 (RDW)",
+					"steals": "Robert Frankson 11 (ALC)"
+				},
+				{
+					"date": "Friday, Jan 2",
+					"team": {
+						"name": "Draconians",
+						"logo": "draconians_shield.png",
+						"place": "Wyvern College"
+					},
+					"result": {
+						"outcome": "W",
+						"score": "104-113"
+					},
+					"status": "Away",
+					"points": "Steven Franklin 28 (DRC)",
+					"rebounds": "Steven Franklin 16 (DRC)",
+					"assists": "Steven Franklin 10 (DRC)",
+					"steals": "Griffin Peterson 8 (ALC)"
+				}
+			],
+			"main-roster": [
+				{
+					"number": "38",
+					"name": "Games Girobili",
+					"position": "1st Shooting Guard",
+					"age": 18,
+					"height": "6'6\"",
+					"weight": "205 lbs",
+					"place": "South Beach College"
+				},
+				{
+					"number": "24",
+					"name": "Mark Stevens",
+					"position": "1st Power Forward",
+					"age": 20,
+					"height": "6'8\"",
+					"weight": "220 lbs",
+					"place": "Green Palm College"
+				},
+				{
+					"number": "06",
+					"name": "Jay T.Roks",
+					"position": "1st Small Forward",
+					"age": 17,
+					"height": "6'10\"",
+					"weight": "234 lbs",
+					"place": "The Sandy Coast Institute"
+				},
+				{
+					"number": "15",
+					"name": "Nick Rodgers",
+					"position": "1st Point Guard",
+					"age": 18,
+					"height": "6'9\"",
+					"weight": "226 lbs",
+					"place": "South Beach College"
+				},
+				{
+					"number": "12",
+					"name": "Tony Ironson",
+					"position": "1st Center",
+					"age": 19,
+					"height": "6'7\"",
+					"weight": "240 lbs",
+					"place": "Green Palm College"
+				},
+				{
+					"number": "26",
+					"name": "Thomas Black",
+					"position": "2nd Shooting Guard",
+					"age": "18",
+					"height": "6'5\"",
+					"weight": "238 lbs",
+					"place": "The Sandy Coast Institute"
+				},
+				{
+					"number": "32",
+					"name": "Spike Arrowhead",
+					"position": "2nd Power Forward",
+					"age": "18",
+					"height": "6'8\"",
+					"weight": "252 lbs",
+					"place": "The Sandy Coast Institute"
+				},
+				{
+					"number": "39",
+					"name": "Tim Robertson",
+					"position": "2nd Small Forward",
+					"age": "20",
+					"height": "6'7\"",
+					"weight": "242 lbs",
+					"place": "Green Palm College"
+				},
+				{
+					"number": "09",
+					"name": "Jake Dogmich",
+					"position": "2nd Point Guard",
+					"age": "20",
+					"height": "6'10\"",
+					"weight": "213 lbs",
+					"place": "Green Palm Beach"
+				},
+				{
+					"number": "02",
+					"name": "Griffin Peterson",
+					"position": "2nd Center",
+					"age": "19",
+					"height": "6'8\"",
+					"weight": "217 lbs",
+					"place": "South Beach College"
+				}
+			],
+			"roster-1": [
+				{
+					"number": "38",
+					"firstname": "James",
+					"lastname": "Girobili",
+					"position": "1st Shooting Guard",
+					"img": "roster_player_01.jpg"
+				},
+				{
+					"number": "24",
+					"firstname": "Mark",
+					"lastname": "Stevens",
+					"position": "1st Power Forward",
+					"img": "roster_player_02.jpg"
+				},
+				{
+					"number": "07",
+					"firstname": "Jenny",
+					"lastname": "Valentine",
+					"position": "1st Small Forward",
+					"img": "roster_player_03.jpg"
+				},
+				{
+					"number": "11",
+					"firstname": "Marian",
+					"lastname": "Diamond",
+					"position": "1st Center",
+					"img": "roster_player_04.jpg"
+				},
+				{
+					"number": "15",
+					"firstname": "Nick",
+					"lastname": "Rodgers",
+					"position": "1st Point Guard",
+					"img": "roster_player_05.jpg"
+				}
+			],
+			"roster-2": [
+				{
+					"number": "38",
+					"firstname": "James",
+					"lastname": "Girobili",
+					"position": "1st Shooting Guard",
+					"img": "rosterv2_player_01.png"
+				},
+				{
+					"number": "24",
+					"firstname": "Mark",
+					"lastname": "Stevens",
+					"position": "1st Power Forward",
+					"img": "rosterv2_player_02.png"
+				},
+				{
+					"number": "11",
+					"firstname": "Marian",
+					"lastname": "Diamond",
+					"position": "1st Center",
+					"img": "rosterv2_player_01.png"
+				},
+				{
+					"number": "15",
+					"firstname": "Nick",
+					"lastname": "Rodgers",
+					"position": "1st Point Guard",
+					"img": "rosterv2_player_02.png"
+				},
+				{
+					"number": "26",
+					"firstname": "Thomas",
+					"lastname": "Black",
+					"position": "2nd Shooting Guard",
+					"img": "rosterv2_player_01.png"
+				},
+				{
+					"number": "32",
+					"firstname": "Spike",
+					"lastname": "Arrowhead",
+					"position": "2nd Power Forward",
+					"img": "rosterv2_player_02.png"
+				}
+			],
+			"gallery": [
+				{
+					"thumb": "post-img4.jpg",
+					"title": "Photoshoot for 2017",
+					"date": "December 17th, 2016"
+				},
+				{
+					"thumb": "post-img6.jpg",
+					"title": "California Playoffs 2016",
+					"date": "January 24th, 2016"
+				},
+				{
+					"thumb": "post-img16.jpg",
+					"title": "Player Portraits 2016",
+					"date": "January 14th, 2016"
+				},
+				{
+					"thumb": "post-img3.jpg",
+					"title": "The Alchemists Stadium",
+					"date": "December 17th, 2016"
+				},
+				{
+					"thumb": "post-img1.jpg",
+					"title": "Player Photoshoot",
+					"date": "January 24th, 2016"
+				},
+				{
+					"thumb": "post-img17.jpg",
+					"title": "The National Team",
+					"date": "January 14th, 2016"
+				},
+				{
+					"thumb": "post-img5.jpg",
+					"title": "Charity Activities",
+					"date": "December 17th, 2016"
+				},
+				{
+					"thumb": "post-img2.jpg",
+					"title": "Cheerleader Squad",
+					"date": "January 24th, 2016"
+				},
+				{
+					"thumb": "post-img13.jpg",
+					"title": "Meal Plan 2015",
+					"date": "January 14th, 2016"
+				}
+			],
+			"album": [
+				{
+					"col": "col-xs-6 col-sm-4",
+					"title": "The team is taking a summer vacation on Woody Valley",
+					"imgs": {
+						"full": "album-img1.jpg",
+						"thumb": "album-img1.jpg"
+					},
+					"date": "August 23rd, 2016",
+					"meta": {
+						"likes": "530"
+					}
+				},
+				{
+					"col": "col-xs-6 col-sm-4",
+					"title": "Mark Johnson has a Tibia Fracture and is gonna be out",
+					"imgs": {
+						"full": "album-img2.jpg",
+						"thumb": "album-img2.jpg"
+					},
+					"date": "August 23rd, 2016",
+					"meta": {
+						"likes": "530"
+					}
+				},
+				{
+					"col": "col-xs-6 col-sm-4",
+					"title": "Cheerleader tryouts will start next Friday at 5pm",
+					"imgs": {
+						"full": "album-img5.jpg",
+						"thumb": "album-img5.jpg"
+					},
+					"date": "August 23rd, 2016",
+					"meta": {
+						"likes": "530"
+					}
+				},
+				{
+					"col": "col-xs-6 col-sm-4",
+					"title": "The new eco friendly stadium won a Leafy Award in 2016",
+					"imgs": {
+						"full": "album-img3.jpg",
+						"thumb": "album-img3.jpg"
+					},
+					"date": "August 23rd, 2016",
+					"meta": {
+						"likes": "530"
+					}
+				},
+				{
+					"col": "col-xs-6 col-sm-4",
+					"title": "James Girobilli in the charity event in L.A. Beach",
+					"imgs": {
+						"full": "album-img4.jpg",
+						"thumb": "album-img4.jpg"
+					},
+					"date": "August 23rd, 2016",
+					"meta": {
+						"likes": "530"
+					}
+				},
+				{
+					"col": "col-md-8",
+					"title": "The Planetrotters will perform this May 4th at Madison Cube",
+					"imgs": {
+						"full": "album-img6.jpg",
+						"thumb": "album-img6.jpg"
+					},
+					"date": "August 23rd, 2016",
+					"meta": {
+						"likes": "530"
+					}
+				},
+				{
+					"col": "col-xs-6 col-sm-4",
+					"title": "Jeremy Rittersen was called to be in the National Team",
+					"imgs": {
+						"full": "album-img7.jpg",
+						"thumb": "album-img7.jpg"
+					},
+					"date": "August 23rd, 2016",
+					"meta": {
+						"likes": "530"
+					}
+				},
+				{
+					"col": "col-xs-6 col-sm-4",
+					"title": "The team is taking a summer vacation on Woody Valley",
+					"imgs": {
+						"full": "album-img8.jpg",
+						"thumb": "album-img8.jpg"
+					},
+					"date": "August 23rd, 2016",
+					"meta": {
+						"likes": "530"
+					}
+				}
+			],
+			"staff": [
+				{
+					"number": "CH",
+					"firstname": "Robert",
+					"lastname": "Frankson",
+					"position": "Team Coach",
+					"img": "roster_player_06.jpg",
+					"age": 52,
+					"height": "-",
+					"weight": "-",
+					"place": "Green Palm College"
+				}
+			],
+			"newslog": [
+				{
+					"type": "injury",
+					"content": "<strong>Mark Johnson</strong> has a tibia fracture and he’s gonna be out of the play for <strong>2 months</strong>.",
+					"date": "September 18, 2016"
+				},
+				{
+					"type": "join",
+					"content": "<strong>Dominick R. Blink</strong>, a new <strong>Shooting Guard</strong> from San Francisco has joined the team!.",
+					"date": "September 6, 2016"
+				},
+				{
+					"type": "join",
+					"content": "<strong>Christopher Grifin</strong>, a new <strong>Power Forward</strong> from Rockstar Bay College has joined the team!.",
+					"date": "August 24, 2016"
+				},
+				{
+					"type": "injury",
+					"content": "<strong>Thomas Durry</strong> has a composed hand fracture and he won’t be playing untill <strong>September</strong>.",
+					"date": "August 17, 2016"
+				},
+				{
+					"type": "exit",
+					"content": "<strong>Jeremy Rittersen</strong> left the team after 2 year in the club and his new house are the <strong>Clovers</strong>.",
+					"date": "August 12, 2016"
+				}
+			],
+			"schedule": [
+				{
+					"date": "Saturday, Mar 24",
+					"team": {
+						"logo": "lucky_clovers_shield.png",
+						"name": "Lucky Clovers",
+						"place": "St. Patrick’s Institute"
+					},
+					"status": "Away",
+					"time": "9:00PM EST",
+					"league": "West Bay Playoffs 2018",
+					"venue": "Madison Cube Stadium",
+					"availability": true
+				},
+				{
+					"date": "Friday, May 31",
+					"team": {
+						"logo": "red_wings_shield.png",
+						"name": "Red Wings",
+						"place": "Icarus College"
+					},
+					"status": "Home",
+					"time": "9:30PM EST",
+					"league": "West Bay Playoffs 2018",
+					"venue": "Alchemists Stadium",
+					"availability": false
+				},
+				{
+					"date": "Saturday, May 8",
+					"team": {
+						"logo": "draconians_shield.png",
+						"name": "Draconians",
+						"place": "Wyvern College"
+					},
+					"status": "Away",
+					"time": "10:00PM EST",
+					"league": "West Bay Playoffs 2018",
+					"venue": "Scalding Rock Stadium",
+					"availability": true
+				},
+				{
+					"date": "Friday, May 14",
+					"team": {
+						"logo": "aqua_keyes_shield.png",
+						"name": "Aqua Keyes",
+						"place": "Pacific Institute"
+					},
+					"status": "Home",
+					"time": "10:00PM EST",
+					"league": "West Bay Playoffs 2018",
+					"venue": "Alchemists Stadium",
+					"availability": true
+				},
+				{
+					"date": "Saturday, May 22",
+					"team": {
+						"logo": "icarus_wings_shield.png",
+						"name": "Icarus Wings",
+						"place": "Waxer College"
+					},
+					"status": "Away",
+					"time": "10:30PM EST",
+					"league": "West Bay Playoffs 2018",
+					"venue": "The FireStar Arena",
+					"availability": false
+				},
+				{
+					"date": "Saturday, May 29",
+					"team": {
+						"logo": "bloody_wave_shield.png",
+						"name": "Bloody Wave",
+						"place": "Atlantic School"
+					},
+					"status": "Home",
+					"time": "9:00PM EST",
+					"league": "West Bay Playoffs 2018",
+					"venue": "Alchemists Stadium",
+					"availability": true
+				},
+				{
+					"date": "Friday, Jun 5",
+					"team": {
+						"logo": "sharks_shield.png",
+						"name": "Sharks",
+						"place": "Marine College"
+					},
+					"status": "Away",
+					"time": "9:30PM EST",
+					"league": "West Bay Playoffs 2018",
+					"venue": "Great Hammerhead Arena",
+					"availability": false
+				},
+				{
+					"date": "Saturday, Jun 13",
+					"team": {
+						"logo": "pirates_shield.png",
+						"name": "L.A. Pirates",
+						"place": "Bebop Institute"
+					},
+					"status": "Home",
+					"time": "10:00PM EST",
+					"league": "West Bay Playoffs 2018",
+					"venue": "Alchemists Stadium",
+					"availability": true
+				},
+				{
+					"date": "Thursday, Jun 8",
+					"team": {
+						"logo": "ocean_kings_shield.png",
+						"name": "Ocean Kings",
+						"place": "Bay College"
+					},
+					"status": "Away",
+					"time": "10:00PM EST",
+					"league": "West Bay Playoffs 2018",
+					"venue": "Coral Reef LA Institute",
+					"availability": true
+				}
+			],
+			"widget-results": [
+				{
+					"date": "Saturday, March 24",
+					"team1": {
+						"name": "Alchemists",
+						"logo": "alchemists_b_shield.png",
+						"place": "Elric Bros School",
+						"result": {
+							"outcome": {
+								"win": true
+							},
+							"score": "107"
+						}
+					},
+					"team2": {
+						"name": "Sharks",
+						"logo": "sharks_shield.png",
+						"place": "Marine College",
+						"result": {
+							"outcome": {
+								"win": false
+							},
+							"score": "102"
+						}
+					},
+					"event_place": "Home"
+				},
+				{
+					"date": "Friday, March 16",
+					"team1": {
+						"name": "L.A. Pirates",
+						"logo": "pirates_shield.png",
+						"place": "Bebop Institute",
+						"result": {
+							"outcome": {
+								"win": true
+							},
+							"score": "124"
+						}
+					},
+					"team2": {
+						"name": "Alchemists",
+						"logo": "alchemists_b_shield.png",
+						"place": "Eric Bros School",
+						"result": {
+							"outcome": {
+								"win": false
+							},
+							"score": "106"
+						}
+					},
+					"event_place": "Away"
+				},
+				{
+					"date": "Saturday, March 10",
+					"team1": {
+						"name": "Alchemists",
+						"logo": "alchemists_b_shield.png",
+						"place": "Eric Bros School",
+						"result": {
+							"outcome": {
+								"win": false
+							},
+							"score": "95"
+						}
+					},
+					"team2": {
+						"name": "Clovers",
+						"logo": "lucky_clovers_shield.png",
+						"place": "St. Patrick’s Inst",
+						"result": {
+							"outcome": {
+								"win": true
+							},
+							"score": "98"
+						}
+					},
+					"event_place": "Home"
+				},
+				{
+					"date": "Friday, March 4",
+					"team1": {
+						"name": "Ocean Kings",
+						"logo": "ocean_kings_shield.png",
+						"place": "Bay College",
+						"result": {
+							"outcome": {
+								"win": true
+							},
+							"score": "110"
+						}
+					},
+					"team2": {
+						"name": "Alchemists",
+						"logo": "alchemists_b_shield.png",
+						"place": "Eric Bros School",
+						"result": {
+							"outcome": {
+								"win": false
+							},
+							"score": "104"
+						}
+					},
+					"event_place": "Home"
+				}
+			],
+			"widget-awards": [
+				{
+					"img": "trophy-01.jpg",
+					"title": "Big League Champions",
+					"date": "December 2009"
+				},
+				{
+					"img": "trophy-02.jpg",
+					"title": "Big League Champions",
+					"date": "November 2010"
+				},
+				{
+					"img": "trophy-03.jpg",
+					"title": "Big League Champions",
+					"date": "December 2012"
+				}
+			]
+		},
+		"player": {
+			"log": [
+				{
+					"date": "Saturday, Mar 24",
+					"team": {
+						"logo": "sharks_shield.png",
+						"name": "Sharks",
+						"place": "Marine College"
+					},
+					"result": {
+						"outcome": "W",
+						"score": "107-102"
+					},
+					"stats": {
+						"min": 22,
+						"fgm-a": "5-8",
+						"fg-percent": ".625",
+						"3pm-a": "1-2",
+						"3p-percent": ".500",
+						"ftm-a": "0-0",
+						"ft-percent": ".000",
+						"reb": 3,
+						"ast": 1,
+						"blk": 1,
+						"stl": 2,
+						"pf": 0,
+						"to": 2,
+						"pts": 11
+					}
+				},
+				{
+					"date": "Friday, Mar 16",
+					"team": {
+						"logo": "pirates_shield.png",
+						"name": "L.A. Pirates",
+						"place": "Bebop Institute"
+					},
+					"result": {
+						"outcome": "L",
+						"score": "124-106"
+					},
+					"stats": {
+						"min": 22,
+						"fgm-a": "1-2",
+						"fg-percent": ".500",
+						"3pm-a": "1-1",
+						"3p-percent": "1.000",
+						"ftm-a": "3-3",
+						"ft-percent": "1.000",
+						"reb": 1,
+						"ast": 5,
+						"blk": 0,
+						"stl": 4,
+						"pf": 2,
+						"to": 3,
+						"pts": 14
+					}
+				},
+				{
+					"date": "Saturday, Mar 10",
+					"team": {
+						"logo": "lucky_clovers_shield.png",
+						"name": "Lucky Clovers",
+						"place": "St. Patrick’s Institute"
+					},
+					"result": {
+						"outcome": "L",
+						"score": "95-98"
+					},
+					"stats": {
+						"min": 11,
+						"fgm-a": "2-5",
+						"fg-percent": ".400",
+						"3pm-a": "0-1",
+						"3p-percent": ".000",
+						"ftm-a": "3-4",
+						"ft-percent": ".750",
+						"reb": 4,
+						"ast": 2,
+						"blk": 0,
+						"stl": 3,
+						"pf": 5,
+						"to": 6,
+						"pts": 10
+					}
+				},
+				{
+					"date": "Friday, Mar 4",
+					"team": {
+						"logo": "ocean_kings_shield.png",
+						"name": "Ocean Kings",
+						"place": "Bay College"
+					},
+					"result": {
+						"outcome": "L",
+						"score": "110-104"
+					},
+					"stats": {
+						"min": 14,
+						"fgm-a": "3-5",
+						"fg-percent": ".600",
+						"3pm-a": "3-4",
+						"3p-percent": ".750",
+						"ftm-a": "2-2",
+						"ft-percent": "1.000",
+						"reb": 3,
+						"ast": 5,
+						"blk": 2,
+						"stl": 0,
+						"pf": 1,
+						"to": 4,
+						"pts": 8
+					}
+				},
+				{
+					"date": "Saturday, Feb 29",
+					"team": {
+						"logo": "red_wings_shield.png",
+						"name": "Red Wings",
+						"place": "Icarus College"
+					},
+					"result": {
+						"outcome": "W",
+						"score": "102-97"
+					},
+					"stats": {
+						"min": 27,
+						"fgm-a": "2-3",
+						"fg-percent": ".667",
+						"3pm-a": "1-2",
+						"3p-percent": ".500",
+						"ftm-a": "3-4",
+						"ft-percent": ".750",
+						"reb": 1,
+						"ast": 1,
+						"blk": 1,
+						"stl": 1,
+						"pf": 4,
+						"to": 5,
+						"pts": 12
+					}
+				},
+				{
+					"date": "Friday, Feb 21",
+					"team": {
+						"logo": "draconians_shield.png",
+						"name": "Draconians",
+						"place": "Wyvern College"
+					},
+					"result": {
+						"outcome": "W",
+						"score": "104-113"
+					},
+					"stats": {
+						"min": 16,
+						"fgm-a": "5-8",
+						"fg-percent": ".625",
+						"3pm-a": "1-2",
+						"3p-percent": ".500",
+						"ftm-a": "0-0",
+						"ft-percent": ".000",
+						"reb": 3,
+						"ast": 1,
+						"blk": 3,
+						"stl": 5,
+						"pf": 2,
+						"to": 3,
+						"pts": 13
+					}
+				},
+				{
+					"date": "Saturday, Feb 17",
+					"team": {
+						"logo": "icarus_wings_shield.png",
+						"name": "Icarus Wings",
+						"place": "Waxer College"
+					},
+					"result": {
+						"outcome": "W",
+						"score": "105-94"
+					},
+					"stats": {
+						"min": 18,
+						"fgm-a": "1-2",
+						"fg-percent": ".500",
+						"3pm-a": "1-1",
+						"3p-percent": "1.000",
+						"ftm-a": "3-3",
+						"ft-percent": "1.000",
+						"reb": 1,
+						"ast": 5,
+						"blk": 4,
+						"stl": 3,
+						"pf": 0,
+						"to": 3,
+						"pts": 10
+					}
+				},
+				{
+					"date": "Friday, Feb 9",
+					"team": {
+						"logo": "aqua_keyes_shield.png",
+						"name": "Aqua Keyes",
+						"place": "Pacific Institute"
+					},
+					"result": {
+						"outcome": "W",
+						"score": "102-116"
+					},
+					"stats": {
+						"min": 24,
+						"fgm-a": "2-5",
+						"fg-percent": ".400",
+						"3pm-a": "0-1",
+						"3p-percent": ".000",
+						"ftm-a": "3-4",
+						"ft-percent": ".750",
+						"reb": 4,
+						"ast": 2,
+						"blk": 1,
+						"stl": 2,
+						"pf": 1,
+						"to": 0,
+						"pts": 9
+					}
+				}
+			],
+			"total": [
+				{
+					"season": "15’-16’ Reg. Season",
+					"gp": 69,
+					"gs": 5,
+					"min": "20.7",
+					"fgm-a": "2.5-5.8",
+					"fg-percent": ".438",
+					"3pm-a": "0.7-2.1",
+					"3p-percent": ".345",
+					"ftm-a": "1.8-2.5",
+					"ft-percent": ".737",
+					"or": "0.7",
+					"dr": "1.4",
+					"reb": "2.3",
+					"ast": "2.0",
+					"blk": "0.2",
+					"stl": "1.4",
+					"pf": "2.5",
+					"to": "1.7",
+					"pts": "8.6"
+				},
+				{
+					"season": "15’-16’ Playoffs",
+					"gp": 56,
+					"gs": 12,
+					"min": "22.4",
+					"fgm-a": "3.4-6.2",
+					"fg-percent": ".257",
+					"3pm-a": "1.2-3.0",
+					"3p-percent": ".437",
+					"ftm-a": "1.4-4.7",
+					"ft-percent": ".658",
+					"or": "1.3",
+					"dr": "2.9",
+					"reb": "9.5",
+					"ast": "1.5",
+					"blk": "0.7",
+					"stl": "2.1",
+					"pf": "2.8",
+					"to": "1.2",
+					"pts": "4.9"
+				},
+				{
+					"season": "14’-15’ Reg. Season",
+					"gp": 63,
+					"gs": 8,
+					"min": "19.8",
+					"fgm-a": "2.5-6.3",
+					"fg-percent": ".637",
+					"3pm-a": "2.5-4.8",
+					"3p-percent": ".255",
+					"ftm-a": "2.2-4.8",
+					"ft-percent": ".433",
+					"or": "1.8",
+					"dr": "0.9",
+					"reb": "5.7",
+					"ast": "3.2",
+					"blk": "1.4",
+					"stl": "2.6",
+					"pf": "3.4",
+					"to": "0.8",
+					"pts": "11.5"
+				},
+				{
+					"season": "14’-15’ Playoffs",
+					"gp": "69",
+					"gs": "5",
+					"min": "20.7",
+					"fgm-a": "2.5-5.8",
+					"fg-percent": ".438",
+					"3pm-a": "0.7-2.1",
+					"3p-percent": ".345",
+					"ftm-a": "1.8-2.5",
+					"ft-percent": ".737",
+					"or": "0.7",
+					"dr": "1.4",
+					"reb": "2.3",
+					"ast": "2.0",
+					"blk": "0.2",
+					"stl": "1.4",
+					"pf": "2.5",
+					"to": "1.7",
+					"pts": "8.6"
+				},
+				{
+					"season": "13’-14’ Reg. Season",
+					"gp": "56",
+					"gs": "12",
+					"min": "22.4",
+					"fgm-a": "3.4-6.2",
+					"fg-percent": ".257",
+					"3pm-a": "1.2-3.0",
+					"3p-percent": ".437",
+					"ftm-a": "1.4-4.7",
+					"ft-percent": ".658",
+					"or": "1.3",
+					"dr": "2.9",
+					"reb": "9.5",
+					"ast": "1.5",
+					"blk": "0.7",
+					"stl": "2.1",
+					"pf": "2.8",
+					"to": "1.2",
+					"pts": "4.9"
+				},
+				{
+					"season": "13’-14’ Playoffs",
+					"gp": "63",
+					"gs": "8",
+					"min": "19.8",
+					"fgm-a": "2.5-6.3",
+					"fg-percent": ".637",
+					"3pm-a": "2.5-4.8",
+					"3p-percent": ".255",
+					"ftm-a": "2.2-4.8",
+					"ft-percent": ".433",
+					"or": "1.8",
+					"dr": "0.9",
+					"reb": "5.7",
+					"ast": "3.2",
+					"blk": "1.4",
+					"stl": "2.6",
+					"pf": "3.4",
+					"to": "0.8",
+					"pts": "11.5"
+				}
+			],
+			"newslog": [
+				{
+					"type": "injury",
+					"content": "<strong>James Girobilli’s</strong> knee fracture is healing properly and will be returning to the field <strong>next week</strong>.",
+					"date": "January 19, 2016"
+				},
+				{
+					"type": "injury",
+					"content": "<strong>James Girobilli</strong> has a knee fracture and he’s gonna be out of the play for <strong>4 months</strong>.",
+					"date": "September 26, 2016"
+				},
+				{
+					"type": "join",
+					"content": "<strong>James Girobilli</strong> is now the <strong>1st Shooting Guard</strong> after being 3rd Shooting Guard for the past year.",
+					"date": "September 6, 2016"
+				},
+				{
+					"type": "injury",
+					"content": "<strong>James Girobilli</strong> has an abductor strain so he will miss the next game against the LA Pirates.",
+					"date": "March 4, 2016"
+				},
+				{
+					"type": "injury",
+					"content": "<strong>James Girobilli</strong> has an abductor strain so he will miss the next game against the LA Pirates.",
+					"date": "March 4, 2016"
+				},
+				{
+					"type": "award",
+					"content": "<strong>James Girobilli</strong> won the <strong>Player of the Year 2014 Award</strong> for the first time.",
+					"date": "August 17, 2015"
+				},
+				{
+					"type": "injury",
+					"content": "<strong>James Girobilli</strong> has a lower back contusion and will miss the next two games.",
+					"date": "August 5, 2015"
+				},
+				{
+					"type": "join",
+					"content": "<strong>James Girobilli</strong> has joined the team after playing for the California Surfers for a year.",
+					"date": "June 19, 2013"
+				}
+			],
+			"related_posts": [
+				{
+					"title": "The Planetrotters will perform this May 4th at Madison Cube",
+					"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.",
+					"thumb": "post-img4",
+					"category": {
+						"class": "category-1",
+						"name": "The Team"
+					},
+					"author": {
+						"name": "James Spiegel",
+						"avatar": "avatar-1.jpg"
+					},
+					"date": "August 23rd, 2018",
+					"meta": {
+						"views": 2369,
+						"likes": 530,
+						"comments": 18
+					}
+				},
+				{
+					"title": "The new eco friendly stadium won a Leafy Award in 2016",
+					"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.",
+					"thumb": "post-img3",
+					"category": {
+						"class": "category-1",
+						"name": "The Team"
+					},
+					"author": {
+						"name": "Jessica Hoops",
+						"avatar": "avatar-2.jpg"
+					},
+					"date": "August 23rd, 2018",
+					"meta": {
+						"views": 2369,
+						"likes": 530,
+						"comments": 18
+					}
+				},
+				{
+					"title": "The Alchemists team is appearing in L.A. Beach for charity",
+					"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.",
+					"thumb": "post-img5",
+					"category": {
+						"class": "category-1",
+						"name": "The Team"
+					},
+					"author": {
+						"name": "James Spiegel",
+						"avatar": "avatar-1.jpg"
+					},
+					"date": "August 23rd, 2018",
+					"meta": {
+						"views": 2369,
+						"likes": 530,
+						"comments": 18
+					}
+				},
+				{
+					"title": "The team is starting a new power breakfast regimen",
+					"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.",
+					"thumb": "post-img8",
+					"category": {
+						"class": "category-1",
+						"name": "The Team"
+					},
+					"author": {
+						"name": "James Spiegel",
+						"avatar": "avatar-1.jpg"
+					},
+					"date": "August 23rd, 2018",
+					"meta": {
+						"views": 2369,
+						"likes": 530,
+						"comments": 18
+					}
+				},
+				{
+					"title": "Cheerleader tryouts will start next Friday at 5pm",
+					"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.",
+					"thumb": "post-img2",
+					"category": {
+						"class": "category-1",
+						"name": "The Team"
+					},
+					"author": {
+						"name": "James Spiegel",
+						"avatar": "avatar-1.jpg"
+					},
+					"date": "August 23rd, 2018",
+					"meta": {
+						"views": 2369,
+						"likes": 530,
+						"comments": 18
+					}
+				}
+			],
+			"gallery": [
+				{
+					"col": "col-xs-6 col-sm-4",
+					"img": {
+						"full": "album-img9.jpg",
+						"thumb": "album-img9.jpg"
+					},
+					"title": "The team is taking a summer vacation on Woody Valley",
+					"date": "August 23rd, 2016"
+				},
+				{
+					"col": "col-xs-6 col-sm-4",
+					"img": {
+						"full": "album-img10.jpg",
+						"thumb": "album-img10.jpg"
+					},
+					"title": "Mark Johnson has a Tibia Fracture and is gonna be out",
+					"date": "August 23rd, 2016"
+				},
+				{
+					"col": "col-xs-6 col-sm-4",
+					"img": {
+						"full": "album-img11.jpg",
+						"thumb": "album-img11.jpg"
+					},
+					"title": "Cheerleader tryouts will start next Friday at 5pm",
+					"date": "August 23rd, 2016"
+				},
+				{
+					"col": "col-xs-6 col-sm-4",
+					"img": {
+						"full": "album-img12.jpg",
+						"thumb": "album-img12.jpg"
+					},
+					"title": "The new eco friendly stadium won a Leafy Award in 2016",
+					"date": "August 23rd, 2016"
+				},
+				{
+					"col": "col-xs-6 col-sm-4",
+					"img": {
+						"full": "album-img13.jpg",
+						"thumb": "album-img13.jpg"
+					},
+					"title": "James Girobilli in the charity event in L.A. Beach",
+					"date": "August 23rd, 2016"
+				},
+				{
+					"col": "col-md-8",
+					"img": {
+						"full": "album-img14.jpg",
+						"thumb": "album-img14.jpg"
+					},
+					"title": "The Planetrotters will perform this May 4th at Madison Cube",
+					"date": "August 23rd, 2016"
+				},
+				{
+					"col": "col-xs-6 col-sm-4",
+					"img": {
+						"full": "album-img15.jpg",
+						"thumb": "album-img15.jpg"
+					},
+					"title": "Jeremy Rittersen was called to be in the National Team",
+					"date": "August 23rd, 2016"
+				},
+				{
+					"col": "col-xs-6 col-sm-4",
+					"img": {
+						"full": "album-img16.jpg",
+						"thumb": "album-img16.jpg"
+					},
+					"title": "The team is taking a summer vacation on Woody Valley",
+					"date": "August 23rd, 2016"
+				}
+			]
+		},
+		"staff": {
+			"newslog": [
+				{
+					"type": "join",
+					"content": "<strong>Jenny Thomps</strong> is now the new <strong>Team Recruiter</strong> for the East Coast Colleges.",
+					"date": "December 19, 2015"
+				},
+				{
+					"type": "injury",
+					"content": "<strong>Robert Frankson</strong> will have a surgery and will be out for a month. Interim coach will be <strong>Frank Roberts</strong>.",
+					"date": "September 26, 2014"
+				},
+				{
+					"type": "join",
+					"content": "<strong>Max Stevens</strong> is now the <strong>2nd Team Doctor</strong> after a succesfull run in the Sharks.",
+					"date": "September 26, 2014"
+				},
+				{
+					"type": "exit",
+					"content": "<strong>Tommy Flankers</strong> left the team after 2 years as the <strong>2nd Team Doctor</strong>.",
+					"date": "August 12, 2014"
+				},
+				{
+					"type": "join",
+					"content": "<strong>Patrick Storm</strong> is now the new <strong>Team Recruiter</strong> for the West Coast Colleges.",
+					"date": "April 19, 2014"
+				},
+				{
+					"type": "join",
+					"content": "<strong>Alexa Polson</strong> is now the new <strong>Athletic Trainer</strong> after a succesfull run in the Pirates.",
+					"date": "November 27, 2013"
+				},
+				{
+					"type": "join",
+					"content": "<strong>Savannah Lavender</strong> is the new <strong>Team Nutritionist</strong> with more than 500.000 followers.",
+					"date": "February 15, 2012"
+				},
+				{
+					"type": "join",
+					"content": "<strong>Robert Frankson</strong> is now the new <strong>Alchemist Coach</strong> after a succesfull run in the Lucky Clovers.",
+					"date": "March 22, 2008"
+				}
+			],
+			"related_posts": [
+				{
+					"title": "Cheerleader tryouts will start next Friday at 5pm",
+					"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.",
+					"thumb": "post-img2",
+					"category": {
+						"class": "category-1",
+						"name": "The Team"
+					},
+					"author": {
+						"name": "James Spiegel",
+						"avatar": "avatar-1.jpg"
+					},
+					"date": "August 23rd, 2018",
+					"meta": {
+						"views": 2369,
+						"likes": 530,
+						"comments": 18
+					}
+				},
+				{
+					"title": "The new eco friendly stadium won a Leafy Award in 2016",
+					"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.",
+					"thumb": "post-img3",
+					"category": {
+						"class": "category-1",
+						"name": "The Team"
+					},
+					"author": {
+						"name": "Jessica Hoops",
+						"avatar": "avatar-2.jpg"
+					},
+					"date": "August 23rd, 2018",
+					"meta": {
+						"views": 2369,
+						"likes": 530,
+						"comments": 18
+					}
+				}
+			]
+		}
+	},
+	"products": {
+		"header-cart": [
+			{
+				"title": "Sundown Sneaker",
+				"thumb": "cart-sm-1.jpg",
+				"category": "Sneakers",
+				"rating": {
+					"full": 4,
+					"empty": 1
+				},
+				"price": "$28.00",
+				"count": 2
+			},
+			{
+				"title": "Atlantik Sneaker",
+				"thumb": "cart-sm-2.jpg",
+				"category": "Sneakers",
+				"rating": {
+					"full": 5,
+					"empty": 0
+				},
+				"price": "$30.00",
+				"count": 4
+			},
+			{
+				"title": "Aquarium Sneaker",
+				"thumb": "cart-sm-3.jpg",
+				"category": "Sneakers",
+				"rating": {
+					"full": 3,
+					"empty": 2
+				},
+				"price": "$28.00",
+				"count": 1
+			}
+		],
+		"shop": [
+			{
+				"title": "Sundown Sneaker",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.",
+				"excerpt_lg": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+				"abbr": "SK",
+				"category": "Sneakers",
+				"color": "color-1",
+				"colors": [
+					{ "color": "violet" },
+					{ "color": "blue", "active": true },
+					{ "color": "light-blue" },
+					{ "color": "orange" },
+					{ "color": "yellow" }
+				],
+				"img": [
+					{ "thumb": "product-img1.png" },
+					{ "thumb": "product-img1.png" },
+					{ "thumb": "product-img1.png" }
+				],
+				"img_lg": [
+					{ "thumb": "product-img1-lg.png" },
+					{ "thumb": "product-img1-lg.png" },
+					{ "thumb": "product-img1-lg.png" }
+				],
+				"rating": {
+					"full": 4,
+					"empty": 1
+				},
+				"price": "$28.00",
+				"size": "8,5 (USA)",
+				"quantity": 2
+			},
+			{
+				"title": "Atlantic Sneaker",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.",
+				"excerpt_lg": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+				"abbr": "SK",
+				"category": "Sneakers",
+				"color": "color-2",
+				"colors": [
+					{ "color": "blue", "active": true },
+					{ "color": "light-blue" },
+					{ "color": "green" },
+					{ "color": "black" },
+					{ "color": "white" }
+				],
+				"img": [
+					{ "thumb": "product-img2.png" },
+					{ "thumb": "product-img2.png" },
+					{ "thumb": "product-img2.png" }
+				],
+				"img_lg": [
+					{ "thumb": "product-img2-lg.png" },
+					{ "thumb": "product-img2-lg.png" },
+					{ "thumb": "product-img2-lg.png" }
+				],
+				"rating": {
+					"full": 5,
+					"empty": 0
+				},
+				"price": "$30.00",
+				"size": "8,5 (USA)",
+				"quantity": 2
+			},
+			{
+				"title": "Aquarium Sneaker",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.",
+				"excerpt_lg": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+				"abbr": "SK",
+				"category": "Sneakers",
+				"color": "color-3",
+				"colors": [
+					{ "color": "light-blue" },
+					{ "color": "cyan", "active": true },
+					{ "color": "aqua" },
+					{ "color": "green" }
+				],
+				"img": [
+					{ "thumb": "product-img3.png" },
+					{ "thumb": "product-img3.png" },
+					{ "thumb": "product-img2.png" }
+				],
+				"img_lg": [
+					{ "thumb": "product-img3-lg.png" },
+					{ "thumb": "product-img3-lg.png" },
+					{ "thumb": "product-img3-lg.png" }
+				],
+				"rating": {
+					"full": 3,
+					"empty": 2
+				},
+				"onsale": true,
+				"price": {
+					"old": "$26.00",
+					"new": "$22.00"
+				},
+				"size": "8,5 (USA)",
+				"quantity": 2
+			},
+			{
+				"title": "Crimson Fitted Hat",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.",
+				"excerpt_lg": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+				"abbr": "HC",
+				"category": "Hats and Caps",
+				"color": "color-4",
+				"colors": [
+					{ "color": "black", "active": true },
+					{ "color": "white" },
+					{ "color": "yellow" },
+					{ "color": "orange" }
+				],
+				"img": [
+					{ "thumb": "product-img4.png" },
+					{ "thumb": "product-img4.png" },
+					{ "thumb": "product-img4.png" }
+				],
+				"img_lg": [
+					{ "thumb": "product-img4-lg.png" },
+					{ "thumb": "product-img4-lg.png" },
+					{ "thumb": "product-img4-lg.png" }
+				],
+				"rating": {
+					"full": 3,
+					"empty": 2
+				},
+				"price": "$20.00",
+				"size": "8,5 (USA)",
+				"quantity": 2
+			},
+			{
+				"title": "The Jumper Sneaker",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.",
+				"abbr": "SK",
+				"category": "Sneakers",
+				"color": "color-1",
+				"img": [
+					{ "thumb": "product-img5.png" },
+					{ "thumb": "product-img5.png" },
+					{ "thumb": "product-img5.png" }
+				],
+				"rating": {
+					"full": 4,
+					"empty": 1
+				},
+				"price": "$30.00"
+			},
+			{
+				"title": "Greyson Fitted Shirt",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.",
+				"abbr": "SH",
+				"category": "Shirts and Hoodies",
+				"color": "color-5",
+				"img": [
+					{ "thumb": "product-img6.png" },
+					{ "thumb": "product-img6.png" },
+					{ "thumb": "product-img6.png" }
+				],
+				"rating": {
+					"full": 4,
+					"empty": 1
+				},
+				"price": "$50.00"
+			},
+			{
+				"title": "The Slime Sneaker",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.",
+				"abbr": "SK",
+				"category": "Sneakers",
+				"color": "color-1",
+				"img": [
+					{ "thumb": "product-img7.png" },
+					{ "thumb": "product-img7.png" },
+					{ "thumb": "product-img7.png" }
+				],
+				"rating": {
+					"full": 5,
+					"empty": 0
+				},
+				"price": "$32.00"
+			},
+			{
+				"title": "The Sporting Shirt",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.",
+				"abbr": "SH",
+				"category": "Shirts and Hoodies",
+				"color": "color-6",
+				"img": [
+					{ "thumb": "product-img8.png" },
+					{ "thumb": "product-img8.png" },
+					{ "thumb": "product-img8.png" }
+				],
+				"rating": {
+					"full": 4,
+					"empty": 1
+				},
+				"price": "$40.00"
+			},
+			{
+				"title": "Futuristic Sneaker",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.",
+				"abbr": "SK",
+				"category": "Sneakers",
+				"color": "color-3",
+				"img": [
+					{ "thumb": "product-img9.png" },
+					{ "thumb": "product-img9.png" },
+					{ "thumb": "product-img9.png" }
+				],
+				"rating": {
+					"full": 4,
+					"empty": 1
+				},
+				"price": "$34.00"
+			},
+			{
+				"title": "Carbon Fiber Hoodie",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.",
+				"abbr": "SH",
+				"category": "Shirts and Hoodies",
+				"color": "color-2",
+				"img": [
+					{ "thumb": "product-img10.png" },
+					{ "thumb": "product-img10.png" },
+					{ "thumb": "product-img10.png" }
+				],
+				"rating": {
+					"full": 4,
+					"empty": 1
+				},
+				"price": "$45.00"
+			},
+			{
+				"title": "Carbon Fiber Hoodie",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.",
+				"abbr": "HC",
+				"category": "Hats and Caps",
+				"color": "color-1",
+				"img": [
+					{ "thumb": "product-img11.png" },
+					{ "thumb": "product-img11.png" },
+					{ "thumb": "product-img11.png" }
+				],
+				"rating": {
+					"full": 4,
+					"empty": 1
+				},
+				"price": "$22.00"
+			},
+			{
+				"title": "Iceberg Sneaker",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.",
+				"abbr": "SK",
+				"category": "Sneakers",
+				"color": "color-5",
+				"img": [
+					{ "thumb": "product-img12.png" },
+					{ "thumb": "product-img12.png" },
+					{ "thumb": "product-img12.png" }
+				],
+				"rating": {
+					"full": 5,
+					"empty": 0
+				},
+				"price": "$30.00"
+			}
+		],
+		"widget-products": [
+			{
+				"title": "Sundown Sneaker",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.",
+				"thumb": "cart-sm-1",
+				"category": "Sneakers",
+				"rating": {
+					"full": 4,
+					"empty": 1
+				},
+				"price": "$28.00"
+			},
+			{
+				"title": "Atlantik Sneaker",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.",
+				"thumb": "cart-sm-2",
+				"category": "Sneakers",
+				"rating": {
+					"full": 5,
+					"empty": 0
+				},
+				"price": "$30.00"
+			},
+			{
+				"title": "Aquarium Sneaker",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.",
+				"thumb": "cart-sm-3",
+				"category": "Sneakers",
+				"rating": {
+					"full": 3,
+					"empty": 2
+				},
+				"price": "$28.00"
+			},
+			{
+				"title": "The Sporting Shirt",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.",
+				"thumb": "cart-sm-6",
+				"category": "Shirts and Hoodies",
+				"rating": {
+					"full": 4,
+					"empty": 1
+				},
+				"price": "$40.00"
+			}
+		],
+		"wishlist": [
+			{
+				"title": "Sundown Sneaker",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor en derum labore.",
+				"thumb": "cart-sm-1.jpg",
+				"category": "Sneakers",
+				"rating": {
+					"full": 4,
+					"empty": 1
+				},
+				"price": "$28.00",
+				"availability": true
+			},
+			{
+				"title": "Carbon Fiber Hoodie",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor en derum labore.",
+				"thumb": "cart-sm-4.jpg",
+				"category": "Shirts and Hoodies",
+				"rating": {
+					"full": 4,
+					"empty": 1
+				},
+				"price": "$45.00",
+				"availability": false
+			},
+			{
+				"title": "Carbon Fitted Cap",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor en derum labore.",
+				"thumb": "cart-sm-5.jpg",
+				"category": "Hats and Caps",
+				"rating": {
+					"full": 4,
+					"empty": 1
+				},
+				"price": "$22.00",
+				"availability": false
+			},
+			{
+				"title": "Aquarium Sneaker",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor en derum labore.",
+				"thumb": "cart-sm-3.jpg",
+				"category": "Sneakers",
+				"rating": {
+					"full": 3,
+					"empty": 2
+				},
+				"price": "$28.00",
+				"availability": true
+			},
+			{
+				"title": "Sporting Shirt",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor en derum labore.",
+				"thumb": "cart-sm-6.jpg",
+				"category": "Shirts",
+				"rating": {
+					"full": 5,
+					"empty": 0
+				},
+				"price": "$28.00",
+				"availability": true
+			},
+			{
+				"title": "Atlantik Sneaker",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi ng elit, sed do eiusmod tempor en derum labore.",
+				"thumb": "cart-sm-2.jpg",
+				"category": "Sneakers",
+				"rating": {
+					"full": 5,
+					"empty": 0
+				},
+				"price": "$30.00",
+				"count": 4
+			}
+		],
+		"cart": [
+			{
+				"title": "Sundown Sneaker",
+				"thumb": "cart-sm-1.jpg",
+				"category": "Sneakers",
+				"rating": {
+					"full": 4,
+					"empty": 1
+				},
+				"price": "$28.00",
+				"price_total": "$28.00",
+				"size": "8,5 (USA)",
+				"color": "orange",
+				"quantity": 1
+			},
+			{
+				"title": "Atlantik Sneaker",
+				"thumb": "cart-sm-2.jpg",
+				"category": "Sneakers",
+				"rating": {
+					"full": 5,
+					"empty": 0
+				},
+				"price": "$30.00",
+				"price_total": "$120.00",
+				"size": "8,5 (USA)",
+				"color": "blue",
+				"quantity": 4
+			},
+			{
+				"title": "Aquarium Sneaker",
+				"thumb": "cart-sm-3.jpg",
+				"category": "Sneakers",
+				"rating": {
+					"full": 3,
+					"empty": 2
+				},
+				"price": "$26.00",
+				"price_total": "$26.00",
+				"size": "8,5 (USA)",
+				"color": "aqua",
+				"quantity": 1
+			},
+			{
+				"title": "The Sporting Shirt",
+				"thumb": "cart-sm-6.jpg",
+				"category": "Shirts",
+				"rating": {
+					"full": 5,
+					"empty": 0
+				},
+				"price": "$40.00",
+				"price_total": "$40.00",
+				"size": "Large",
+				"color": "black",
+				"quantity": 1
+			}
+		],
+		"related": [
+			{
+				"title": "Sundown Sneaker",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.",
+				"abbr": "SK",
+				"category": "Sneakers",
+				"color": "color-1",
+				"img": [
+					{ "thumb": "product-img1.png" },
+					{ "thumb": "product-img1.png" },
+					{ "thumb": "product-img1.png" }
+				],
+				"rating": {
+					"full": 4,
+					"empty": 1
+				},
+				"price": "$28.00"
+			},
+			{
+				"title": "Atlantic Sneaker",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.",
+				"abbr": "SK",
+				"category": "Sneakers",
+				"color": "color-2",
+				"img": [
+					{ "thumb": "product-img2.png" },
+					{ "thumb": "product-img2.png" },
+					{ "thumb": "product-img2.png" }
+				],
+				"rating": {
+					"full": 5,
+					"empty": 0
+				},
+				"price": "$30.00"
+			},
+			{
+				"title": "Aquarium Sneaker",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.",
+				"abbr": "SK",
+				"category": "Sneakers",
+				"color": "color-3",
+				"img": [
+					{ "thumb": "product-img3.png" },
+					{ "thumb": "product-img3.png" },
+					{ "thumb": "product-img2.png" }
+				],
+				"rating": {
+					"full": 3,
+					"empty": 2
+				},
+				"onsale": true,
+				"price": {
+					"old": "$26.00",
+					"new": "$22.00"
+				}
+			},
+			{
+				"title": "Greyson Fitted Shirt",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.",
+				"abbr": "SH",
+				"category": "Shirts and Hoodies",
+				"color": "color-5",
+				"img": [
+					{ "thumb": "product-img6.png" },
+					{ "thumb": "product-img6.png" },
+					{ "thumb": "product-img6.png" }
+				],
+				"rating": {
+					"full": 4,
+					"empty": 1
+				},
+				"price": "$50.00"
+			}
+		]
+	},
+	"contact-info": {
+		"email-1": "tryouts@alchemists.com",
+		"email-2": "info@alchemists.com",
+		"social": [
+			{
+				"name": "Facebook",
+				"icon": "fa fa-facebook",
+				"link": "#"
+			},
+			{
+				"name": "Twitter",
+				"icon": "fa fa-twitter",
+				"link": "#"
+			},
+			{
+				"name": "Google+",
+				"icon": "fa fa-google-plus",
+				"link": "#"
+			}
+		]
+	},
+	"nav-footer": [
+		{
+			"label": "Home",
+			"link": "index.html"
+		},
+		{
+			"label": "Features",
+			"link": "features-shortcodes.html"
+		},
+		{
+			"label": "Statistics",
+			"link": "team-standings.html"
+		},
+		{
+			"label": "The Team",
+			"link": "team-overview.html"
+		},
+		{
+			"label": "News",
+			"link": "blog-3.html"
+		},
+		{
+			"label": "Shop",
+			"link": "shop-grid.html"
+		}
+	]
+}

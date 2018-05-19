@@ -1,0 +1,90 @@
+---
+page-title: News V1
+page-heading: "News <span class=\"highlight\">V1</span>"
+
+breadcrumbs: [
+	{
+		label: "News V1"
+	}
+]
+---
+
+{{> blog-filter}}
+
+<!-- Content
+================================================== -->
+<div class="site-content">
+	<div class="container">
+
+		<div class="row">
+			<!-- Content -->
+			<div class="content col-md-8">
+
+				<!-- Posts Grid -->
+				<div class="posts posts--cards post-grid post-grid--2cols post-grid--fitRows row">
+
+					{{#each basketball.posts.news-1}}
+					<div class="post-grid__item col-6">
+						<div class="posts__item posts__item--card posts__item--{{category.class}} card">
+							<figure class="posts__thumb">
+								<div class="posts__cat">
+									<span class="label posts__cat-label">{{category.name}}</span>
+								</div>
+								<a href="#"><img src="{{../root}}assets/images/samples/{{thumb}}" alt=""></a>
+							</figure>
+							<div class="posts__inner card__content">
+								<a href="#" class="posts__cta"></a>
+								<time datetime="2016-08-23" class="posts__date">{{date}}</time>
+								<h6 class="posts__title"><a href="#">{{title}}</a></h6>
+								<div class="posts__excerpt">
+									{{excerpt}}
+								</div>
+							</div>
+							<footer class="posts__footer card__footer">
+								<div class="post-author">
+									<figure class="post-author__avatar">
+										<img src="{{../root}}assets/images/samples/{{author.avatar}}" alt="Post Author Avatar">
+									</figure>
+									<div class="post-author__info">
+										<h4 class="post-author__name">{{author.name}}</h4>
+									</div>
+								</div>
+								<ul class="post__meta meta">
+									<li class="meta__item meta__item--views">{{meta.views}}</li>
+									<li class="meta__item meta__item--likes"><a href="#"><i class="meta-like icon-heart"></i> {{meta.likes}}</a></li>
+									<li class="meta__item meta__item--comments"><a href="#">{{meta.comments}}</a></li>
+								</ul>
+							</footer>
+						</div>
+					</div>
+					{{/each}}
+
+				</div>
+				<!-- Post Grid / End -->
+
+				{{> blog-pagination}}
+
+			</div>
+			<!-- Content / End -->
+
+			<!-- Sidebar -->
+			<div id="sidebar" class="sidebar col-md-4">
+
+				{{> widget-social}}
+
+				{{> widget-popular-posts}}
+
+				{{> widget-tagcloud}}
+
+				{{> widget-banner}}
+
+				{{> widget-tabbed-sm}}
+
+			</div>
+			<!-- Sidebar / End -->
+		</div>
+
+	</div>
+</div>
+
+<!-- Content / End -->

@@ -1,0 +1,177 @@
+---
+page-title: Team
+page-heading: "Over<span class=\"highlight\">View</span>"
+
+breadcrumbs: [
+	{
+		label: "Team",
+		link: "team-overview.html"
+	},
+	{
+		label: "Overview"
+	}
+]
+---
+
+{{> team-filter}}
+
+<!-- Content
+================================================== -->
+<div class="site-content">
+	<div class="container">
+
+		<div class="row">
+
+			<!-- Content -->
+			<div class="content col-md-8">
+
+				{{> game-scoreboard}}
+
+				<!-- Team Roster: Table -->
+				<div class="card card--has-table">
+					<div class="card__header card__header--has-btn">
+						<h4>Main Roster</h4>
+						<a href="team-roster-2.html" class="btn btn-default btn-outline btn-xs card-header__button">See Complete Roster</a>
+					</div>
+					<div class="card__content">
+						<div class="table-responsive">
+							<table class="table table--lg team-roster-table">
+								<thead>
+									<tr>
+										<th class="team-roster-table__number">NBR</th>
+										<th class="team-roster-table__name">Player Name</th>
+										<th class="team-roster-table__position hidden-xs hidden-sm">Position</th>
+										<th class="team-roster-table__age">Age</th>
+										<th class="team-roster-table__height">Height</th>
+										<th class="team-roster-table__weight">Weight</th>
+										<th class="team-roster-table__college hidden-xs hidden-sm">College</th>
+									</tr>
+								</thead>
+								<tbody>
+									{{#each (limit basketball.sp.team.main-roster 5)}}
+									<tr>
+										<td class="team-roster-table__number">{{number}}</td>
+										<td class="team-roster-table__name">{{name}}</td>
+										<td class="team-roster-table__position hidden-xs hidden-sm">{{position}}</td>
+										<td class="team-roster-table__age">{{age}}</td>
+										<td class="team-roster-table__height">{{height}}</td>
+										<td class="team-roster-table__weight">{{weight}}</td>
+										<td class="team-roster-table__college hidden-xs hidden-sm">{{place}}</td>
+									</tr>
+									{{/each}}
+									{{#each basketball.sp.team.staff}}
+									<tr>
+										<td class="team-roster-table__number">{{number}}</td>
+										<td class="team-roster-table__name">{{firstname}} {{lastname}}</td>
+										<td class="team-roster-table__position hidden-xs hidden-sm">{{position}}</td>
+										<td class="team-roster-table__age">{{age}}</td>
+										<td class="team-roster-table__height">{{height}}</td>
+										<td class="team-roster-table__weight">{{weight}}</td>
+										<td class="team-roster-table__college hidden-xs hidden-sm">{{place}}</td>
+									</tr>
+									{{/each}}
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+				<!-- Team Roster: Table / End -->
+
+				<div class="row">
+
+					<div class="col-md-6">
+
+						{{> widget-team-leaders}}
+
+					</div>
+					<div class="col-md-6">
+
+						{{> widget-team-stats}}
+
+					</div>
+				</div>
+
+				<!-- Schedule & Tickets -->
+				<div class="card card--has-table">
+					<div class="card__header card__header--has-btn">
+						<h4>Games Schedule</h4>
+						<a href="team-schedule.html" class="btn btn-default btn-outline btn-xs card-header__button">See Complete Schedule</a>
+					</div>
+					<div class="card__content">
+						<div class="table-responsive">
+							<table class="table table-hover team-schedule">
+								<thead>
+									<tr>
+										<th class="team-schedule__date">Date</th>
+										<th class="team-schedule__versus">Versus</th>
+										<th class="team-schedule__time">Time</th>
+										<th class="team-schedule__venue">Venue</th>
+										<th class="team-schedule__tickets">Tickets</th>
+									</tr>
+								</thead>
+								<tbody>
+									{{#each (limit basketball.sp.team.schedule 6)}}
+									<tr>
+										<td class="team-schedule__date">{{date}}</td>
+										<td class="team-schedule__versus">
+											<div class="team-meta">
+												<figure class="team-meta__logo">
+													<img src="{{../root}}assets/images/samples/logos/{{team.logo}}" alt="">
+												</figure>
+												<div class="team-meta__info">
+													<h6 class="team-meta__name">{{team.name}}</h6>
+													<span class="team-meta__place">{{team.place}}</span>
+												</div>
+											</div>
+										</td>
+										<td class="team-schedule__time">{{time}}</td>
+										<td class="team-schedule__venue">{{venue}}</td>
+										<td class="team-schedule__tickets">
+											<a href="#" class="btn btn-xs btn-default btn-outline btn-block {{#unless availability}}disabled{{/unless}}">
+												{{#if availability}}Buy Game Tickets{{else}}Sold Out{{/if}}
+											</a>
+										</td>
+									</tr>
+									{{/each}}
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+				<!-- Schedule & Tickets / End -->
+
+				<!-- Points History -->
+				<div class="card">
+					<div class="card__header card__header--has-btn">
+						<h4>Points History</h4>
+						<a href="team-schedule.html" class="btn btn-default btn-outline btn-xs card-header__button">See Complete History</a>
+					</div>
+					<div class="card__content">
+						<canvas id="points-history" class="points-history-chart" height="135"></canvas>
+					</div>
+				</div>
+				<!-- Points History / End -->
+
+			</div>
+			<!-- Content / End -->
+
+			<!-- Sidebar -->
+			<div class="sidebar col-md-4">
+
+				{{> widget-standings}}
+
+				{{> widget-results}}
+
+				{{> widget-awards}}
+
+				{{> widget-games-history}}
+
+				{{> widget-newslog}}
+
+			</div>
+			<!-- Sidebar / End -->
+		</div>
+	</div>
+</div>
+
+<!-- Content / End -->
