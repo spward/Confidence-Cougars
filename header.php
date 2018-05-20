@@ -242,6 +242,8 @@
 									<div class="main-nav__megamenu clearfix">
 										<ul class="col-lg-2 col-md-3 col-12 main-nav__ul">
 											<li class="main-nav__title">Features</li>
+											<li><a href="staff.php">Our Team</a></li>
+											<li><a href="calendar.php">Calendar</a></li>
 											<li><a href="features-shortcodes.html">Shortcodes</a></li>
 											<li><a href="features-typography.html">Typography</a></li>
 											<li><a href="features-widgets-blog.html">Widgets - Blog</a></li>
