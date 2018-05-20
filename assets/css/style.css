@@ -5270,7 +5270,7 @@ input.header-mobile__search-control {
 // --------------------------------------------------
 */
 .hero-unit {
-  background: #27313b url("../images/front.jpg") 0 no-repeat;
+  background: #27313b url("../images/front.jpg") 100% 100% no-repeat;
   background-size: cover; }
 
 .hero-unit__content--left-center {
@@ -5617,10 +5617,10 @@ input.header-mobile__search-control {
 */
 .page-heading {
   background-color: #1e2024;
-  background-image: url("../images/page-heading.jpg");
+  background-image: url("../images/front.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-position: 100% 75%;
   text-align: center;
   padding: 50px 0;
   position: relative; }
@@ -5657,7 +5657,7 @@ input.header-mobile__search-control {
     background-size: auto;
     background-position: 100% 0;
     background-repeat: no-repeat;
-    opacity: 0.4; }
+    opacity: 0.1; }
 
 .page-heading__title {
   text-transform: uppercase;
@@ -11700,7 +11700,7 @@ td.team-leader__avg {
     background-size: auto;
     background-position: 100% 0;
     background-repeat: no-repeat;
-    opacity: 0.4; }
+    opacity: 0.1; }
   .player-heading .container {
     position: relative;
     z-index: 2; }

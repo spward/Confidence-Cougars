@@ -35,7 +35,7 @@
                     <div class="row">
                       <div class="col-md-6">
                           <div class="staff_photo">
-                            <img src="assets/images/samples/roster_player_06.jpg" alt="">
+                            <img src="assets/images/staff/roberts.jpg" alt="">
                           </div>
                         </div>
                       <div class="col-md-6">
@@ -57,7 +57,7 @@
                             <dd class="staff-details_value"><img src="assets/images/staff/flags/us.svg" alt="United Stats flag">Rapid City, South Dakota</dd>
 
                             <dt class="staff-details_label">Age:</dt>
-                            <dd class="staff-details_value">48</dd>
+                            <dd class="staff-details_value">50</dd>
 
                             <dt class="staff-details_label">Birthday:</dt>
                             <dd class="staff-details_value">October 26th, 1968</dd>

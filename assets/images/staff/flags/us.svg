@@ -1,26 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1235" height="650" viewBox="0 0 7410 3900">
-<rect width="7410" height="3900" fill="#b22234"/>
-<path d="M0,450H7410m0,600H0m0,600H7410m0,600H0m0,600H7410m0,600H0" stroke="#fff" stroke-width="300"/>
-<rect width="2964" height="2100" fill="#3c3b6e"/>
-<g fill="#fff">
-<g id="s18">
-<g id="s9">
-<g id="s5">
-<g id="s4">
-<path id="s" d="M247,90 317.534230,307.082039 132.873218,172.917961H361.126782L176.465770,307.082039z"/>
-<use xlink:href="#s" y="420"/>
-<use xlink:href="#s" y="840"/>
-<use xlink:href="#s" y="1260"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1235" height="650">
+<defs>
+<path id="s" transform="scale(0.0308)" fill="#fff" d="M0,-1 L0.58779,0.80902 L-0.95106,-0.30902 L0.95106,-0.30902 L-0.58779,0.80902z"/>
+<g id="s17">
+	<g id="s8">
+		<use xlink:href="#s" x="0.0844" y="0.1345"/>
+		<use xlink:href="#s" x="0.1688" y="0.1345"/>
+		<use xlink:href="#s" x="0.2532" y="0.1345"/>
+		<use xlink:href="#s" x="0.3376" y="0.1345"/>
+		<use xlink:href="#s" x="0.422" y="0.1345"/>
+		<use xlink:href="#s" x="0.5064" y="0.1345"/>
+		<use xlink:href="#s" x="0.5908" y="0.1345"/>
+		<use xlink:href="#s" x="0.6752" y="0.1345"/>
+	</g>
+	<g id="s9">
+		<use xlink:href="#s8" x="0.0422" y="-0.0897"/>
+		<use xlink:href="#s" x="0.0422" y="0.0448"/>
+	</g>
 </g>
-<use xlink:href="#s" y="1680"/>
+<g id="u">
+	<use xlink:href="#s17"/>
+	<use xlink:href="#s17" y="0.1794"/>
+	<use xlink:href="#s17" y="0.3588"/>
 </g>
-<use xlink:href="#s4" x="247" y="210"/>
-</g>
-<use xlink:href="#s9" x="494"/>
-</g>
-<use xlink:href="#s18" x="988"/>
-<use xlink:href="#s9" x="1976"/>
-<use xlink:href="#s5" x="2470"/>
-</g>
+</defs>
+<rect width="1235" height="650" fill="#B22234"/>
+<path stroke="#FFF" stroke-width="50" d="M0,75H1235M0,175H1235M0,275H1235M0,375H1235M0,475H1235M0,575H1235"/>
+<rect width="494" height="350" fill="#3C3B6E"/>
+<use xlink:href="#u" transform="scale(650)"/>
 </svg>
