@@ -5266,7 +5266,7 @@ input.header-mobile__search-control {
 // --------------------------------------------------
 */
 .hero-unit {
-  background: #27313b url("../images/front.jpg") 0 no-repeat;
+  background: #27313b url("../images/front.jpg") 100% 100% no-repeat;
   background-size: cover; }
 
 .hero-unit__content--left-center {
@@ -5616,7 +5616,7 @@ input.header-mobile__search-control {
   background-image: url("../images/page-heading.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-position: 100% 75%;
   text-align: center;
   padding: 50px 0;
   position: relative; }
