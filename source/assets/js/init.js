@@ -1,9 +1,3 @@
-/**
-	* @package Alchemists HTML
-	*
-	* Template Scripts
-	* Created by Dan Fisher
-*/
 
 ;(function($){
 	"use strict";

@@ -13,9 +13,9 @@
 
 	<!-- Favicons
 	================================================== -->
-	<link rel="shortcut icon" href="assets/images/basketball/favicons/favicon.ico">
-	<link rel="apple-touch-icon" sizes="120x120" href="assets/images/basketball/favicons/favicon-120.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="assets/images/basketball/favicons/favicon-152.png">
+	<link rel="shortcut icon" href="assets/images/favicons/favicon.ico">
+	<link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicons/favicon-120.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicons/favicon-152.png">
 
 	<!-- Mobile Specific Metas
 	================================================== -->
@@ -238,7 +238,8 @@
 						<nav class="main-nav clearfix">
 							<ul class="main-nav__list">
 								<li class=""><a href="/">Home</a></li>
-								<li class=""><a href="#">Features</a>
+								<li class=""><a href="calendar.php">Calendar</a></li>
+								<!-- <li class=""><a href="#">Features</a>
 									<div class="main-nav__megamenu clearfix">
 										<ul class="col-lg-2 col-md-3 col-12 main-nav__ul">
 											<li class="main-nav__title">Features</li>
@@ -337,29 +338,29 @@
 											</ul>
 										</div>
 									</div>
-								</li>
+								</li> -->
 								<li class=""><a href="#">The Teams</a>
 									<ul class="main-nav__sub">
-										<li><a href="team-overview.html">Overview</a></li>
+										<li><a href="staff.php">Coaches</a></li>
 										<li><a href="team-roster-2.html">Girls</a>
   										<ul class="main-nav__sub-2">
-                                            <li><a href="team-roster-2.html">12<sup>th</sup> grade</a></li>
-                                            <li><a href="team-roster-1.html">10<sup>th</sup> grade</a></li>
-                                            <li><a href="team-roster-1.html">9<sup>th</sup> grade</a></li>
-  											<li><a href="team-roster-1.html">8<sup>th</sup> grade</a></li>
+                                            <li><a href="team-roster-2.html">11<sup>th</sup> grade</a></li>
+                                            <li><a href="">10<sup>th</sup> grade</a></li>
+                                            <li><a href="">9<sup>th</sup> grade</a></li>
+  											<li><a href="">8<sup>th</sup> grade</a></li>
   										</ul>
                                       </li>
                                       
                                     <li><a href="team-roster-2.html">Boys</a>
   										<ul class="main-nav__sub-2">
-  											<li><a href="team-roster-1.html">12<sup>th</sup> grade</a></li>
-  											<li><a href="team-roster-2.html">10<sup>th</sup> grade</a></li>
-                                              <li><a href="team-roster-3.html">9<sup>th</sup> grade &nbsp; <span class="label label-danger">New</span></a></li>
-                                              <li><a href="team-roster-2.html">8<sup>th</sup> grade</a></li>
-                                              <li><a href="team-roster-2.html">6<sup>th</sup> grade</a></li>
+  											<li><a href="team-roster-1.html">11<sup>th</sup> grade</a></li>
+  											<li><a href="">10<sup>th</sup> grade</a></li>
+                                              <li><a href="">9<sup>th</sup> grade &nbsp; <span class="label label-danger">New</span></a></li>
+                                              <li><a href="">8<sup>th</sup> grade</a></li>
+                                              <li><a href="">6<sup>th</sup> grade</a></li>
   										</ul>
   									</li>
-										<li><a href="team-standings.html">Standings</a></li>
+										<!-- <li><a href="team-standings.html">Standings</a></li>
 										<li><a href="team-last-results.html">Latest Results</a></li>
 										<li><a href="team-schedule.html">Schedule</a></li>
 										<li><a href="team-gallery.html">Gallery</a>
@@ -375,8 +376,8 @@
 												<li><a href="player-news.html">Related News</a></li>
 												<li><a href="player-gallery.html">Gallery</a></li>
 											</ul>
-										</li>
-										<li><a href="staff-single.html">Staff Member</a></li>
+										</li> -->
+										<li><a href="staff-single.html">Gallery</a></li>
 									</ul>
 								</li>
 								<li class=""><a href="#">News</a>
