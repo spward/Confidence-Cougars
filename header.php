@@ -123,7 +123,7 @@
   						<h6 class="info-block__heading">Contact Us</h6>
   						<a class="info-block__link" href="mailto:confidence@confidencecougars.com">Confidence Cougars</a>
   					</li>
-						<li class="info-block__item info-block__item--shopping-cart">
+						<!-- <li class="info-block__item info-block__item--shopping-cart">
 							<a href="#" class="info-block__link-wrapper">
 								<div class="df-icon-stack df-icon-stack--bag">
 									<svg role="img" class="df-icon df-icon--bag">
@@ -134,7 +134,7 @@
 									</svg>
 								</div>
 								<h6 class="info-block__heading">Your Bag (8 items)</h6>
-								<span class="info-block__cart-sum">$256,30</span>
+								<span class="info-block__cart-sum">$256,30</span> -->
 							</a>
 		
 							<!-- Dropdown Shopping Cart -->
@@ -230,14 +230,16 @@
 					<div class="header__primary-inner">
 						<!-- Header Logo -->
 						<div class="header-logo">
-							<a href="/"><img src="assets/images/logo.png" alt="Alchemists" srcset="assets/images/logo@2x.png 1.5x" class="header-logo__img"></a>
+							<a href="index.php"><img src="assets/images/logo.png" alt="Alchemists" srcset="assets/images/logo@2x.png 1.5x" class="header-logo__img"></a>
 						</div>
 						<!-- Header Logo / End -->
 		
 						<!-- Main Navigation -->
 						<nav class="main-nav clearfix">
 							<ul class="main-nav__list">
-								<li class=""><a href="/">Home</a></li>
+								<li class=""><a href="index.php">Home</a></li><li class="">
+								<li class=''><a href="about-us.php">About Us</a></li>
+
 								<li class=""><a href="calendar.php">Calendar</a></li>
 								<!-- <li class=""><a href="#">Features</a>
 									<div class="main-nav__megamenu clearfix">
@@ -342,12 +344,11 @@
 								<li class=""><a href="#">The Teams</a>
 									<ul class="main-nav__sub">
 										<li><a href="staff.php">Coaches</a></li>
-										<li><a href="team-roster-2.html">Girls</a>
+										<li><a href="team-roster-11g.php">Girls</a>
   										<ul class="main-nav__sub-2">
-                                            <li><a href="team-roster-2.html">11<sup>th</sup> grade</a></li>
-                                            <li><a href="">10<sup>th</sup> grade</a></li>
-                                            <li><a href="">9<sup>th</sup> grade</a></li>
-  											<li><a href="">8<sup>th</sup> grade</a></li>
+                                            <li><a href="team-roster-11g.php">11<sup>th</sup> grade</a></li>
+                                            <li><a href=team-roster-8g.php"">8<sup>th</sup> grade</a></li>
+  																					<li><a href=team-roster-7g.php"">7<sup>th</sup> grade</a></li>
   										</ul>
                                       </li>
                                       
@@ -458,10 +459,10 @@
 								<li class="posts__item posts__item--category-1">
 									<div class="posts__inner">
 										<div class="posts__cat">
-											<span class="label posts__cat-label">The Team</span>
+											<span class="label posts__cat-label">This is where its at</span>
 										</div>
-										<h6 class="posts__title"><a href="#">The new eco friendly stadium won a Leafy Award in 2016</a></h6>
-										<time datetime="2017-08-23" class="posts__date">August 23rd, 2018</time>
+										<h6 class="posts__title"><a href="#">Latest News for the Cougars</a></h6>
+										<time datetime="2017-08-23" class="posts__date">May 4, 2019</time>
 										<div class="posts__excerpt">
 											Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.
 										</div>
@@ -472,7 +473,7 @@
 												<img src="assets/images/samples/avatar-1.jpg" alt="Post Author Avatar">
 											</figure>
 											<div class="post-author__info">
-												<h4 class="post-author__name">James Spiegel</h4>
+												<h4 class="post-author__name">Kathy L. Ward</h4>
 											</div>
 										</div>
 										<ul class="post__meta meta">
@@ -484,10 +485,10 @@
 								<li class="posts__item posts__item--category-2">
 									<div class="posts__inner">
 										<div class="posts__cat">
-											<span class="label posts__cat-label">Injuries</span>
+											<span class="label posts__cat-label">More News</span>
 										</div>
-										<h6 class="posts__title"><a href="#">Mark Johnson has a Tibia Fracture and is gonna be out</a></h6>
-										<time datetime="2017-08-23" class="posts__date">August 23rd, 2018</time>
+										<h6 class="posts__title"><a href="#">Buckets hits 1/2 court shot</a></h6>
+										<time datetime="2017-08-23" class="posts__date">May 5, 2019</time>
 										<div class="posts__excerpt">
 											Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud en derum sum laborem.
 										</div>
@@ -512,41 +513,8 @@
 					</aside>
 					<!-- Widget: Posts / End -->
 		
-					<!-- Widget: Tag Cloud -->
-					<aside class="widget widget--side-panel widget-tagcloud">
-						<div class="widget__title">
-							<h4>Tag Cloud</h4>
-						</div>
-						<div class="widget__content">
-							<div class="tagcloud">
-								<a href="#" class="btn btn-primary btn-xs btn-outline btn-sm">PLAYOFFS</a>
-								<a href="#" class="btn btn-primary btn-xs btn-outline btn-sm">ALCHEMISTS</a>
-								<a href="#" class="btn btn-primary btn-xs btn-outline btn-sm">INJURIES</a>
-								<a href="#" class="btn btn-primary btn-xs btn-outline btn-sm">TEAM</a>
-								<a href="#" class="btn btn-primary btn-xs btn-outline btn-sm">INCORPORATIONS</a>
-								<a href="#" class="btn btn-primary btn-xs btn-outline btn-sm">UNIFORMS</a>
-								<a href="#" class="btn btn-primary btn-xs btn-outline btn-sm">CHAMPIONS</a>
-								<a href="#" class="btn btn-primary btn-xs btn-outline btn-sm">PROFESSIONAL</a>
-								<a href="#" class="btn btn-primary btn-xs btn-outline btn-sm">COACH</a>
-								<a href="#" class="btn btn-primary btn-xs btn-outline btn-sm">STADIUM</a>
-								<a href="#" class="btn btn-primary btn-xs btn-outline btn-sm">NEWS</a>
-								<a href="#" class="btn btn-primary btn-xs btn-outline btn-sm">PLAYERS</a>
-								<a href="#" class="btn btn-primary btn-xs btn-outline btn-sm">WOMEN DIVISION</a>
-								<a href="#" class="btn btn-primary btn-xs btn-outline btn-sm">AWARDS</a>
-							</div>
-						</div>
-					</aside>
-					<!-- Widget: Tag Cloud / End -->
+
 		
-					<!-- Widget: Banner -->
-					<aside class="widget widget--side-panel widget-banner">
-						<div class="widget__content">
-							<figure class="widget-banner__img">
-								<a href="#"><img src="assets/images/samples/banner.jpg" alt="Banner"></a>
-							</figure>
-						</div>
-					</aside>
-					<!-- Widget: Banner / End -->
 		
 				</div>
 				<a href="#" class="pushy-panel__back-btn"></a>

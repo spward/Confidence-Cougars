@@ -15,22 +15,130 @@ $(document).ready(function () {
         $('#calendar').fullCalendar({
             events: [
                 {
-                    title: 'BIG Tournament',
-                    start: '2018-05-11',
-                    end: '2018-05-14',
+                    title: 'All Players @ CFHS 6:30pm',
+                    start: '2019-05-01',
+                    
+                },
+          
+              
+                 {
+                    title: 'All Players @ CFHS 6:30PM',
+                    start: '2019-05-03',
+                    
+                },
+        
+                {
+                    title: 'Big Shots Wilmington',
+                    start: '2019-05-04',
+                    end: '2019-05-06'
+                },
+                 {
+                    title: '6th-8th Grade B&G @ FMS 6:00PM ',
+                    start: '2019-05-07',
+                    
+                },
+             
+                {
+                    title: '9th-12th Grade B&G @ CFHS 6:30PM',
+                    start: '2019-05-08',
+                    
+                },
+     
+                 {
+                    title: '6th-8th Grade B&G @ FMS 6:00PM ',
+                    start: '2019-05-09',
+                    
                 },
                 {
-                    title: 'First day of Testing',
-                    start: '2018-05-08',
+                    title: 'MDS Charleston 8th B&G',
+                    start: '2019-05-10',
+                    end: '2019-05-12'
+                },
+                                
+                {
+                    title: 'Girls ONLY ALL Teams @ CFHS 6:30PM ',
+                    start: '2019-05-15',
+                    
                 },
                 {
-                    title: 'Second day of Testing',
-                    start: '2018-05-09',
+                    title: 'Boys  ONLY ALL Teams @ FMS 6:00PM ',
+                    start: '2019-05-16',
+                    
+                },
+                
+                {
+                    title: 'WALMART FUNDRAISER ',
+                    start: '2019-05-17',
+                    
+                },{
+                    title: 'WALMART FUNDRAISER ',
+                    start: '2019-05-18',
+                    
                 },
                 {
-                    title: 'multiple per day',
-                    start: '2018-05-09',
+                    title: 'High School Teams B&G @ CFHS 4:30PM',
+                    start: '2019-05-19',
+                    
+                },
+                {
+                    title: '6th-8th Grade B&G @ FMS 6:00PM ',
+                    start: '2019-05-20',
+                    
+                },
+                {
+                    title: 'Girls ONLY High School Teams @ FMS 6:00PM',
+                    start: '2019-05-23',
+                    
+                },
+
+
+
+
+
+                {
+                    title: 'LEAVING FOR FLORIDA!!!   ',
+                    start: '2019-05-24',
+                    
+                },
+                 {
+                    title: 'J Mcgraw Jacksonville',
+                    start: '2019-05-25',
+                    end: '2019-05-28'
+                },
+                {
+                    title: 'All Teams B&G @ CFHS 6:30PM ',
+                    start: '2019-05-29',
+                    
+                },
+                {
+                    title: 'All Teams B&G @ FMS 6:30PM ',
+                    start: '2019-05-30',
+                    
+                },
+
+
+                 {
+                    title: 'NTBA Pre Nat 6th-8th B&G',
+                    start: '2019-05-31',
+                    end: '2019-06-03'
                 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               
             ],
 
             themeSystem: "bootstrap4",
