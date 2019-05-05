@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="zxx">
+
 <head>
 
 	<!-- Basic Page Needs
@@ -33,7 +34,9 @@
 	<link href="assets/fonts/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 	<link href="assets/vendor/magnific-popup/dist/magnific-popup.css" rel="stylesheet">
 	<link href="assets/vendor/slick/slick.css" rel="stylesheet">
-	<link href="assets/vendor/fullcalendar/fullcalendar.css" rel="stylesheet">	
+	<link href="assets/vendor/fullcalendar/fullcalendar.css" rel="stylesheet">
+	<link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+	<link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.gallery.min.css" type="text/css" rel="stylesheet" />
 
 	<!-- Template CSS-->
 	<link href="assets/css/style.css" rel="stylesheet">
@@ -42,6 +45,7 @@
 	<link href="assets/css/custom.css" rel="stylesheet">
 
 </head>
+
 <body class="template-basketball">
 
 	<div class="site-wrapper clearfix">
@@ -49,7 +53,7 @@
 
 		<!-- Header
 		================================================== -->
-		
+
 		<!-- Header Mobile -->
 		<div class="header-mobile clearfix" id="header-mobile">
 			<div class="header-mobile__logo">
@@ -60,14 +64,14 @@
 				<span class="header-mobile__search-icon" id="header-mobile__search-icon"></span>
 			</div>
 		</div>
-		
+
 		<!-- Header Desktop -->
 		<header class="header">
-		
+
 			<!-- Header Top Bar -->
 			<div class="header__top-bar clearfix">
 				<div class="container">
-		
+
 					<!-- Account Navigation -->
 					<ul class="nav-account">
 						<li class="nav-account__item"><a href="#" data-toggle="modal" data-target="#modal-login-register">Your Account</a></li>
@@ -90,15 +94,15 @@
 						<li class="nav-account__item nav-account__item--logout"><a href="#">Logout</a></li>
 					</ul>
 					<!-- Account Navigation / End -->
-		
+
 				</div>
 			</div>
 			<!-- Header Top Bar / End -->
-		
+
 			<!-- Header Secondary -->
 			<div class="header__secondary">
 				<div class="container">
-		
+
 					<!-- Header Search Form -->
 					<div class="header-search-form">
 						<form action="#" id="mobile-search-form" class="search-form">
@@ -107,22 +111,22 @@
 						</form>
 					</div>
 					<!-- Header Search Form / End -->
-		
+
 					<ul class="info-block info-block--header">
 						<li class="info-block__item info-block__item--contact-primary">
 							<svg role="img" class="df-icon df-icon--jersey">
-								<use xlink:href="assets/images/icons-basket.svg#jersey"/>
+								<use xlink:href="assets/images/icons-basket.svg#jersey" />
 							</svg>
-							  						<h6 class="info-block__heading">Join Our Team!</h6>
-  						<a class="info-block__link" href="mailto:confidence@confidencecougars.com">Confidence Cougars</a>
-  					</li>
-  					<li class="info-block__item info-block__item--contact-secondary">
-  						<svg role="img" class="df-icon df-icon--basketball">
-  							<use xlink:href="assets/images/icons-basket.svg#basketball"/>
-  						</svg> 
-  						<h6 class="info-block__heading">Contact Us</h6>
-  						<a class="info-block__link" href="mailto:confidence@confidencecougars.com">Confidence Cougars</a>
-  					</li>
+							<h6 class="info-block__heading">Join Our Team!</h6>
+							<a class="info-block__link" href="mailto:confidence@confidencecougars.com">Confidence Cougars</a>
+						</li>
+						<li class="info-block__item info-block__item--contact-secondary">
+							<svg role="img" class="df-icon df-icon--basketball">
+								<use xlink:href="assets/images/icons-basket.svg#basketball" />
+							</svg>
+							<h6 class="info-block__heading">Contact Us</h6>
+							<a class="info-block__link" href="mailto:confidence@confidencecougars.com">Confidence Cougars</a>
+						</li>
 						<!-- <li class="info-block__item info-block__item--shopping-cart">
 							<a href="#" class="info-block__link-wrapper">
 								<div class="df-icon-stack df-icon-stack--bag">
@@ -135,95 +139,95 @@
 								</div>
 								<h6 class="info-block__heading">Your Bag (8 items)</h6>
 								<span class="info-block__cart-sum">$256,30</span> -->
-							</a>
-		
-							<!-- Dropdown Shopping Cart -->
-							<ul class="header-cart">
-		
-								<li class="header-cart__item">
-									<figure class="header-cart__product-thumb">
-										<a href="shop-product.html">
-											<img src="assets/images/samples/cart-sm-1.jpg" alt="">
-										</a>
-									</figure>
-									<div class="header-cart__inner">
-										<span class="header-cart__product-cat">Sneakers</span>
-										<h5 class="header-cart__product-name"><a href="shop-product.html">Sundown Sneaker</a></h5>
-										<div class="header-cart__product-ratings">
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star empty"></i>
-										</div>
-										<div class="header-cart__product-sum">
-											<span class="header-cart__product-price">$28.00</span> x <span class="header-cart__product-count">2</span>
-										</div>
-										<div class="fa fa-times header-cart__close"></div>
+						</a>
+
+						<!-- Dropdown Shopping Cart -->
+						<ul class="header-cart">
+
+							<li class="header-cart__item">
+								<figure class="header-cart__product-thumb">
+									<a href="shop-product.html">
+										<img src="assets/images/samples/cart-sm-1.jpg" alt="">
+									</a>
+								</figure>
+								<div class="header-cart__inner">
+									<span class="header-cart__product-cat">Sneakers</span>
+									<h5 class="header-cart__product-name"><a href="shop-product.html">Sundown Sneaker</a></h5>
+									<div class="header-cart__product-ratings">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star empty"></i>
 									</div>
-								</li>
-								<li class="header-cart__item">
-									<figure class="header-cart__product-thumb">
-										<a href="shop-product.html">
-											<img src="assets/images/samples/cart-sm-2.jpg" alt="">
-										</a>
-									</figure>
-									<div class="header-cart__inner">
-										<span class="header-cart__product-cat">Sneakers</span>
-										<h5 class="header-cart__product-name"><a href="shop-product.html">Atlantik Sneaker</a></h5>
-										<div class="header-cart__product-ratings">
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-										</div>
-										<div class="header-cart__product-sum">
-											<span class="header-cart__product-price">$30.00</span> x <span class="header-cart__product-count">4</span>
-										</div>
-										<div class="fa fa-times header-cart__close"></div>
+									<div class="header-cart__product-sum">
+										<span class="header-cart__product-price">$28.00</span> x <span class="header-cart__product-count">2</span>
 									</div>
-								</li>
-								<li class="header-cart__item">
-									<figure class="header-cart__product-thumb">
-										<a href="shop-product.html">
-											<img src="assets/images/samples/cart-sm-3.jpg" alt="">
-										</a>
-									</figure>
-									<div class="header-cart__inner">
-										<span class="header-cart__product-cat">Sneakers</span>
-										<h5 class="header-cart__product-name"><a href="shop-product.html">Aquarium Sneaker</a></h5>
-										<div class="header-cart__product-ratings">
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star empty"></i>
-											<i class="fa fa-star empty"></i>
-										</div>
-										<div class="header-cart__product-sum">
-											<span class="header-cart__product-price">$28.00</span> x <span class="header-cart__product-count">1</span>
-										</div>
-										<div class="fa fa-times header-cart__close"></div>
+									<div class="fa fa-times header-cart__close"></div>
+								</div>
+							</li>
+							<li class="header-cart__item">
+								<figure class="header-cart__product-thumb">
+									<a href="shop-product.html">
+										<img src="assets/images/samples/cart-sm-2.jpg" alt="">
+									</a>
+								</figure>
+								<div class="header-cart__inner">
+									<span class="header-cart__product-cat">Sneakers</span>
+									<h5 class="header-cart__product-name"><a href="shop-product.html">Atlantik Sneaker</a></h5>
+									<div class="header-cart__product-ratings">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
 									</div>
-								</li>
-		
-								<li class="header-cart__item header-cart__item--subtotal">
-									<span class="header-cart__subtotal">Cart Subtotal</span>
-									<span class="header-cart__subtotal-sum">$282.00</span>
-								</li>
-								<li class="header-cart__item header-cart__item--action">
-									<a href="shop-cart.html" class="btn btn-default btn-block">Go to Cart</a>
-									<a href="shop-checkout.html" class="btn btn-primary-inverse btn-block">Checkout</a>
-								</li>
-							</ul>
-							<!-- Dropdown Shopping Cart / End -->
-		
+									<div class="header-cart__product-sum">
+										<span class="header-cart__product-price">$30.00</span> x <span class="header-cart__product-count">4</span>
+									</div>
+									<div class="fa fa-times header-cart__close"></div>
+								</div>
+							</li>
+							<li class="header-cart__item">
+								<figure class="header-cart__product-thumb">
+									<a href="shop-product.html">
+										<img src="assets/images/samples/cart-sm-3.jpg" alt="">
+									</a>
+								</figure>
+								<div class="header-cart__inner">
+									<span class="header-cart__product-cat">Sneakers</span>
+									<h5 class="header-cart__product-name"><a href="shop-product.html">Aquarium Sneaker</a></h5>
+									<div class="header-cart__product-ratings">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star empty"></i>
+										<i class="fa fa-star empty"></i>
+									</div>
+									<div class="header-cart__product-sum">
+										<span class="header-cart__product-price">$28.00</span> x <span class="header-cart__product-count">1</span>
+									</div>
+									<div class="fa fa-times header-cart__close"></div>
+								</div>
+							</li>
+
+							<li class="header-cart__item header-cart__item--subtotal">
+								<span class="header-cart__subtotal">Cart Subtotal</span>
+								<span class="header-cart__subtotal-sum">$282.00</span>
+							</li>
+							<li class="header-cart__item header-cart__item--action">
+								<a href="shop-cart.html" class="btn btn-default btn-block">Go to Cart</a>
+								<a href="shop-checkout.html" class="btn btn-primary-inverse btn-block">Checkout</a>
+							</li>
+						</ul>
+						<!-- Dropdown Shopping Cart / End -->
+
 						</li>
 					</ul>
 				</div>
 			</div>
 			<!-- Header Secondary / End -->
-		
+
 			<!-- Header Primary -->
 			<div class="header__primary">
 				<div class="container">
@@ -233,11 +237,12 @@
 							<a href="index.php"><img src="assets/images/logo.png" alt="Alchemists" srcset="assets/images/logo@2x.png 1.5x" class="header-logo__img"></a>
 						</div>
 						<!-- Header Logo / End -->
-		
+
 						<!-- Main Navigation -->
 						<nav class="main-nav clearfix">
 							<ul class="main-nav__list">
-								<li class=""><a href="index.php">Home</a></li><li class="">
+								<li class=""><a href="index.php">Home</a></li>
+								<li class="">
 								<li class=''><a href="about-us.php">About Us</a></li>
 
 								<li class=""><a href="calendar.php">Calendar</a></li>
@@ -345,22 +350,22 @@
 									<ul class="main-nav__sub">
 										<li><a href="staff.php">Coaches</a></li>
 										<li><a href="team-roster-11g.php">Girls</a>
-  										<ul class="main-nav__sub-2">
-                                            <li><a href="team-roster-11g.php">11<sup>th</sup> grade</a></li>
-                                            <li><a href=team-roster-8g.php"">8<sup>th</sup> grade</a></li>
-  																					<li><a href=team-roster-7g.php"">7<sup>th</sup> grade</a></li>
-  										</ul>
-                                      </li>
-                                      
-                                    <li><a href="team-roster-2.html">Boys</a>
-  										<ul class="main-nav__sub-2">
-  											<li><a href="team-roster-1.html">11<sup>th</sup> grade</a></li>
-  											<li><a href="">10<sup>th</sup> grade</a></li>
-                                              <li><a href="">9<sup>th</sup> grade &nbsp; <span class="label label-danger">New</span></a></li>
-                                              <li><a href="">8<sup>th</sup> grade</a></li>
-                                              <li><a href="">6<sup>th</sup> grade</a></li>
-  										</ul>
-  									</li>
+											<ul class="main-nav__sub-2">
+												<li><a href="team-roster-11g.php">11<sup>th</sup> grade</a></li>
+												<li><a href=team-roster-8g.php"">8<sup>th</sup> grade</a></li>
+												<li><a href=team-roster-7g.php"">7<sup>th</sup> grade</a></li>
+											</ul>
+										</li>
+
+										<li><a href="team-roster-2.html">Boys</a>
+											<ul class="main-nav__sub-2">
+												<li><a href="team-roster-1.html">11<sup>th</sup> grade</a></li>
+												<li><a href="">10<sup>th</sup> grade</a></li>
+												<li><a href="">9<sup>th</sup> grade &nbsp; <span class="label label-danger">New</span></a></li>
+												<li><a href="">8<sup>th</sup> grade</a></li>
+												<li><a href="">6<sup>th</sup> grade</a></li>
+											</ul>
+										</li>
 										<!-- <li><a href="team-standings.html">Standings</a></li>
 										<li><a href="team-last-results.html">Latest Results</a></li>
 										<li><a href="team-schedule.html">Schedule</a></li>
@@ -378,7 +383,7 @@
 												<li><a href="player-gallery.html">Gallery</a></li>
 											</ul>
 										</li> -->
-										<li><a href="staff-single.html">Gallery</a></li>
+										<li><a href="gallery.php">Gallery</a></li>
 									</ul>
 								</li>
 								<li class=""><a href="#">News</a>
@@ -410,23 +415,23 @@
 									</ul>
 								</li>
 							</ul>
-		
+
 							<!-- Social Links -->
 							<ul class="social-links social-links--inline social-links--main-nav">
-		
-  							<li class="social-links__item">
-  								<a href="https://www.facebook.com/confidencehoops/" target="_blank" class="social-links__link" data-toggle="tooltip"  data-placement="bottom" title="Facebook"><i class="fa fa-facebook"></i></a>
-  							</li>
-  							<li class="social-links__item">
-  								<a href="https://twitter.com/confidecehoops" target="_blank" class="social-links__link" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter"></i></a>
-  							</li>
-  							<li class="social-links__item">
-  								<a href="https://www.instagram.com/confidencehoops/" target="_blank" class="social-links__link" data-toggle="tooltip" data-placement="bottom" title="Instagram"><i class="fa fa-instagram"></i></a>
-  							</li>
-		
+
+								<li class="social-links__item">
+									<a href="https://www.facebook.com/confidencehoops/" target="_blank" class="social-links__link" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook"></i></a>
+								</li>
+								<li class="social-links__item">
+									<a href="https://twitter.com/confidecehoops" target="_blank" class="social-links__link" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter"></i></a>
+								</li>
+								<li class="social-links__item">
+									<a href="https://www.instagram.com/confidencehoops/" target="_blank" class="social-links__link" data-toggle="tooltip" data-placement="bottom" title="Instagram"><i class="fa fa-instagram"></i></a>
+								</li>
+
 							</ul>
 							<!-- Social Links / End -->
-		
+
 							<!-- Pushy Panel Toggle -->
 							<a href="#" class="pushy-panel__toggle">
 								<span class="pushy-panel__line"></span>
@@ -438,10 +443,10 @@
 				</div>
 			</div>
 			<!-- Header Primary / End -->
-		
+
 		</header>
 		<!-- Header / End -->
-		
+
 		<!-- Pushy Panel -->
 		<aside class="pushy-panel ">
 			<div class="pushy-panel__inner">
@@ -451,7 +456,7 @@
 					</div>
 				</header>
 				<div class="pushy-panel__content">
-		
+
 					<!-- Widget: Posts -->
 					<aside class="widget widget--side-panel">
 						<div class="widget__content">
@@ -512,10 +517,10 @@
 						</div>
 					</aside>
 					<!-- Widget: Posts / End -->
-		
 
-		
-		
+
+
+
 				</div>
 				<a href="#" class="pushy-panel__back-btn"></a>
 			</div>

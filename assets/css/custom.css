@@ -1,6 +1,103 @@
-/*
-File Name: 		custom.css
-Description:  You can add your custom CSS here and it will overwrite template styles
-*/
+:root {
+  --headings-color: $headings-color;
+  --circular-track-color: #ecf0f6; }
 
-/*# sourceMappingURL=maps/custom.css.map */
+/* gallery Area css
+============================================================================================ */
+.gallery_fillter .filter {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 50px; }
+  .gallery_fillter .filter li {
+    display: inline-block;
+    margin-right: 30px; }
+    .gallery_fillter .filter li:last-child {
+      margin-right: 0px; }
+    .gallery_fillter .filter li a {
+      font-size: 16px;
+      font-weight: 700;
+      text-transform: uppercase; }
+    .gallery_fillter .filter li.active a {
+      color: #fff; }
+
+.gallery_inner {
+  margin-bottom: -30px; }
+
+.gallery_item {
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 30px; }
+  .gallery_item:before {
+    content: "";
+    background: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 96%;
+    height: 100%;
+    opacity: 0; }
+  .gallery_item .gallery_text {
+    visibility: hidden;
+    position: absolute;
+    left: 0px;
+    bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px; }
+    .gallery_item .gallery_text h4 {
+      font-size: 21px;
+      font-weight: bold;
+      margin-bottom: 5px;
+      text-transform: uppercase;
+      cursor: pointer; }
+    .gallery_item .gallery_text p {
+      margin-bottom: 0px;
+      font-size: 14px; }
+  .gallery_item:hover {
+    cursor: pointer; }
+    .gallery_item:hover:before {
+      opacity: 1; }
+    .gallery_item:hover .gallery_text {
+      visibility: visible; }
+      .gallery_item:hover .gallery_text h4 {
+        color: #00afaf; }
+  .gallery_item .gallery_img {
+    height: 100%;
+    width: auto; }
+
+/* End gallery Area css
+============================================================================================ */
+/* Portfolio Details Area css
+============================================================================================ */
+.portfolio_details_inner .row {
+  margin-bottom: 65px; }
+
+.portfolio_details_inner p {
+  margin-bottom: 30px;
+  font-size: 14px; }
+  .portfolio_details_inner p:last-child {
+    margin-bottom: 0px; }
+
+.portfolio_details_inner .portfolio_right_text {
+  padding-left: 98px; }
+  .portfolio_details_inner .portfolio_right_text h4 {
+    font-size: 21px;
+    text-transform: uppercase;
+    margin-bottom: 18px; }
+  .portfolio_details_inner .portfolio_right_text p {
+    margin-bottom: 25px;
+    font-size: 14px; }
+  .portfolio_details_inner .portfolio_right_text .categories li {
+    margin-bottom: 7px;
+    font-weight: normal;
+    font-size: 14px; }
+    .portfolio_details_inner .portfolio_right_text .categories li span {
+      font-size: 14px;
+      font-weight: 500;
+      width: 97px;
+      display: inline-block; }
+    .portfolio_details_inner .portfolio_right_text .categories li:last-child {
+      margin-bottom: 0px; }
+
+/* End Portfolio Details Area css
+============================================================================================ */

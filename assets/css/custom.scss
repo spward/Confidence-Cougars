@@ -1,0 +1,130 @@
+@import "../../source/assets/scss/config/variables";
+/* gallery Area css
+============================================================================================ */
+.gallery_fillter {
+  .filter {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    li {
+      display: inline-block;
+      margin-right: 30px;
+      &:last-child {
+        margin-right: 0px;
+      }
+      a {
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+      &.active {
+        a {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+.gallery_inner {
+  margin-bottom: -30px;
+}
+.gallery_item {
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 30px;
+  &:before {
+    content: "";
+    background: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 96%;
+    height: 100%;
+    opacity: 0;
+  }
+  .gallery_text {
+    visibility: hidden;
+    position: absolute;
+    left: 0px;
+    bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    h4 {
+      font-size: 21px;
+      font-weight: bold;
+      margin-bottom: 5px;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+    p {
+      margin-bottom: 0px;
+      font-size: 14px;
+    }
+  }
+  &:hover {
+    cursor: pointer;
+    &:before {
+      opacity: 1;
+    }
+    .gallery_text {
+      visibility: visible;
+      h4 {
+        color: $color-primary;
+      }
+    }
+  }
+
+  .gallery_img {
+    height: 100%;
+    width: auto;
+  }
+}
+/* End gallery Area css
+============================================================================================ */
+
+/* Portfolio Details Area css
+============================================================================================ */
+.portfolio_details_inner {
+  .row {
+    margin-bottom: 65px;
+  }
+  p {
+    margin-bottom: 30px;
+    font-size: 14px;
+    &:last-child {
+      margin-bottom: 0px;
+    }
+  }
+  .portfolio_right_text {
+    padding-left: 98px;
+    h4 {
+      font-size: 21px;
+      text-transform: uppercase;
+      margin-bottom: 18px;
+    }
+    p {
+      margin-bottom: 25px;
+      font-size: 14px;
+    }
+    .categories {
+      li {
+        margin-bottom: 7px;
+        span {
+          font-size: 14px;
+          font-weight: 500;
+          width: 97px;
+          display: inline-block;
+        }
+        font-weight: normal;
+        font-size: 14px;
+        &:last-child {
+          margin-bottom: 0px;
+        }
+      }
+    }
+  }
+}
+
+/* End Portfolio Details Area css
+============================================================================================ */

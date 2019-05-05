@@ -130,10 +130,12 @@
 <div class="site-content">
 	<div class="container">
 		<div class="row">
-			<!-- Content -->
 
-			<!-- Scoreboard -->
-			<div class="widget-game-result__section col-md-8">
+		</div>
+		<div class="row">
+
+			<!-- Scoreboard 1 -->
+			<div class="widget-game-result__section col-md-6">
 				<div class="widget-game-result__table-stats">
 					<div class="table-responsive">
 						<table class="table table__cell-center table-thead-color">
@@ -159,32 +161,64 @@
 						</table>
 					</div>
 				</div>
-				<!-- Scoreboard / End -->
-
-				<!-- Widget: Newsletter -->
-				<aside class="widget widget--sidebar card widget-newsletter">
-					<div class="widget__title card__header">
-						<h4>Our Newsletter</h4>
-					</div>
-					<div class="widget__content card__content">
-						<h5 class="widget-newsletter__subtitle">Subscribe Now!</h5>
-						<div class="widget-newsletter__desc">
-							<p>Receive the latest news from the team: game reminders, new adquisitions and professional match results.</p>
-						</div>
-						<form action="#" id="newsletter" class="inline-form">
-							<div class="input-group">
-								<input type="email" class="form-control" placeholder="Your email address...">
-								<span class="input-group-append">
-									<button class="btn btn-lg btn-default" type="button">Send</button>
-								</span>
-							</div>
-						</form>
-					</div>
-				</aside>
-
 			</div>
+			<!-- Scoreboard / End -->
+
+			<!-- Scoreboard 2 -->
+			<div class="widget-game-result__section col-md-6">
+				<div class="widget-game-result__table-stats">
+					<div class="table-responsive">
+						<table class="table table__cell-center table-thead-color">
+							<thead>
+								<tr>
+									<th>Scoreboard</th>
+
+									<th>T</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th>U17 Girls - Deep South</th>
+
+									<td>107</td>
+								</tr>
+								<tr>
+									<th>U17 Xment</th>
+
+									<td>102</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+			<!-- Scoreboard / End -->
+
+		</div>
+		<div class="row">
+			<!-- Widget: Newsletter -->
+			<aside class="widget widget--sidebar card widget-newsletter col-md-6">
+				<div class="widget__title card__header">
+					<h4>Our Newsletter</h4>
+				</div>
+				<div class="widget__content card__content">
+					<h5 class="widget-newsletter__subtitle">Subscribe Now!</h5>
+					<div class="widget-newsletter__desc">
+						<p>Receive the latest news from the team: game reminders, new adquisitions and professional match results.</p>
+					</div>
+					<form action="#" id="newsletter" class="inline-form">
+						<div class="input-group">
+							<input type="email" class="form-control" placeholder="Your email address...">
+							<span class="input-group-append">
+								<button class="btn btn-lg btn-default" type="button">Send</button>
+							</span>
+						</div>
+					</form>
+				</div>
+			</aside>
+
 			<!-- Widget: Social Buttons -->
-			<aside class="widget widget--sidebar widget-social col-md-4">
+			<aside class="widget widget--sidebar widget-social col-md-6">
 				<a href="#" class="btn-social-counter btn-social-counter--fb" target="_blank">
 					<div class="btn-social-counter__icon">
 						<i class="fa fa-facebook"></i>
@@ -212,4 +246,6 @@
 			</aside>
 			<!-- Widget: Social Buttons / End -->
 		</div>
-		<?php require_once "footer.php";
+	</div>
+</div>
+<?php require_once "footer.php";
