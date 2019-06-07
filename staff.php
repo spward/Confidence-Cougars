@@ -21,85 +21,46 @@
     ================================================== -->
     <div class="site-content">
       <div class="container">
-
-        <div class="row">
-
           <!-- Content -->
           <div class="content">
-
               <div class="card__content">
-
                 <div class="card">
                   <div class="card__content">
-
                     <div class="row">
                       <div class="col-md-6">
-                          <div class="staff_photo">
-                            <img src="assets/images/staff/roberts.jpg" alt="">
-                          </div>
+                        <div class="staff_photo">
+                          <img src="assets/images/staff/roberts.jpg" alt="">
                         </div>
+                      </div>
                       <div class="col-md-6">
                         <div class="staff-inner">
                           <header class="staff_header">
                             <h1 class="staff_header-name">Larry<span class="staff_header-last-name">Roberts</span></h1>
-                            <span class="staff_header-role">Head Coach</span>
+                            <span class="staff_header-role">Founder;President</span>
                           </header>
-
                           <!-- Excerpt -->
-                          <div class="staff-excerpt"><p>Winner of the Inaugural Subway Coach of the Year Award 2017. </p>
-
-                          <p>Coach Roberts has been coaching youth basketball and mentoring youth for 20 years</br>
-                          <li>Coached in Conway for 10 years (JV and Middle School).</li>
-                          <li>Coached at Forest brook Middle for 4 years.</li>
-                          <li>Coached with the SC Stars for 2 years.</li>
-                          <li>Currently coaches the Confidence Cougars Boys and Girls Travel Teams.</li></p>
-
-                          <p>Roberts was a 2-year starter at Coastal Carolina University under Mike Hopkins 97-98(Current Head Coach at Conway High) and Pete Strickland 98-00.  (Strickland is the Current Head coach of Ireland National Team). At Coastal Roberts, Played multiple positions and earned all-conference his Senior Season. He was also named Best Leaper/Athletic of the Big South Conference by Streets & Smith’s National Basketball Magazine. 
-Prior to Coastal Roberts was a 2-year starter at Neosho County Community College in Chanute KS.  He also became a community and fan favorite while in Chanute. Roberts was given the Key to the city for his community service. He also received All Region and All Conference in the Jayhawk East and Regions 6 of the NJCAA.
-Roberts attend St. Martinville Sr. High School in Louisiana. Roberts was a part of three 5-4A Championships and a runner up in his 4 years at the school. He received All State and All Region and All Parish 1st team awards his Jr. And Sr. seasons.
-</p>
-
+                          <div class="staff-excerpt">
+                            <p>Born in Rapid City, South Dakota, Coach Roberts graduated high school class of 1995 at St. Martinville Sr. High School (Martinville, Louisiana).  Here he was named Class 4A Mr. Basketball, Region 4-5A Player of the Year, All State 1st Team, and Footlocker Louisiana All Star Game Dunk Champion.  Following his high school career by way of Neosho County Community College (Chanute, Kansas), Coach Roberts graduated Coastal Carolina University with a B.S. in Sports Administration class of 1999.  As a Chanticleer, he was Streets and Smiths Magazine Best Dunker in the Big South Conference and Big South All Conference 2nd Team 1998 and 1999.</p>
+                            <p>After college Coach Roberts began his coaching career working team and individual camps at Coastal Carolina University and Lander University from 2000 to 2008.  Following, he became Basketball Director and Assistant AD at Camp Kennybrook; High profile sports summer camp.  </p>
                           </div>
-                          <!-- Excerpt / End -->
-                          
-                          <!-- Details -->
-                          <dl class="staff-details">
-                            <dt class="staff-details_label">Born:</dt>
-                            <dd class="staff-details_value"><img src="assets/images/staff/flags/us.svg" alt="United Stats flag">Rapid City, South Dakota</dd>
-
-                            <dt class="staff-details_label">Education:</dt>
-                            <dd class="staff-details_value"> Coastal Carolina University Sports Management</dd>
-
-                            <dt class="staff-details_label">Specialization:</dt>
-                            <dd class="staff-details_value">Scouting, recruiting, foot work, game strategy, and team preparation.</dd>
-
-
-                                                                                </dl>
+                          <!-- Excerpt / End -->                          
                           <!-- Details / End -->
-<a href="staff-larry-roberts.php" class="btn btn-inverse btn-sm btn-outline btn-icon-right btn-condensed">Read More <i class="fa fa-plus text-primary"></i></a>
+                          <a href="staff-larry-roberts.php" class="btn btn-inverse btn-sm btn-outline btn-icon-right btn-condensed">Read More <i class="fa fa-plus text-primary"></i></a>
                         </div>
-
                       </div>
                     </div>
                   </div>
                 </div>
-
-
               </div>
-
-            <!-- Staff Member / End -->
-
-          </div>
+              <!-- Staff Member / End -->
+            </div>
           <!-- Content / End -->
 
           <!-- Content -->
           <div class="content">
-
-              <div class="card__content">
-
+            <div class="card__content">
                 <div class="card">
                   <div class="card__content">
-
                     <div class="row">
                       <div class="col-md-6">
                           <div class="staff_photo">
@@ -110,64 +71,30 @@ Roberts attend St. Martinville Sr. High School in Louisiana. Roberts was a part 
                         <div class="staff-inner">
                           <header class="staff_header">
                             <h1 class="staff_header-name">Destany<span class="staff_header-last-name">Eagles</span></h1>
-                            <span class="staff_header-role">Coach</span>
+                            <span class="staff_header-role">Co-Founder; Chief Executive Officer</span>
                           </header>
-
                           <!-- Excerpt -->
                           <div class="staff-excerpt">
-                            Sed ut perspiciatis unde omnis iste natus error sit lorel voluptatem accusantium doloremque de totam rem aperiam, eaque inventore veritatis.
+                            <p>Born in Conway, South Carolina, Coach Eagles graduated high school class of 2003 at Carolina Forest High School (Myrtle Beach, South Carolina).  Here she was named All Hoop Zone 2003, received a Myrtle Beach Sun News Full Front Sports page player bio 2003, was Outstanding Panther 2002, Coca-Cola Athlete of the year Finalist 2002, MVP 2001, and played with Zwolle-Netherlands/Holland Carolina’s Women’s Travel Basketball Team in 2000.  Following her high school career, Coach Eagles graduated Rensselaer Polytechnic Institute with a B.S. in Management, concentration in Marketing and Entrepreneurship, class of 2007.  As a Red Hawk, she was Co-Captain 2006-2007, 6th in the nation for steals averaging 3 per game, totaling 68 during the season of 2006-2007, Liberty League guard of the week multiple times throughout 2003-2007 and Most Improved 2004.</p>
+                            <p>After college Coach Eagles began her coaching career working as an Assistant Girls Coach at Conway Middle School 2008-2010.  Following an over .500 career at Conway Middle School, became an Assistant Girls JV Coach at Conway High School 2010-2012; maintained an over .500 career record.  </p>       
                           </div>
-                          <!-- Excerpt / End -->
-                          
-                          <!-- Details -->
-                          <dl class="staff-details">
-                            <dt class="staff-details_label">Born:</dt>
-                            <dd class="staff-details_value"><img src="assets/images/staff/flags/us.svg" alt="United Stats flag">Conway, South Carolina</dd>
-
-                            <dt class="staff-details_label">Age:</dt>
-                            <dd class="staff-details_value">32</dd>
-
-                            <dt class="staff-details_label">Birthday:</dt>
-                            <dd class="staff-details_value">October 26th, 1968</dd>
-
-                            <dt class="staff-details_label">Current Teams:</dt>
-                            <dd class="staff-details_value">Alchemists</dd>
-
-                            <dt class="staff-details_label">Past Teams:</dt>
-                            <dd class="staff-details_value">Rensselaer Polytechnic Institute</dd>
-
-                            <dt class="staff-details_label">Competitions:</dt>
-                            <dd class="staff-details_value">Regular Season</dd>
-
-                            <dt class="staff-details_label">Seasons:</dt>
-                            <dd class="staff-details_value">2011, 2012, 2014, 2016, 2017</dd>
-                            
-                          </dl>
+                          <!-- Excerpt / End -->                          
                           <!-- Details / End -->
-                          <a href="staff-single.php" class="btn btn-inverse btn-sm btn-outline btn-icon-right btn-condensed">Read More <i class="fa fa-plus text-primary"></i></a>
+                          <a href="staff-destany-eagles.php" class="btn btn-inverse btn-sm btn-outline btn-icon-right btn-condensed">Read More <i class="fa fa-plus text-primary"></i></a>
                         </div>
-
                       </div>
                     </div>
                   </div>
                 </div>
-
-
               </div>
-
+            </div>
             <!-- Staff Member / End -->
-
-          </div>
           <!-- Content / End -->
-
           <!-- Content -->
           <div class="content">
-
               <div class="card__content">
-
                 <div class="card">
                   <div class="card__content">
-
                     <div class="row">
                       <div class="col-md-6">
                           <div class="staff_photo">
@@ -177,58 +104,112 @@ Roberts attend St. Martinville Sr. High School in Louisiana. Roberts was a part 
                       <div class="col-md-6">
                         <div class="staff-inner">
                           <header class="staff_header">
-                            <h1 class="staff_header-name">Ko<span class="staff_header-last-name">Arms</span></h1>
-                            <span class="staff_header-role">Coach</span>
+                            <h1 class="staff_header-name">Korato<span class="staff_header-last-name">Arms</span></h1>
+                            <span class="staff_header-role">Director of Strength and Conditioning</span>
                           </header>
-
                           <!-- Excerpt -->
                           <div class="staff-excerpt">
-                            Sed ut perspiciatis unde omnis iste natus error sit lorel voluptatem accusantium doloremque de totam rem aperiam, eaque inventore veritatis.
+                           <p> Born in Okinawa, Japan, Coach Arms graduated high school by way of military upbringings class of 1997 at Kubasaki High School (Okinawa, Japan).  Following high school career, Coach Arms enlisted with the U.S. Army Combat Division from 2001-2003.  During that time period, Coach Arms used the sport of basketball coupled with exercise to connect with other throughout his tours of Iraq, Texas, and the U.S. East Coast.  After serving in the military he studied Recreation and Sport Management at Coastal Carolina University and with 12 years of coaching and mentoring experience, has specialized in Peak Performance, Mental Strength, and Corrective and Aquatic Fitness.  Now as a fitness professional within the Confidence Hoops Organization since 2016, he has instilled his beliefs in the 3 E’s- Effort, Energy, and Efficiency.</p>
                           </div>
                           <!-- Excerpt / End -->
-                          
-                          <!-- Details -->
-                          <dl class="staff-details">
-                            <dt class="staff-details_label">Born:</dt>
-                            <dd class="staff-details_value"><img src="assets/images/staff/flags/japan.svg" alt="Japans flag">Okinawa, Japan</dd>
-
-                            <dt class="staff-details_label">Age:</dt>
-                            <dd class="staff-details_value">48</dd>
-
-                            <dt class="staff-details_label">Birthday:</dt>
-                            <dd class="staff-details_value">October 26th, 1968</dd>
-
-                            <dt class="staff-details_label">Current Team:</dt>
-                            <dd class="staff-details_value">Alchemists</dd>
-
-                            <dt class="staff-details_label">Past Teams:</dt>
-                            <dd class="staff-details_value">Lucky Clovers</dd>
-
-                            <dt class="staff-details_label">Competitions:</dt>
-                            <dd class="staff-details_value">Regular Season</dd>
-
-                            <dt class="staff-details_label">Seasons:</dt>
-                            <dd class="staff-details_value">2011, 2012, 2014, 2016, 2017</dd>
-                            
-                          </dl>
-                          <!-- Details / End -->
-<a href="staff-single.php" class="btn btn-inverse btn-sm btn-outline btn-icon-right btn-condensed">Read More <i class="fa fa-plus text-primary"></i></a>
-                        </div>
-
                       </div>
                     </div>
                   </div>
                 </div>
-
-
               </div>
-
+            </div>
             <!-- Staff Member / End -->
-
           </div>
           <!-- Content / End -->
+              <!-- Content -->
+          <div class="content">
+            <div class="card__content">
+              <div class="card">
+                <div class="card__content">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="staff_photo">
+                        <img src="assets/images/staff/alvin.jpeg" alt="">
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="staff-inner">
+                        <header class="staff_header">
+                          <h1 class="staff_header-name">Alvin<span class="staff_header-last-name">Green</span></h1>
+                          <span class="staff_header-role">Director of Player Development</span>
+                        </header>
+                        <!-- Excerpt -->
+                        <div class="staff-excerpt">
+                          <p> Born in Bronx, NY, Coach Green graduated high school class of 2000 at Socastee High School (Socastee, SC).  Here he was named Gatorade Player of the Year in 1999 and the state of South Carolina’s Mr. Basketball in 2000, averaging 21.3 points per game.  Following his high school career, Coach Green graduated Coastal Carolina University with a B.S. in Business Management class of 2005.  As a Chanticleer, he was 4th all-time leader in assists with 411, 5th all-time leader in steals with 155, and 5th all-time leader in games played.  After college, Coach Green traveled through Tanzania, Namibia, South Africa, Botswana, Panama, Jamaica, and Trinidad working for the U.S. Department of State as a Culture Connect Envoy.  With over 12 years following of basketball coaching experience at all levels-elementary, high school, and college, Coach Green’s addition to the Confidence Hoop Organization in 2016 has been nothing short of beneficial for the development and creation of new programs to better serve the players within our organization.</p>
+                        </div>
+                        <!-- Excerpt / End -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Staff Member / End -->
+          </div>
+          <!-- Content / End -->             
+          
+          <div class="row">
+            <div class="content col-md-6">
+              <div class="card__content">
+                <div class="card">
+                  <div class="card__content">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="staff_photo">
+                          <div class="staff-inner">
+                            <header class="staff_header">
+                              <h1 class="staff_header-name">Trish<span class="staff_header-last-name">Roberts</span></h1>
+                              <span class="staff_header-role">Director of Basketball Operations</span>
+                            </header>
+                            <!-- Excerpt -->
+                            <div class="staff-excerpt">
+                            <p>Expertise lies within financial analysis, organizational growth, and maintaining financial stability as a non-profit organization.</p>
+                            </div>
+                            <!-- Excerpt / End -->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  <!-- Staff Member / End -->
+            </div>
+            <div class="content col-md-6">
+              <div class="card__content">
+                <div class="card">
+                  <div class="card__content">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="staff_photo">
+                          <div class="staff-inner">
+                            <header class="staff_header">
+                              <h1 class="staff_header-name">Kathy<span class="staff_header-last-name">Ward</span></h1>
+                              <span class="staff_header-role">Webmaster</span>
+                            </header>
+                            <!-- Excerpt -->
+                            <div class="staff-excerpt">
+                           
+                            </div>
+                            <!-- Excerpt / End -->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  <!-- Staff Member / End -->
+            </div>
+          </div>
+          <!-- Content -->
+<!-- Content / End -->
         </div>
-
       </div>
     </div>
 

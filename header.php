@@ -60,7 +60,7 @@
 				<a href="index.html"><img src="assets/images/logo.png" srcset="assets/images/logo@2x.png" alt="Alchemists" class="header-mobile__logo-img"></a>
 			</div>
 			<div class="header-mobile__inner">
-				<a id="header-mobile__toggle" class="burger-menu-icon"><span class="burger-menu-icon__line"></span></a>
+				<a id="header-mobile__toggle" class="burger-menu-icon"><span class="burger-menu-icon__line"></span></a>0
 				<span class="header-mobile__search-icon" id="header-mobile__search-icon"></span>
 			</div>
 		</div>
@@ -74,8 +74,9 @@
 
 					<!-- Account Navigation -->
 					<ul class="nav-account">
-						<li class="nav-account__item"><a href="#" data-toggle="modal" data-target="#modal-login-register">Your Account</a></li>
-						<li class="nav-account__item nav-account__item--wishlist"><a href="shop-wishlist.html">Wishlist <span class="highlight">8</span></a></li>
+						<!-- <li class="nav-account__item"><a href="#" data-toggle="modal" data-target="#modal-login-register">Your Account</a></li>   -->
+						<li class="nav-account__item"><a href="#">Your Account</a></li>
+						<li class="nav-account__item nav-account__item--wishlist"><a href=#"shop-wishlist.html">Wishlist <span class="highlight">8</span></a></li>
 						<li class="nav-account__item"><a href="#">Currency: <span class="highlight">USD</span></a>
 							<ul class="main-nav__sub">
 								<li><a href="#">USD</a></li>
@@ -95,7 +96,7 @@
 					</ul>
 					<!-- Account Navigation / End -->
 
-				</div>
+				</div>	
 			</div>
 			<!-- Header Top Bar / End -->
 
@@ -242,7 +243,7 @@
 						<nav class="main-nav clearfix">
 							<ul class="main-nav__list">
 								<li class=""><a href="index.php">Home</a></li>
-								<li class="">
+								<!-- <li class=""> -->
 								<li class=''><a href="about-us.php">About Us</a></li>
 
 								<li class=""><a href="calendar.php">Calendar</a></li>
@@ -348,22 +349,22 @@
 								</li> -->
 								<li class=""><a href="#">The Teams</a>
 									<ul class="main-nav__sub">
-										<li><a href="staff.php">Coaches</a></li>
+										<li><a href="staff.php">Coaches/Staff</a></li>
 										<li><a href="team-roster-11g.php">Girls</a>
 											<ul class="main-nav__sub-2">
 												<li><a href="team-roster-11g.php">11<sup>th</sup> grade</a></li>
-												<li><a href=team-roster-8g.php"">8<sup>th</sup> grade</a></li>
-												<li><a href=team-roster-7g.php"">7<sup>th</sup> grade</a></li>
+												<li><a href=#>8<sup>th</sup> grade</a></li>
+												<li><a href=#>7<sup>th</sup> grade</a></li>
 											</ul>
 										</li>
 
 										<li><a href="team-roster-2.html">Boys</a>
 											<ul class="main-nav__sub-2">
-												<li><a href="team-roster-1.html">11<sup>th</sup> grade</a></li>
-												<li><a href="">10<sup>th</sup> grade</a></li>
-												<li><a href="">9<sup>th</sup> grade &nbsp; <span class="label label-danger">New</span></a></li>
-												<li><a href="">8<sup>th</sup> grade</a></li>
-												<li><a href="">6<sup>th</sup> grade</a></li>
+												<li><a href=#">11<sup>th</sup> grade</a></li>
+												<li><a href="#">10<sup>th</sup> grade</a></li>
+												<!-- <li><a href="#">9<sup>th</sup> grade &nbsp; <span class="label label-danger">New</span></a></li>
+												<li><a href="#">8<sup>th</sup> grade</a></li> -->
+												<li><a href="#">6<sup>th</sup> grade</a></li>
 											</ul>
 										</li>
 										<!-- <li><a href="team-standings.html">Standings</a></li>
@@ -386,9 +387,9 @@
 										<li><a href="gallery.php">Gallery</a></li>
 									</ul>
 								</li>
-								<li class=""><a href="#">News</a>
+								<!-- <li class=""><a href="#">News</a>
 									<ul class="main-nav__sub">
-										<li class=""><a href="blog-1.html">News - version 1</a></li>
+										<li class=""><a href="News-1.php">Subway Winner</a></li>
 										<li class=""><a href="blog-2.html">News - version 2</a></li>
 										<li class=""><a href="blog-3.html">News - version 3</a></li>
 										<li class=""><a href="blog-4.html">News - version 4</a></li>
@@ -413,7 +414,7 @@
 										<li class=""><a href="shop-login.html">Login</a></li>
 										<li class=""><a href="shop-account.html">Account</a></li>
 									</ul>
-								</li>
+								</li> -->
 							</ul>
 
 							<!-- Social Links -->
@@ -423,7 +424,7 @@
 									<a href="https://www.facebook.com/confidencehoops/" target="_blank" class="social-links__link" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook"></i></a>
 								</li>
 								<li class="social-links__item">
-									<a href="https://twitter.com/confidecehoops" target="_blank" class="social-links__link" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter"></i></a>
+									<a href="https://twitter.com/confidencehoops" target="_blank" class="social-links__link" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter"></i></a>
 								</li>
 								<li class="social-links__item">
 									<a href="https://www.instagram.com/confidencehoops/" target="_blank" class="social-links__link" data-toggle="tooltip" data-placement="bottom" title="Instagram"><i class="fa fa-instagram"></i></a>

@@ -4280,7 +4280,6 @@ body {
 
 /* Header Top Bar */
 .header__top-bar {
-  background-color: #292c31;
   display: none; }
   @media (min-width: 992px) {
     .header__top-bar {
@@ -10572,21 +10571,21 @@ td.team-leader__avg {
           -moz-osx-font-smoothing: grayscale; }
         .calendar_wrap > table .prev a:hover,
         .calendar_wrap > table .next a:hover {
-          background-color: #00afaf; }
-    .calendar_wrap > table .prev {
-      text-align: left;
-      padding-left: 14px; }
-      .calendar_wrap > table .prev a::before {
-        content: "\f104"; }
-    .calendar_wrap > table .next {
-      text-align: right;
-      padding-right: 14px; }
-      .calendar_wrap > table .next a::before {
-        content: "\f105"; }
-  .calendar_wrap caption {
-    text-align: center;
-    overflow: hidden;
-    font-size: 12px;
+                    background-color: #00afaf; }
+              .calendar_wrap > table .prev {
+                text-align: left;
+                padding-left: 14px; }
+                .calendar_wrap > table .prev a::before {
+                  content: "\f104"; }
+              .calendar_wrap > table .next {
+                text-align: right;
+                padding-right: 14px; }
+                .calendar_wrap > table .next a::before {
+                  content: "\f105"; }
+            .calendar_wrap caption {
+              text-align: center;
+              overflow: hidden;
+              font-size: 12px;
     text-transform: uppercase;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;

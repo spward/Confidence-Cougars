@@ -12,7 +12,7 @@
 
 				<p>Stationed out of Horry County, Confidence Hoops is a competitive travel basketball program that stresses fundamental skill mastery, building of the basketball IQ, teamwork, and fellowship/sportsmanship through participation in ASGR, NTBA, and USS tournaments. Confidence Hoops, now in its 6th year, remains a summer and off-season training program for aspiring collegiate athletes.</p>
 
-				<p>Elite training, player development, and community relationships are the ideals that define our program. With over hundreds of years of coaching experience and multiple levels of experienced play, we are CONFIDENT that Confidence Hoops provides the most complete developmental experience for players of all ages.</p>
+				<!-- Elite training, player development, and community relationships are the ideals that define our program. With over hundreds of years of coaching experience and multiple levels of experienced play, we are CONFIDENT that Confidence Hoops provides the most complete developmental experience for players of all ages.</p> -->
 
 			</div>
 			<a href="about-us.php" class="btn btn-inverse btn-sm btn-outline btn-icon-right btn-condensed hero-unit__btn">Read More <i class="fa fa-plus text-primary"></i></a>
@@ -28,7 +28,7 @@
 <div class="posts posts--carousel-featured featured-carousel">
 
 	<div class="posts__item posts__item--category-1">
-		<a href="#" class="posts__link-wrapper">
+		<a href="news-1.php" class="posts__link-wrapper">
 			<figure class="posts__thumb">
 				<img src="assets/images/samples/featured-carousel-2.jpg" alt="">
 			</figure>
@@ -36,13 +36,14 @@
 				<div class="posts__cat">
 					<span class="label posts__cat-label">The Team</span>
 				</div>
-				<h3 class="posts__title">Featured STory 1</h3>
-				<time datetime="2019-04-07" class="posts__date">April 7, 2019</time>
-				<ul class="post__meta meta">
+				<h3 class="posts__title">Cougar Girls Take Big Shots Tourament</h3>
+				<time datetime="2018-04-15" class="posts__date">May 22, 2019</time>
+				
+				<!-- <ul class="post__meta meta">
 					<li class="meta__item meta__item--views">2369</li>
 					<li class="meta__item meta__item--likes"><i class="meta-like icon-heart"></i> 530</li>
 					<li class="meta__item meta__item--comments">18</li>
-				</ul>
+				</ul> -->
 			</div>
 		</a>
 	</div>
@@ -53,10 +54,10 @@
 			</figure>
 			<div class="posts__inner">
 				<div class="posts__cat">
-					<span class="label posts__cat-label">The Team</span>
+					<span class="label posts__cat-label">11th Grade Girls</span>
 				</div>
-				<h3 class="posts__title">Checkout the new ride of our best player of the season</h3>
-				<time datetime="2017-08-23" class="posts__date">August 23rd, 2018</time>
+				<h3 class="posts__title">How to register for NCAA tournament</h3>
+				<time datetime="2017-08-23" class="posts__date">April 1st, 2019</time>
 				<ul class="post__meta meta">
 					<li class="meta__item meta__item--views">2369</li>
 					<li class="meta__item meta__item--likes"><i class="meta-like icon-heart"></i> 530</li>
@@ -74,8 +75,8 @@
 				<div class="posts__cat">
 					<span class="label posts__cat-label">The Team</span>
 				</div>
-				<h3 class="posts__title">All the players are taking a team trip this summer</h3>
-				<time datetime="2017-08-23" class="posts__date">August 23rd, 2018</time>
+				<h3 class="posts__title">2019 Tournaments</h3>
+				<time datetime="2017-08-23" class="posts__date">January 3rd, 2019</time>
 				<ul class="post__meta meta">
 					<li class="meta__item meta__item--views">2369</li>
 					<li class="meta__item meta__item--likes"><i class="meta-like icon-heart"></i> 530</li>
@@ -93,18 +94,18 @@
 				<div class="posts__cat">
 					<span class="label posts__cat-label">The Team</span>
 				</div>
-				<h3 class="posts__title">Alchemists women team tryouts will start in January</h3>
+				<h3 class="posts__title">Roberts named Subway Coach of the year</h3>
 				<time datetime="2017-08-23" class="posts__date">August 23rd, 2018</time>
-				<ul class="post__meta meta">
+				<!-- <ul class="post__meta meta">
 					<li class="meta__item meta__item--views">2369</li>
 					<li class="meta__item meta__item--likes"><i class="meta-like icon-heart"></i> 530</li>
 					<li class="meta__item meta__item--comments">18</li>
-				</ul>
+				</ul> -->
 			</div>
 		</a>
 	</div>
 	<div class="posts__item posts__item--category-1">
-		<a href="#" class="posts__link-wrapper">
+		<a href="news-1.php" class="posts__link-wrapper">
 			<figure class="posts__thumb">
 				<img src="assets/images/samples/featured-carousel-1.jpg" alt="">
 			</figure>
@@ -202,18 +203,18 @@
 					<h4>Our Newsletter</h4>
 				</div>
 				<div class="widget__content card__content">
-					<h5 class="widget-newsletter__subtitle">Subscribe Now!</h5>
+					<h5 class="widget-newsletter__subtitle">COMING SOON!!!  Subscribe Now COMING SOON!!!</h5>
 					<div class="widget-newsletter__desc">
 						<p>Receive the latest news from the team: game reminders, new adquisitions and professional match results.</p>
 					</div>
-					<form action="#" id="newsletter" class="inline-form">
+					<!-- <form action="#" id="newsletter" class="inline-form">
 						<div class="input-group">
 							<input type="email" class="form-control" placeholder="Your email address...">
 							<span class="input-group-append">
 								<button class="btn btn-lg btn-default" type="button">Send</button>
 							</span>
 						</div>
-					</form>
+					</form> -->
 				</div>
 			</aside>
 

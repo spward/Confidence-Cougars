@@ -96,23 +96,23 @@
 
 												<li class="posts__item posts__item--category-2">
 													<div class="posts__cat">
-														<span class="label posts__cat-label">Injuries</span>
+														<span class="label posts__cat-label">News</span>
 													</div>
-													<h6 class="posts__title"><a href="#">Mark Johnson has a Tibia Fracture and is gonna be out</a></h6>
-													<time datetime="2017-08-23" class="posts__date">August 23rd, 2018</time>
+													<h6 class="posts__title"><a href="#">Story about Deep South</a></h6>
+													<time datetime="2017-08-23" class="posts__date">May 5, 2019</time>
 												</li>
 												<li class="posts__item posts__item--category-1">
 													<div class="posts__cat">
 														<span class="label posts__cat-label">The Team</span>
 													</div>
-													<h6 class="posts__title"><a href="#">Jay Rorks is only 24 points away from breaking the record</a></h6>
-													<time datetime="2017-08-23" class="posts__date">August 22nd, 2018</time>
+													<h6 class="posts__title"><a href="#">Lexi Tomlin going to Woffard</a></h6>
+													<time datetime="2017-08-23" class="posts__date">December 25, 2018</time>
 												</li>
 												<li class="posts__item posts__item--category-1">
 													<div class="posts__cat">
 														<span class="label posts__cat-label">The Team</span>
 													</div>
-													<h6 class="posts__title"><a href="#">The new eco friendly stadium won a Leafy Award in 2016</a></h6>
+													<h6 class="posts__title"><a href="#">Cougars</a></h6>
 													<time datetime="2017-08-23" class="posts__date">June 8th, 2018</time>
 												</li>
 
@@ -130,7 +130,7 @@
 										<h4 class="widget__title">Instagram Widget</h4>
 										<div class="widget__content">
 											<ul id="instagram-feed" class="widget-instagram__list"></ul>
-											<a href="https://www.instagram.com/dan.fisher.dev" class="btn btn-sm btn-instagram btn-icon-right">Follow Our Instagram <i class="icon-arrow-right"></i></a>
+											<!-- <a href="https://www.instagram.com/confidencehoops" class="btn btn-sm btn-instagram btn-icon-right">Follow Our Instagram <i class="icon-arrow-right"></i></a> -->
 										</div>
 									</div>
 									<!-- Widget: Instagram / End -->
@@ -144,17 +144,17 @@
 			<!-- Footer Widgets / End -->
 
 			<!-- Footer Secondary -->
-			<div class="footer-secondary footer-secondary--has-decor">
+			<!-- <div class="footer-secondary footer-secondary--has-decor">
 				<div class="container">
 					<div class="footer-secondary__inner">
 						<div class="row">
 							<div class="col-md-10 offset-md-1">
 								<ul class="footer-nav">
 
-									<li class="footer-nav__item"><a href="/">Home</a></li>
-									<li class="footer-nav__item"><a href="features-shortcodes.html">Features</a></li>
-									<li class="footer-nav__item"><a href="team-standings.html">Statistics</a></li>
-									<li class="footer-nav__item"><a href="team-overview.html">The Team</a></li>
+									<li class="footer-nav__item"><a href="index.php">Home</a></li>
+									<li class="footer-nav__item"><a href="about-us.php">About Us</a></li>
+									<li class="footer-nav__item"><a href="calendar.php">Calendar</a></li>
+									<li class="footer-nav__item"><a href="team-overview.html">The Teams</a></li>
 									<li class="footer-nav__item"><a href="blog-3.html">News</a></li>
 									<li class="footer-nav__item"><a href="shop-grid.html">Shop</a></li>
 
@@ -163,7 +163,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> -->
 			<!-- Footer Secondary / End -->
 		</footer>
 		<!-- Footer / End -->

@@ -39,13 +39,13 @@
 						<!-- Player Photo / End-->
 						<!-- Player Details -->
 						<div class="team-roster__player-details">
-							<div class="team-roster__player-number">3</div>
+							<div class="team-roster__player-number">12</div>
 							<div class="team-roster__player-info">
 								<h3 class="team-roster__player-name">
-									<span class="team-roster__player-first-name">Reilly</span>
-									<span class="team-roster__player-last-name">Ward</span>
+									<span class="team-roster__player-first-name">Shykiera</span>
+									<span class="team-roster__player-last-name">Brown</span>
 								</h3>
-								<div class="team-roster__player-position">Shooting Guard</div>
+								<div class="team-roster__player-position">Point Guard</div>
 							</div>
 						</div>
 						<!-- Player Details / End -->
@@ -70,13 +70,13 @@
 						<!-- Player Photo / End-->
 						<!-- Player Details -->
 						<div class="team-roster__player-details">
-							<div class="team-roster__player-number">23</div>
+							<div class="team-roster__player-number">3</div>
 							<div class="team-roster__player-info">
 								<h3 class="team-roster__player-name">
-									<span class="team-roster__player-first-name">Carlie</span>
-									<span class="team-roster__player-last-name">Skolsky</span>
+									<span class="team-roster__player-first-name">Reilly</span>
+									<span class="team-roster__player-last-name">Ward</span>
 								</h3>
-								<div class="team-roster__player-position">Center</div>
+								<div class="team-roster__player-position">Shooting Guard</div>
 							</div>
 						</div>
 						<!-- Player Details / End -->
@@ -101,13 +101,13 @@
 						<!-- Player Photo / End-->
 						<!-- Player Details -->
 						<div class="team-roster__player-details">
-							<div class="team-roster__player-number">12</div>
+							<div class="team-roster__player-number">23</div>
 							<div class="team-roster__player-info">
 								<h3 class="team-roster__player-name">
-									<span class="team-roster__player-first-name">Shykiera </span>
-									<span class="team-roster__player-last-name">Brown</span>
+									<span class="team-roster__player-first-name">Carlie</span>
+									<span class="team-roster__player-last-name">Skolsky</span>
 								</h3>
-								<div class="team-roster__player-position">Point Guard</div>
+								<div class="team-roster__player-position">Center</div>
 							</div>
 						</div>
 						<!-- Player Details / End -->
