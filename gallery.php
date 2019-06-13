@@ -22,87 +22,60 @@
 <div class="site-content">
 	<div class="container">
 		<!--================gallery Area =================-->
-		<section class="gallery" data-featherlight-target-attr="src">
+		<section class="gallery p_120" id="gallery">
 			<div class="container">
-				<div class="main_title">
-					<h2>Our Recent Completed gallery</h2>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-						eiusmod tempor
-					</p>
-				</div>
-				<div class="gallery_fillter">
-					<ul class="filter categories">
+				<div class="gallery__filter">
+					<ul class="filter list-items">
 						<li class="active" data-filter="*">
 							<a href="#">All Categories</a>
 						</li>
 						<li data-filter=".brand"><a href="#">Branding</a></li>
-						<li data-filter=".work"><a href="#">Creative Work </a></li>
+						<li data-filter=".webdev"><a href="#">Web Development</a></li>
 						<li data-filter=".web"><a href="#">Web Design</a></li>
 					</ul>
 				</div>
-				<div class="gallery_inner row" data-featherlight-gallery data-featherlight-filter="a">
-					<div class="col-lg-4 col-sm-6 brand web">
-						<div class="gallery_item">
-							<a class="gallery_img" href="assets/images/gallery/projects-1.jpg" />
-							<img class="img-fluid" src="assets/images/gallery/projects-1.jpg" alt="" />
-							<div class="gallery_text">
-								<h4>3D Helmet Design</h4>
-								<p>Client Project</p>
-							</div>
+				<div class="gallery__inner row">
+					<div class="col-lg-4 col-sm-6 brand">
+						<div class="gallery__item">
+							<figure>
+								<img class="img-fluid" src="assets\images\gallery\projects-1.jpg" alt="" />
+								<figcaption class="gallery__text">
+									<h4>Confidence Cougars</h4>
+									<a data-src="assets\images\gallery\projects-1.jpg" data-fancybox="gallery" data-caption='
+                    <div class="gallery__text--caption">
+                      <p>Local Basketball Team</p>
+                      <a href="http://thatcougarlife.com/" target="blank">
+                         Website
+                      </a>
+                        |
+                      <a href="https://github.com/spward/Confidence-Cougars" target="blank">
+                        <span>Repo</span> <i class="fab fa-github"></i>
+                      </a>
+
+                    </div>'>
+									</a>
+									<p>Client Project</p>
+								</figcaption>
+							</figure>
 						</div>
 					</div>
-					<div class="col-lg-4 col-sm-6 brand work">
-						<div class="gallery_item">
-							<img class="img-fluid" src="assets/images/gallery/projects-2.jpg" alt="" />
-							<div class="gallery_text">
-								<h4>3D Helmet Design</h4>
-								<p>Client Project</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-sm-6 work">
-						<div class="gallery_item">
-							<img class="img-fluid" src="assets/images/gallery/projects-3.jpg" alt="" />
-							<div class="gallery_text">
-								<a href="portfolio-details.html">
-									<h4>3D Helmet Design</h4>
-								</a>
-								<p>Client Project</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-sm-6 brand web">
-						<div class="gallery_item">
-							<img class="img-fluid" src="assets/images/gallery/projects-4.jpg" alt="" />
-							<div class="gallery_text">
-								<a href="portfolio-details.html">
-									<h4>3D Helmet Design</h4>
-								</a>
-								<p>Client Project</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-sm-6 brand work">
-						<div class="gallery_item">
-							<img class="img-fluid" src="assets/images/gallery/projects-5.jpg" alt="" />
-							<div class="gallery_text">
-								<a href="portfolio-details.html">
-									<h4>3D Helmet Design</h4>
-								</a>
-								<p>Client Project</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-sm-6 brand work web">
-						<div class="gallery_item">
-							<img class="img-fluid" src="assets/images/gallery/projects-6.jpg" alt="" />
-							<div class="gallery_text">
-								<a href="portfolio-details.html">
-									<h4>3D Helmet Design</h4>
-								</a>
-								<p>Client Project</p>
-							</div>
+					<div class="col-lg-4 col-sm-6 webdev">
+						<div class="gallery__item">
+							<figure>
+								<img class="img-fluid" src="assets\images\gallery\projects-2.jpg" alt="" />
+								<figcaption class="gallery__text">
+									<h4>Phoenix Rising</h4>
+									<a data-src="assets\images\gallery\projects-2.jpg" data-fancybox="gallery" data-caption='
+                    <div class="gallery__text--caption">
+                      <p>Phoenix Rising League is an eSports team for a game called League of Legends. I worked on Twitch stream emotes.</p>
+                      <a href="https://www.phoenixrisingleague.com/" target="blank">
+                         Website
+                      </a>
+                    </div>'>
+									</a>
+									<p>Client Project</p>
+								</figcaption>
+							</figure>
 						</div>
 					</div>
 				</div>

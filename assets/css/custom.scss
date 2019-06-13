@@ -1,91 +1,138 @@
 @import "../../source/assets/scss/config/variables";
 /* gallery Area css
 ============================================================================================ */
-.gallery_fillter {
-  .filter {
-    text-align: center;
-    margin-top: 70px;
-    margin-bottom: 50px;
-    li {
-      display: inline-block;
-      margin-right: 30px;
-      &:last-child {
-        margin-right: 0px;
-      }
-      a {
-        font-size: 16px;
-        font-weight: 700;
-        text-transform: uppercase;
-      }
-      &.active {
+.gallery {
+  &__filter {
+    .filter {
+      text-align: center;
+      margin-top: 70px;
+      margin-bottom: 50px;
+      li {
+        display: inline-block;
+        margin-right: 30px;
+        &:last-child {
+          margin-right: 0px;
+        }
         a {
-          color: #fff;
+          font-size: 16px;
+          color: white;
+          &:hover {
+            color: $color-primary;
+          }
+        }
+        &.active {
+          a {
+            color: $color-primary;
+          }
+        }
+      }
+    }
+  }
+  &__inner {
+    margin-bottom: -30px;
+  }
+  &__item {
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    &:before {
+      content: "";
+      background: rgba(255, 255, 255, 0.8);
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      width: 96%;
+      height: 100%;
+      opacity: 0;
+      transition: all 300ms ease;
+    }
+    .gallery__text {
+      display: none;
+      position: absolute;
+      padding: 15px;
+      height: 100%;
+      width: 100%;
+      top: auto;
+      left: 0;
+      bottom: 0;
+      z-index: 10;
+      h4 {
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 5px;
+        @include transition;
+        text-transform: uppercase;
+        cursor: pointer;
+      }
+      p {
+        margin-bottom: 0px;
+        font-size: 24px;
+      }
+    }
+    &:hover {
+      &:before {
+        opacity: 1;
+      }
+      .gallery__text {
+        display: inline;
+        h4 {
+          background: linear-gradient(
+            to bottom,
+            $color-primary 0%,
+            $color-primary-darken 70%
+          );
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
         }
       }
     }
   }
 }
-.gallery_inner {
-  margin-bottom: -30px;
-}
-.gallery_item {
-  position: relative;
-  border-radius: 5px;
-  overflow: hidden;
-  margin-bottom: 30px;
-  &:before {
-    content: "";
-    background: rgba(255, 255, 255, 0.8);
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 96%;
-    height: 100%;
-    opacity: 0;
-  }
-  .gallery_text {
-    visibility: hidden;
-    position: absolute;
-    left: 0px;
-    bottom: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
-    h4 {
-      font-size: 21px;
-      font-weight: bold;
-      margin-bottom: 5px;
-      text-transform: uppercase;
-      cursor: pointer;
-    }
-    p {
-      margin-bottom: 0px;
-      font-size: 14px;
-    }
+
+.gallery__text--caption {
+  font-size: 18px;
+  p {
+    margin: 0;
   }
   &:hover {
-    cursor: pointer;
-    &:before {
-      opacity: 1;
-    }
-    .gallery_text {
-      visibility: visible;
-      h4 {
-        color: $color-primary;
-      }
-    }
+    text-decoration: none;
   }
-
-  .gallery_img {
-    height: 100%;
-    width: auto;
+  span {
+    color: #fff;
+  }
+  a {
+    color: #62bdfc !important;
   }
 }
+
+/* End Projects Area css
+============================================================================================ */
+
+figcaption {
+  position: absolute;
+  padding: 15px;
+  height: 100%;
+  width: 100%;
+  top: auto;
+  left: 0;
+  bottom: 0;
+
+  a {
+    position: absolute;
+    z-index: 1111;
+    width: 100%;
+    height: 100%;
+  }
+}
+
 /* End gallery Area css
 ============================================================================================ */
 
-/* Portfolio Details Area css
+/* gallery Details Area css
 ============================================================================================ */
-.portfolio_details_inner {
+.gallery_details_inner {
   .row {
     margin-bottom: 65px;
   }
@@ -96,7 +143,7 @@
       margin-bottom: 0px;
     }
   }
-  .portfolio_right_text {
+  .gallery_right_text {
     padding-left: 98px;
     h4 {
       font-size: 21px;
@@ -126,5 +173,5 @@
   }
 }
 
-/* End Portfolio Details Area css
+/* End gallery Details Area css
 ============================================================================================ */

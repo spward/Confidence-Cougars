@@ -4,31 +4,32 @@
 
 /* gallery Area css
 ============================================================================================ */
-.gallery_fillter .filter {
+.gallery__filter .filter {
   text-align: center;
   margin-top: 70px;
   margin-bottom: 50px; }
-  .gallery_fillter .filter li {
+  .gallery__filter .filter li {
     display: inline-block;
     margin-right: 30px; }
-    .gallery_fillter .filter li:last-child {
+    .gallery__filter .filter li:last-child {
       margin-right: 0px; }
-    .gallery_fillter .filter li a {
+    .gallery__filter .filter li a {
       font-size: 16px;
-      font-weight: 700;
-      text-transform: uppercase; }
-    .gallery_fillter .filter li.active a {
-      color: #fff; }
+      color: white; }
+      .gallery__filter .filter li a:hover {
+        color: #00afaf; }
+    .gallery__filter .filter li.active a {
+      color: #00afaf; }
 
-.gallery_inner {
+.gallery__inner {
   margin-bottom: -30px; }
 
-.gallery_item {
+.gallery__item {
   position: relative;
   border-radius: 5px;
   overflow: hidden;
   margin-bottom: 30px; }
-  .gallery_item:before {
+  .gallery__item:before {
     content: "";
     background: rgba(255, 255, 255, 0.8);
     position: absolute;
@@ -36,68 +37,105 @@
     top: 0px;
     width: 96%;
     height: 100%;
-    opacity: 0; }
-  .gallery_item .gallery_text {
-    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease; }
+  .gallery__item .gallery__text {
+    display: none;
     position: absolute;
-    left: 0px;
-    bottom: 30px;
-    padding-left: 30px;
-    padding-right: 30px; }
-    .gallery_item .gallery_text h4 {
-      font-size: 21px;
+    padding: 15px;
+    height: 100%;
+    width: 100%;
+    top: auto;
+    left: 0;
+    bottom: 0;
+    z-index: 10; }
+    .gallery__item .gallery__text h4 {
+      font-size: 30px;
       font-weight: bold;
       margin-bottom: 5px;
+      -webkit-transition: all 300ms linear 0s;
+      -o-transition: all 300ms linear 0s;
+      transition: all 300ms linear 0s;
       text-transform: uppercase;
       cursor: pointer; }
-    .gallery_item .gallery_text p {
+    .gallery__item .gallery__text p {
       margin-bottom: 0px;
-      font-size: 14px; }
-  .gallery_item:hover {
-    cursor: pointer; }
-    .gallery_item:hover:before {
-      opacity: 1; }
-    .gallery_item:hover .gallery_text {
-      visibility: visible; }
-      .gallery_item:hover .gallery_text h4 {
-        color: #00afaf; }
-  .gallery_item .gallery_img {
-    height: 100%;
-    width: auto; }
+      font-size: 24px; }
+  .gallery__item:hover:before {
+    opacity: 1; }
+  .gallery__item:hover .gallery__text {
+    display: inline; }
+    .gallery__item:hover .gallery__text h4 {
+      background: -webkit-gradient(linear, left top, left bottom, from(#00afaf), color-stop(70%, #960025));
+      background: -webkit-linear-gradient(top, #00afaf 0%, #960025 70%);
+      background: -o-linear-gradient(top, #00afaf 0%, #960025 70%);
+      background: linear-gradient(to bottom, #00afaf 0%, #960025 70%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; }
+
+.gallery__text--caption {
+  font-size: 18px; }
+  .gallery__text--caption p {
+    margin: 0; }
+  .gallery__text--caption:hover {
+    text-decoration: none; }
+  .gallery__text--caption span {
+    color: #fff; }
+  .gallery__text--caption a {
+    color: #62bdfc !important; }
+
+/* End Projects Area css
+============================================================================================ */
+figcaption {
+  position: absolute;
+  padding: 15px;
+  height: 100%;
+  width: 100%;
+  top: auto;
+  left: 0;
+  bottom: 0; }
+  figcaption a {
+    position: absolute;
+    z-index: 1111;
+    width: 100%;
+    height: 100%; }
 
 /* End gallery Area css
 ============================================================================================ */
-/* Portfolio Details Area css
+/* gallery Details Area css
 ============================================================================================ */
-.portfolio_details_inner .row {
+.gallery_details_inner .row {
   margin-bottom: 65px; }
 
-.portfolio_details_inner p {
+.gallery_details_inner p {
   margin-bottom: 30px;
   font-size: 14px; }
-  .portfolio_details_inner p:last-child {
+  .gallery_details_inner p:last-child {
     margin-bottom: 0px; }
 
-.portfolio_details_inner .portfolio_right_text {
+.gallery_details_inner .gallery_right_text {
   padding-left: 98px; }
-  .portfolio_details_inner .portfolio_right_text h4 {
+  .gallery_details_inner .gallery_right_text h4 {
     font-size: 21px;
     text-transform: uppercase;
     margin-bottom: 18px; }
-  .portfolio_details_inner .portfolio_right_text p {
+  .gallery_details_inner .gallery_right_text p {
     margin-bottom: 25px;
     font-size: 14px; }
-  .portfolio_details_inner .portfolio_right_text .categories li {
+  .gallery_details_inner .gallery_right_text .categories li {
     margin-bottom: 7px;
     font-weight: normal;
     font-size: 14px; }
-    .portfolio_details_inner .portfolio_right_text .categories li span {
+    .gallery_details_inner .gallery_right_text .categories li span {
       font-size: 14px;
       font-weight: 500;
       width: 97px;
       display: inline-block; }
-    .portfolio_details_inner .portfolio_right_text .categories li:last-child {
+    .gallery_details_inner .gallery_right_text .categories li:last-child {
       margin-bottom: 0px; }
 
-/* End Portfolio Details Area css
+/* End gallery Details Area css
 ============================================================================================ */

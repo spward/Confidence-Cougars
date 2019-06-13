@@ -35,8 +35,7 @@
 	<link href="assets/vendor/magnific-popup/dist/magnific-popup.css" rel="stylesheet">
 	<link href="assets/vendor/slick/slick.css" rel="stylesheet">
 	<link href="assets/vendor/fullcalendar/fullcalendar.css" rel="stylesheet">
-	<link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css" type="text/css" rel="stylesheet" />
-	<link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.gallery.min.css" type="text/css" rel="stylesheet" />
+	<link href="assets/vendor/fancybox/jquery.fancybox.min.css" rel="stylesheet">
 
 	<!-- Template CSS-->
 	<link href="assets/css/style.css" rel="stylesheet">
@@ -96,7 +95,7 @@
 					</ul>
 					<!-- Account Navigation / End -->
 
-				</div>	
+				</div>
 			</div>
 			<!-- Header Top Bar / End -->
 

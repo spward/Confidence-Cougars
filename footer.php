@@ -250,6 +250,7 @@
 	================================================== -->
 		<!-- Core JS -->
 		<script src="assets/vendor/jquery/jquery.min.js"></script>
+		<script src="assets/vendor/jquery/jquery-migrate.min.js"></script>
 		<script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
 		<script src="assets/js/core.js"></script>
 
@@ -257,8 +258,9 @@
 		<script src="assets/vendor/twitter/jquery.twitter.js"></script>
 		<script src="assets/vendor/fullcalendar/moment.min.js"></script>
 		<script src="assets/vendor/fullcalendar/fullcalendar.min.js"></script>
-		<script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
-		<script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="assets/vendor/isotope/imagesloaded.pkgd.min.js"></script>
+		<script src="assets/vendor/isotope/isotope-min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
 
 		<!-- Template JS -->
 		<script src="assets/js/init.js"></script>
